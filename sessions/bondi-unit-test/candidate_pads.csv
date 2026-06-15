@@ -1,0 +1,5 @@
+pad_WELL_PAD_ID,pad_WELL_PAD,CLIENT,COUNTY,n_waste_records,total_tons,total_bbls,first_period,last_period,included
+153402,PRENTICE,EQT PROD CO,Allegheny,15,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+145010,BIG DADDY SHAW,RICE DRILLING B LLC,Washington,14,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+152396,STEWART,EQT CHAP LLC,Fayette,13,,,Jan 2019 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+145092,HULK,RICE DRILLING B LLC,Washington,5,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),True
