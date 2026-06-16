@@ -664,7 +664,7 @@ with tab_links:
                 st.dataframe(
                     analytes[[
                         "lab_sample_id", "analyte_norm",
-                        "result_value", "result_flag",
+                        "result_value", "result_flag", "matrix",
                         "project_name", "client_name", "received_date",
                     ]],
                     use_container_width=True,
@@ -674,6 +674,7 @@ with tab_links:
                         "analyte_norm":   st.column_config.TextColumn("Analyte",      width="medium"),
                         "result_value":   st.column_config.NumberColumn("Result",     format="%.4g", width="small"),
                         "result_flag":    st.column_config.TextColumn("Flag",         width="small"),
+                        "matrix":         st.column_config.TextColumn("Matrix",       width="small"),
                         "project_name":   st.column_config.TextColumn("Project",      width="medium"),
                         "client_name":    st.column_config.TextColumn("Client",       width="medium"),
                         "received_date":  st.column_config.TextColumn("Received",     width="small"),
