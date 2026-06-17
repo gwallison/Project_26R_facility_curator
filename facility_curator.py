@@ -150,6 +150,7 @@ def load_cpads(sp: Path) -> pd.DataFrame:
     df["included"] = df["included"].map(
         {"True": True, "False": False, True: True, False: False}
     ).fillna(True).astype(bool)
+    df["pad_WELL_PAD_ID"] = df["pad_WELL_PAD_ID"].astype(str)
     # backfill columns added after a session was first created
     for col in ("total_tons", "total_bbls"):
         if col not in df.columns:
@@ -172,6 +173,27 @@ def _norm_rid(val) -> str:
     return str(val).strip()
 
 
+def _key_rid(rid, first_page) -> str:
+    """Return an effective report-ID for dedup keying.
+
+    Uses lab_report_id when available, otherwise falls back to p{first_page}.
+    """
+    r = _norm_rid(rid)
+    if r:
+        return r
+    if pd.notna(first_page):
+        try:
+            return f"p{int(first_page)}"
+        except (ValueError, TypeError):
+            pass
+    return ""
+
+
+def _add_key_rid(df: pd.DataFrame) -> pd.Series:
+    """Vectorised _key_rid over a DataFrame that has lab_report_id and first_page."""
+    return df.apply(lambda r: _key_rid(r["lab_report_id"], r.get("first_page")), axis=1)
+
+
 def load_global_store() -> pd.DataFrame:
     if not CURATED_LINKS_PATH.exists():
         return pd.DataFrame(columns=LINK_COLS)
@@ -190,10 +212,11 @@ def save_global_store(df: pd.DataFrame):
     df["lab_report_id"]   = df["lab_report_id"].apply(_norm_rid)
     df["notes"]           = df["notes"].fillna("").astype(str)
     df["pad_WELL_PAD_ID"] = df["pad_WELL_PAD_ID"].astype(str)
+    df["_key_rid"] = _add_key_rid(df)
     df = df.drop_duplicates(
-        subset=["original_filename", "lab_report_id", "pad_WELL_PAD_ID"],
+        subset=["original_filename", "_key_rid", "pad_WELL_PAD_ID"],
         keep="first",
-    )
+    ).drop(columns="_key_rid")
     df.to_parquet(CURATED_LINKS_PATH, index=False)
 
 
@@ -215,12 +238,14 @@ def save_clinks(sp: Path, df: pd.DataFrame):
     df = df[LINK_COLS].copy()
     df["pad_WELL_PAD_ID"] = df["pad_WELL_PAD_ID"].astype(str)
     df["lab_report_id"]   = df["lab_report_id"].apply(_norm_rid)
+    df["_key_rid"] = _add_key_rid(df)
     incoming_keys = set(
-        zip(df["original_filename"].astype(str), df["lab_report_id"], df["pad_WELL_PAD_ID"])
+        zip(df["original_filename"].astype(str), df["_key_rid"], df["pad_WELL_PAD_ID"])
     )
+    df = df.drop(columns="_key_rid")
     gs["pad_WELL_PAD_ID"] = gs["pad_WELL_PAD_ID"].astype(str)
     gs_keep = gs[~gs.apply(
-        lambda r: (str(r["original_filename"]), _norm_rid(r["lab_report_id"]), r["pad_WELL_PAD_ID"])
+        lambda r: (str(r["original_filename"]), _key_rid(r["lab_report_id"], r.get("first_page")), r["pad_WELL_PAD_ID"])
                   in incoming_keys,
         axis=1,
     )]
@@ -297,13 +322,13 @@ def sync_auto_links(sp: Path, matched: pd.DataFrame, pad_ids: set | None = None)
     existing = set(
         zip(
             gs["original_filename"].astype(str),
-            gs["lab_report_id"].apply(_norm_rid),
+            _add_key_rid(gs),
             gs["pad_WELL_PAD_ID"].astype(str),
         )
     )
     new_rows = []
     for _, r in matched[matched["pad_WELL_PAD_ID"].astype(str).isin(included_str)].iterrows():
-        key = (str(r["original_filename"]), _norm_rid(r.get("lab_report_id")), str(r["pad_WELL_PAD_ID"]))
+        key = (str(r["original_filename"]), _key_rid(r.get("lab_report_id"), r.get("first_page")), str(r["pad_WELL_PAD_ID"]))
         if key not in existing:
             row = {c: r.get(c) for c in LINK_COLS}
             row.update(source="auto", status="pending", notes="",
@@ -358,22 +383,24 @@ def _migrate_session_csvs():
 
     combined = pd.concat(frames, ignore_index=True)
     combined["_rank"] = combined["status"].map(STATUS_RANK).fillna(99)
+    combined["_key_rid"] = _add_key_rid(combined)
     combined = (
         combined.sort_values("_rank")
         .drop(columns="_rank")
-        .drop_duplicates(subset=["original_filename", "lab_report_id", "pad_WELL_PAD_ID"], keep="first")
+        .drop_duplicates(subset=["original_filename", "_key_rid", "pad_WELL_PAD_ID"], keep="first")
+        .drop(columns="_key_rid")
     )
 
     if CURATED_LINKS_PATH.exists():
         existing = load_global_store()
         existing_keys = set(
             zip(existing["original_filename"].astype(str),
-                existing["lab_report_id"].apply(_norm_rid),
+                _add_key_rid(existing),
                 existing["pad_WELL_PAD_ID"].astype(str))
         )
         combined = combined[
             ~combined.apply(
-                lambda r: (str(r["original_filename"]), _norm_rid(r["lab_report_id"]), str(r["pad_WELL_PAD_ID"]))
+                lambda r: (str(r["original_filename"]), _key_rid(r["lab_report_id"], r.get("first_page")), str(r["pad_WELL_PAD_ID"]))
                           in existing_keys,
                 axis=1,
             )
@@ -562,6 +589,17 @@ with tab_pads:
         for c in ("n_candidates", "n_approved", "n_pending"):
             cp_disp[c] = cp_disp[c].fillna(0).astype(int)
 
+        all_included = cp["included"].all()
+        if st.button("Deselect All" if all_included else "Select All", key="btn_toggle_all_pads"):
+            cp["included"] = not all_included
+            save_cpads(sp, cp)
+            if not all_included:
+                n = sync_auto_links(sp, matched_links)
+                st.toast(f"Selected all pads · added {n} auto-link(s).")
+            else:
+                st.toast("Deselected all pads.")
+            st.rerun()
+
         edited = st.data_editor(
             cp_disp[[
                 "included", "pad_WELL_PAD", "CLIENT", "COUNTY",
@@ -717,7 +755,7 @@ with tab_links:
             row = disp.iloc[sel_cl[0]]
             st.session_state["cl_selected_key"] = {
                 "original_filename": row["original_filename"],
-                "lab_report_id":     row["lab_report_id"],
+                "_key_rid":          _key_rid(row["lab_report_id"], row.get("first_page")),
                 "pad_WELL_PAD_ID":   row["pad_WELL_PAD_ID"],
                 "notes":             str(row.get("notes") or ""),
             }
@@ -727,7 +765,7 @@ with tab_links:
         if sel_key:
             matches = disp[
                 (disp["original_filename"] == sel_key["original_filename"])
-                & (disp["lab_report_id"].apply(_norm_rid) == _norm_rid(sel_key["lab_report_id"]))
+                & (disp.apply(lambda r: _key_rid(r["lab_report_id"], r.get("first_page")), axis=1) == sel_key["_key_rid"])
                 & (disp["pad_WELL_PAD_ID"].astype(str) == str(sel_key["pad_WELL_PAD_ID"]))
             ]
             if not matches.empty:
@@ -765,7 +803,7 @@ with tab_links:
                 cl_upd = load_clinks(sp)
                 mask = (
                     (cl_upd["original_filename"] == sel_key["original_filename"])
-                    & (cl_upd["lab_report_id"].apply(_norm_rid) == _norm_rid(sel_key["lab_report_id"]))
+                    & (_add_key_rid(cl_upd) == sel_key["_key_rid"])
                     & (cl_upd["pad_WELL_PAD_ID"].astype(str) == str(sel_key["pad_WELL_PAD_ID"]))
                 )
                 cl_upd.loc[mask, "status"] = new_status
@@ -922,10 +960,10 @@ with tab_links:
                     if st.button("Add to candidate links", type="primary", key="btn_add_manual"):
                         cl_now = load_clinks(sp)
                         key_fn  = nm_row["original_filename"]
-                        key_rid = str(nm_row.get("lab_report_id") or "")
+                        nm_key_rid = _key_rid(nm_row.get("lab_report_id"), nm_row.get("first_page"))
                         already = (
                             (cl_now["original_filename"] == key_fn)
-                            & (cl_now["lab_report_id"].apply(_norm_rid) == _norm_rid(key_rid))
+                            & (_add_key_rid(cl_now) == nm_key_rid)
                             & (cl_now["pad_WELL_PAD_ID"].astype(str) == str(selected_pad_id))
                         ).any()
                         if already:
@@ -1087,9 +1125,10 @@ with tab_review:
 
                 def _update_status(new_status: str):
                     cl_upd = load_clinks(sp)
+                    row_key = _key_rid(row.get("lab_report_id"), row.get("first_page"))
                     mask = (
                         (cl_upd["original_filename"] == row["original_filename"])
-                        & (cl_upd["lab_report_id"].apply(_norm_rid) == _norm_rid(row.get("lab_report_id")))
+                        & (_add_key_rid(cl_upd) == row_key)
                         & (cl_upd["pad_WELL_PAD_ID"].astype(str) == str(pad_id))
                     )
                     cl_upd.loc[mask, "status"] = new_status
