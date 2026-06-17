@@ -1,0 +1,768 @@
+original_filename,lab_report_id,pad_WELL_PAD_ID,source,status,notes,confidence,loc_score,project_name,lab_name,client_name,set_name,first_page
+004735_EQT Corporation 26R Annual Report_SW_1 of 4.pdf,7H24003,153402,auto,approved,,medium,136.22300720214844,PRENTICE PAD,Fairway Laboratories,EQT Production Company,2010-2018,372
+004735_EQT Corporation 26R Annual Report_SW_1 of 4.pdf,6L22025-01,153402,auto,approved,,medium,136.22300720214844,PRENTICE PAD,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,385
+004735_EQT Corporation 26R Annual Report_SW_1 of 4.pdf,7H24003-01,153402,auto,approved,,medium,136.22300720214844,PRENTICE PAD,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,375
+004735_EQT Corporation 26R Annual Report_SW_1 of 4.pdf,6L08029,153402,auto,approved,,medium,136.22300720214844,PRENTICE,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,330
+004735_EQT Corporation 26R Annual Report_SW_1 of 4.pdf,7J09002-01,153402,auto,approved,,medium,136.22300720214844,PRENTICE,Fairway Laboratories,EQT Production Company,2010-2018,399
+004735_EQT Corporation 26R Annual Report_SW_1 of 4.pdf,6L30038,153402,auto,approved,,medium,136.22300720214844,PRENTICE,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,343
+004735_EQT Corporation 26R Annual Report_SW_1 of 4.pdf,6L22025,153402,auto,approved,,medium,136.22300720214844,PRENTICE PAD,Fairway Laboratories,EQT Production Company,2010-2018,390
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7J09002,153402,auto,approved,,medium,136.22300720214844,PRENTICE,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,9016
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8D23001,153402,auto,approved,,medium,136.22300720214844,PRENTICE PAD,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,9026
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8D23001-01,153402,auto,approved,,medium,136.22300720214844,PRENTICE PAD,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,9037
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8C26006-01,153402,auto,approved,,medium,136.22300720214844,PRENTICE PAD,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,9039
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8C08227,153402,auto,approved,,medium,136.22300720214844,PRENTICE PAD,Fairway Laboratories,EQT Production Company,2019-2020,2779
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6L30038,153402,auto,approved,,medium,136.22300720214844,PRENTICE,Fairway Laboratories,EQT Production Company,2019-2020,8970
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7H24003,153402,auto,approved,,medium,136.22300720214844,PRENTICE PAD,Fairway Laboratories,EQT Production Company,2019-2020,8985
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6L08029,153402,auto,approved,,medium,136.22300720214844,PRENTICE,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,8956
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6L22025-01,153402,auto,approved,,medium,136.22300720214844,PRENTICE PAD,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,9005
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7J09002-01,153402,auto,approved,,medium,136.22300720214844,PRENTICE,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,9012
+000862_Veres Production 802.pdf,5E11037,150733,auto,approved,,medium,136.22300720214844,VERES,Fairway Laboratories,Energy Corporation of America,2010-2018,6
+"001328_BarnesAJMorris,Veres,SGL223.pdf",,150733,auto,approved,,medium,68.11100006103516,PRODUCTION WATER,FAIRWAY LABORATORIES,"Greylock Energy, LLC",2019-2020,2
+005221_5E11037_2 2014_Standard_Format_v1a 09 21 16 0936.pdf,5E11037,150733,auto,approved,,medium,136.22300720214844,VERES,FAIRWAY LABORATORIES,Energy Corporation of America,2010-2018,1
+004738_EQT Corporation 26R Annual Report_SW_4 of 4.pdf,7L12025-01,153071,auto,approved,,medium,136.22300720214844,ROSTOSKY,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,124
+004738_EQT Corporation 26R Annual Report_SW_4 of 4.pdf,7J09099,153071,auto,approved,,medium,136.22300720214844,ROSTOSKY,Fairway Laboratories,EQT Production Company,2010-2018,110
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7L12025-01,153071,auto,approved,,medium,136.22300720214844,ROSTOSKY,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,10729
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6H26002-01,153071,auto,approved,,medium,136.22300720214844,ROSTOSKY,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,9226
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7J09099-01,153071,auto,approved,,medium,136.22300720214844,ROSTOSKY,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,9233
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8J05052,153071,auto,approved,,medium,136.22300720214844,ROSTOSKY,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,9260
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7L12025,153071,auto,rejected,,medium,136.22300720214844,ROSTOSKY,Fairway Laboratories,EQT Production Company,2019-2020,10723
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6H04066,153071,auto,approved,,medium,136.22300720214844,ROSTOSKY,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,9214
+002331_SW 2015 26R- Washington County 810 - Drill Cuttings- Robert Smith.pdf,5F01007,145213,auto,approved,,medium,87.572998046875,R. SMITH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,30
+002331_SW 2015 26R- Washington County 810 - Drill Cuttings- Robert Smith.pdf,5020056,145213,auto,approved,,medium,87.572998046875,R. SMITH PAD DRILL CUTTI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,32
+002319_SW 2015 26R- Washington County 804 - Fracing Fluid- Robert Smith.pdf,57206/37,145213,auto,approved,,medium,87.572998046875,R. SMITH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,11
+002331_SW 2015 26R- Washington County 810 - Drill Cuttings- Robert Smith.pdf,,145213,auto,approved,,medium,87.572998046875,R. SMITH PAD DRILL CUTTI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,34
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,30162221,145213,auto,approved,,medium,121.8550033569336,EQT ROBERT SMITH,"Pace Analytical Services, Inc.",EQT ROBERT SMITH,2010-2018,1185
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,30162220,145213,auto,approved,,medium,121.8550033569336,EQT ROBERT SMITH,"Pace Analytical Services, Inc.",Waste Management,2010-2018,1150
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,30162220,145213,auto,approved,,medium,121.8550033569336,EQT ROBERT SMITH,"Pace Analytical Services, Inc.",,2019-2020,5310
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,30162221,145213,auto,approved,,medium,121.8550033569336,EQT ROBERT SMITH,"Pace Analytical Services, Inc.",Waste Management,2019-2020,5322
+002328_SW 2015 26R- Washington County 810 - Drill Cuttings- J. Moninger.pdf,5A26010-01,149501,auto,approved,,medium,136.22300720214844,HARBISON PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,267
+002326_SW 2015 26R- Washington County 810 - Drill Cuttings- Harbison.pdf,5A26010,149501,auto,approved,,medium,136.22300720214844,HARBISON PAD,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,47
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,HARBISON,149501,auto,approved,,medium,136.22300720214844,HARBISON,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,190
+002257_SW 2015 26R- Greene County 810 - Drill Cuttings- Beazer.pdf,5A26010-01,149501,auto,approved,,medium,136.22300720214844,HARBISON PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,267
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,HARBISON,149501,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,191
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,5K12012-01,149501,auto,approved,,medium,136.22300720214844,HARBISON,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,190
+002267_SW 2015 26R- Greene County 810 - Drill Cuttings- Scotts Run.pdf,5A26010-01,149501,auto,approved,,medium,136.22300720214844,HARBISON PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,267
+002327_SW 2015 26R- Washington County 810 - Drill Cuttings- Haywood.pdf,5A26010-01,149501,auto,approved,,medium,136.22300720214844,HARBISON PAD,"Fairway Laboratories, Inc.",EQT Production Company,Jul_Dec_2025,268
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,HARBISON,149501,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,192
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,5K12012-01,149501,auto,approved,,medium,136.22300720214844,HARBISON,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,190
+002312_SW 2015 26R- Washington County 804 - Fracing Fluid- Harbison.pdf,5K12012,149501,auto,approved,,medium,136.22300720214844,HARBISON,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,11
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5K12012-01,149501,auto,approved,,medium,136.22300720214844,HARBISON,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,190
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,HARBISON,149501,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,190
+002326_SW 2015 26R- Washington County 810 - Drill Cuttings- Harbison.pdf,5D10102,149501,auto,approved,,medium,68.11100006103516,PEN 15 PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,46
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,5K12012-01,149501,auto,approved,,medium,136.22300720214844,HARBISON,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,190
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,HARBISON,149501,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,190
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5K12012,149501,auto,approved,,medium,136.22300720214844,HARBISON,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,211
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7A06001,149501,auto,approved,,medium,136.22300720214844,HARBISON,Fairway Laboratories,EQT Production Company,2010-2018,1633
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7A06003,149501,auto,approved,,medium,136.22300720214844,HARBISON,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1660
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7K24002,149501,auto,approved,,medium,136.22300720214844,HARBISON,Fairway Laboratories,EQT Production Company,2010-2018,770
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7L05027,149501,auto,approved,,medium,136.22300720214844,HARBISON PAD,Fairway Laboratories,EQT Production Company,2010-2018,1091
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7L05027-01,149501,auto,approved,,medium,136.22300720214844,HARBISON PAD,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1084
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7106039,149501,auto,approved,,medium,136.22300720214844,HARBISON,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1646
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6113003,149501,auto,approved,,medium,136.22300720214844,HARBISON,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,5845
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,HARBISON PAD,149501,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,4946
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6J13164,149501,auto,approved,,medium,136.22300720214844,HARBISON,"Fairway Laboratories, Inc.",EQT Production Company,2019-2020,7683
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7106039,149501,auto,approved,,medium,136.22300720214844,HARBISON,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,7710
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7A06003,149501,auto,approved,,medium,136.22300720214844,HARBISON,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,7724
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7L05027,149501,auto,approved,,medium,136.22300720214844,HARBISON PAD,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,4951
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7A06003-03,149501,auto,approved,,medium,136.22300720214844,HARBISON,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,7729
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7A06001,149501,auto,approved,,medium,136.22300720214844,HARBISON,Fairway Laboratories,EQT Production Company,2019-2020,7697
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,2310619,149501,auto,approved,,medium,136.22300720214844,EQT - Harbison,ALS Environmental,EQT,2019-2020,10267
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7K24002,149501,auto,approved,,medium,136.22300720214844,HARBISON,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,1681
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,6D06045-01,153429,auto,approved,,medium,136.22300720214844,COGAR,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1506
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7J23123,153429,auto,approved,,medium,136.22300720214844,COGAR,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1918
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,6D06045,153429,auto,approved,,medium,136.22300720214844,COGAR,Fairway Laboratories,EQT Production Company,2010-2018,1511
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7B08177,153429,auto,approved,,medium,136.22300720214844,COGAR,Fairway Laboratories,EQT Production Company,2010-2018,1519
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,137811,153429,auto,approved,,medium,136.22300720214844,COGAR,Fairway Laboratories,EQT Production Company,2010-2018,686
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7L12199,153429,auto,approved,,medium,136.22300720214844,COGAR,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,682
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,6B26028,153429,auto,approved,,medium,136.22300720214844,COGAR,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1501
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8B07231,153429,auto,approved,,medium,136.22300720214844,COGAR,Fairway Laboratories,EQT Production Company,2019-2020,4796
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8J08059-01,153429,auto,approved,,medium,136.22300720214844,COGAR,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,1141
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,30244823,153429,auto,approved,,medium,136.22300720214844,COGAR,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,10123
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8A11237,153429,auto,approved,,medium,136.22300720214844,COGAR,Fairway Laboratories,EQT Production Company,2019-2020,1122
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6D06045,153429,auto,approved,,medium,136.22300720214844,COGAR,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,7072
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6B26028,153429,auto,approved,,medium,136.22300720214844,COGAR,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,7074
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7B08177,153429,auto,approved,,medium,136.22300720214844,COGAR,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,7088
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7L12199,153429,auto,approved,,medium,136.22300720214844,COGAR,Fairway Laboratories,EQT Production Company,2019-2020,1111
+002267_SW 2015 26R- Greene County 810 - Drill Cuttings- Scotts Run.pdf,5G02008,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,419
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,5123034,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,686
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,5123034,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,685
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,5516008,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT,Jul_Dec_2025,685
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,5123034,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,686
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,5516008,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT,Jul_Dec_2025,687
+002292_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Kevech.pdf,,145606,auto,approved,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,6
+002265_SW 2015 26R- Greene County 810 - Drill Cuttings- Koloski.pdf,5G02007,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,432
+002329_SW 2015 26R- Washington County 810 - Drill Cuttings- Kevech.pdf,5G02007,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,24
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,5516008,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT,Jul_Dec_2025,685
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,5516008,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,686
+002226_SW 2015 26R- Greene County 804 - Fracing Fluid- A. Rose.pdf,5123034,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,685
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5516008,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT,Jul_Dec_2025,685
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,5123034,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,685
+002263_SW 2015 26R- Greene County 810 - Drill Cuttings- J & J.pdf,5G02007,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,432
+002257_SW 2015 26R- Greene County 810 - Drill Cuttings- Beazer.pdf,5G02007,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,432
+002327_SW 2015 26R- Washington County 810 - Drill Cuttings- Haywood.pdf,5G02007,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,433
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,5516008,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT,Jul_Dec_2025,685
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5516008,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,685
+002328_SW 2015 26R- Washington County 810 - Drill Cuttings- J. Moninger.pdf,5G02007,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,432
+002267_SW 2015 26R- Greene County 810 - Drill Cuttings- Scotts Run.pdf,5G02007,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,432
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5123034,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,685
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7G11010,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1933
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7G11010-01,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1930
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8D26017-01,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,8361
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8F04006-01,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,8366
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8F04006,145606,auto,approved,,medium,136.22300720214844,KEVECH,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,8377
+003695_2021_SWRO_26R_FINAL_SIGNED 2-24-22.pdf,310-255,154170,auto,approved,,medium,136.22300720214844,Fetchen FWI Sampling,FAIRWAY LABORATORIES,"Civil & Environmental Consultants, Inc.",2021-2022,1650
+004735_EQT Corporation 26R Annual Report_SW_1 of 4.pdf,7K16005,154170,auto,approved,,medium,136.22300720214844,FETCHEN,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,276
+004735_EQT Corporation 26R Annual Report_SW_1 of 4.pdf,7127024-01,154170,auto,approved,,medium,136.22300720214844,FETCHEN,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,262
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7K16005,154170,auto,approved,,medium,136.22300720214844,FETCHEN,Fairway Laboratories,EQT Production Company,2019-2020,7341
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8112054,154170,auto,approved,,medium,136.22300720214844,FETCHEN,Fairway Laboratories,EQT Production Company,2019-2020,7346
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8H02220,154170,auto,approved,,medium,136.22300720214844,FETCHEN,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,1383
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002226_SW 2015 26R- Greene County 804 - Fracing Fluid- A. Rose.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,648
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002267_SW 2015 26R- Greene County 810 - Drill Cuttings- Scotts Run.pdf,5G23102,145410,auto,approved,,medium,238.593002319336,BIG SKY,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,9
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002245_SW 2015 26R- Greene County 804 - Fracing Fluid- Patterson Creek.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,648
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,648
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,648
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,305
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,648
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,5H14109-01,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,648
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002257_SW 2015 26R- Greene County 810 - Drill Cuttings- Beazer.pdf,5G23102,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,9
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,5H14109-01,145410,auto,approved,,medium,238.593002319336,BIG SKY,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,648
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5H14109-01,145410,auto,approved,,medium,238.593002319336,BIG SKY,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,648
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,5H14109-01,145410,auto,approved,,medium,238.593002319336,BIG SKY,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,648
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,281
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,650
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,648
+002245_SW 2015 26R- Greene County 804 - Fracing Fluid- Patterson Creek.pdf,5H14109-01,145410,auto,approved,,medium,238.593002319336,BIG SKY,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,648
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,648
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,306
+002226_SW 2015 26R- Greene County 804 - Fracing Fluid- A. Rose.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002230_SW 2015 26R- Greene County 804 - Fracing Fluid- Big Sky.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,34
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,648
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,648
+002175_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Big Sky.pdf,,145410,auto,approved,,medium,119.2959976196289,PA Production Fluid Sampling,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,9
+002267_SW 2015 26R- Greene County 810 - Drill Cuttings- Scotts Run.pdf,5G23101-01,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,26
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,649
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",WM,Jul_Dec_2025,305
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,648
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,648
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,304
+002230_SW 2015 26R- Greene County 804 - Fracing Fluid- Big Sky.pdf,,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,69
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,5H14109,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,648
+002258_SW 2015 26R- Greene County 810 - Drill Cuttings- Big Sky.pdf,,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,27
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,5H14109-01,145410,auto,approved,,medium,238.593002319336,BIG SKY,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,648
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,6L23017,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,846
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,6B24043,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2605
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,6H24160,145410,auto,approved,,medium,238.593002319336,BIG SKY,Fairway Laboratories,EQT Production Company,2010-2018,3255
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,7B02179,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2258
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",Waste Management,2010-2018,1853
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,6L23017-01,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,841
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,30158083,145410,auto,approved,,medium,238.593002319336,EQT Big Sky,"Pace Analytical Services, Inc.",,2019-2020,4666
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7B02179-01,145410,auto,approved,,medium,238.593002319336,BIG SKY,"Fairway Laboratories, Inc.",EQT Production Company,2019-2020,4694
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7B02179,145410,auto,approved,,medium,238.593002319336,BIG SKY,Fairway Laboratories,EQT Production Company,2019-2020,4696
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6L23017-01,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,697
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,BEHM,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,10027
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6H24160,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,6745
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6D11001,145410,auto,approved,,medium,238.593002319336,BIG SKY,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,10885
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7K03165,145410,auto,approved,,medium,238.593002319336,BIG SKY,Fairway Laboratories,EQT Production Company,2019-2020,10057
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,,148479,auto,rejected,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,99
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,5H27015,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,232
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,,148479,auto,rejected,,medium,136.22300720214844,HAYWOOD,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,99
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,5H27015,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,230
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,5H27015,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,230
+002327_SW 2015 26R- Washington County 810 - Drill Cuttings- Haywood.pdf,G1407564,148479,auto,rejected,,medium,68.11100006103516,,Geochemical Testing,ADVANCED DISPOSAL - CHESTNUT VALLEY,Jul_Dec_2025,491
+002327_SW 2015 26R- Washington County 810 - Drill Cuttings- Haywood.pdf,G1407B10,148479,auto,rejected,,medium,68.11100006103516,G1407B10,Geochemical Testing,TERVITA,Jul_Dec_2025,500
+002289_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Haywood.pdf,,148479,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,6
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5H27015,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,230
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,5H27015,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,230
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,5H27015,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,230
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,5H27015,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,230
+002327_SW 2015 26R- Washington County 810 - Drill Cuttings- Haywood.pdf,5B06077,148479,auto,rejected,,medium,68.11100006103516,PA DRILL CUTTINGS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,369
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,5H27015,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,230
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,5H27015,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,231
+002313_SW 2015 26R- Washington County 804 - Fracing Fluid- Haywood.pdf,,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,12
+002245_SW 2015 26R- Greene County 804 - Fracing Fluid- Patterson Creek.pdf,5H27015,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,230
+002327_SW 2015 26R- Washington County 810 - Drill Cuttings- Haywood.pdf,5F01007,148479,auto,rejected,,medium,68.11100006103516,R. SMITH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,555
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5H27015,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,230
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,5H27015,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,230
+002327_SW 2015 26R- Washington County 810 - Drill Cuttings- Haywood.pdf,5C23065,148479,auto,rejected,,medium,68.11100006103516,PA DRILL CUTTINGS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,97
+002327_SW 2015 26R- Washington County 810 - Drill Cuttings- Haywood.pdf,5010102-03,148479,auto,rejected,,medium,68.11100006103516,PEN 15 PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,252
+002327_SW 2015 26R- Washington County 810 - Drill Cuttings- Haywood.pdf,5010102-02,148479,auto,rejected,,medium,68.11100006103516,PEN 15 PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,246
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,5H27015,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,230
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,6E23011,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,Fairway Laboratories,EQT Production Company,2010-2018,1677
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,6E13159,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,Fairway Laboratories,EQT Production Company,2010-2018,1673
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7L12001,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,"Fairway Laboratories, Inc.",EQT Production Company,2010-2018,831
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7F28165,148479,auto,approved,,medium,136.22300720214844,HAYWOOD PAD,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,815
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,5H27015-01,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,Fairway Laboratories,EQT Production Company,2010-2018,1239
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7F13190,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1700
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7F28165,148479,auto,approved,,medium,136.22300720214844,HAYWOOD PAD,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,1752
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7L12001,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,1767
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7C23006-01,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,7934
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8D06050,148479,auto,approved,,medium,136.22300720214844,HAYWOOD PAD,Fairway Laboratories,EQT Production Company,2019-2020,7966
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7F13190-01,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,7920
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6E13159-01,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,"Fairway Laboratories, Inc.",EQT Production Company,2019-2020,7893
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6E23011,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,7907
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8C29174,148479,auto,approved,,medium,136.22300720214844,HAYWOOD,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,1781
+000805_Broadwater Drill Fluid.pdf,,145746,auto,approved,,medium,136.22300720214844,BROADWATER,FAIRWAY LABORATORIES,Energy Corporation of America,2010-2018,6
+000807_Broadwater Production 802.pdf,5B06094,145746,auto,approved,,medium,136.22300720214844,BROADWATER,FAIRWAY LABORATORIES,Energy Corporation of America,2010-2018,5
+005227_Broadwater Production water 26R 2015.pdf,5B06094,145746,auto,approved,,medium,136.22300720214844,BROADWATER,FAIRWAY LABORATORIES,Energy Corporation of America,2010-2018,1
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,22
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,5J09114-01,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,452
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5612017,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,210
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,210
+002226_SW 2015 26R- Greene County 804 - Fracing Fluid- A. Rose.pdf,,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,99
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,211
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,4K17057,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,156
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,4K18102,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,390
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,5J09114-01,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,456
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,4K11107,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,514
+002315_SW 2015 26R- Washington County 804 - Fracing Fluid- J. Moninger.pdf,,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,9
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,5J09114,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,456
+002245_SW 2015 26R- Greene County 804 - Fracing Fluid- Patterson Creek.pdf,5J09114-01,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,451
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,5109114-01,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,452
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,4K13160,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,243
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,4K25141-03,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,269
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,5H14111-01,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,215
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,PA Production Fluid Sampling,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,185
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,5H14111-01,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,215
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,4K21123,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,154
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,5J09114,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,456
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,5612017,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,211
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,210
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5613032,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,451
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,5613037,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,451
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,5J09114,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,451
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,5509114,146837,auto,rejected,,high,114.302001953125,J Moninger,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,462
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,5H14111-01,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,217
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,5J09114-01,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,451
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,"Fairway Laboratories, Inc.",EQT Production Company,Jul_Dec_2025,210
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,5J09114-01,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,456
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,5613037,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,453
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,4K19115,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,90
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,4K14001,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,202
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,4K25141,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,256
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,215
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,210
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,J Moninger,146837,auto,rejected,,high,57.1510009765625,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,371
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,5J09114-01,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,451
+002245_SW 2015 26R- Greene County 804 - Fracing Fluid- Patterson Creek.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,211
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,4K20133,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES INC.,EQT Production Company,Jul_Dec_2025,439
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,211
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,SK2012,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,210
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,215
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,4K18118,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,604
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,212
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,211
+002226_SW 2015 26R- Greene County 804 - Fracing Fluid- A. Rose.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,215
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,5H14111-01,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,215
+002315_SW 2015 26R- Washington County 804 - Fracing Fluid- J. Moninger.pdf,5J09114,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,29
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,24K14001,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,222
+002286_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Cashdollar.pdf,4K12115,146837,auto,rejected,,high,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,290
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,J Moninger,146837,auto,rejected,,high,57.1510009765625,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,372
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,215
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,J Moninger,146837,auto,rejected,,high,57.1510009765625,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,371
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,5H14111-01,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,215
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,J Moninger,146837,auto,rejected,,high,57.1510009765625,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,371
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,5613037,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,451
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,CASHDOLLAR,146837,auto,rejected,,high,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,210
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5J09114-01,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,456
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5H14111-01,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,215
+002310_SW 2015 26R- Washington County 804 - Fracing Fluid- Cashdollar.pdf,CASHDOLLAR,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,12
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5J09114-01,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,456
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,5121036-01,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,371
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,220
+002245_SW 2015 26R- Greene County 804 - Fracing Fluid- Patterson Creek.pdf,5H14111-01,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,220
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,5H14111,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,210
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,6G15033,146837,auto,rejected,,high,114.302001953125,J Moninger,Fairway Laboratories,EQT Production Company,2010-2018,2526
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,5J16122,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,2010-2018,1463
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7H09196,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,2010-2018,1449
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,5J16124,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1478
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7F16048,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1438
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7G17041-01,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,2010-2018,668
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,6E02017-01,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,2010-2018,1219
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7G17041,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,675
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,6E11185,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,2010-2018,1258
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,5J16124,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,Fairway Laboratories,EQT Production Company,2019-2020,6919
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7H09196-01,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,6933
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6G15033-01,146837,auto,rejected,,high,114.302001953125,J Moninger,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,5909
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6E02017,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,4752
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8D13016-01,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,"Fairway Laboratories, Inc.",EQT Production Company,2019-2020,4766
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6E11185-01,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,5716
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8D13016,146837,auto,approved,,high,136.22300720214844,CASHDOLLAR,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,4771
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,67
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,4625141,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES INC.,ECT,Jul_Dec_2025,322
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,4K14001,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,185
+002327_SW 2015 26R- Washington County 810 - Drill Cuttings- Haywood.pdf,5020055,150714,auto,rejected,,medium,136.22300720214844,CHRISTEN PAD DRILL CUTI,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,111
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,4K12115,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,293
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,SHIPMAN,150714,auto,rejected,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,173
+002263_SW 2015 26R- Greene County 810 - Drill Cuttings- J & J.pdf,5E14011,150714,auto,rejected,,medium,136.22300720214844,CHRISTEN PAD,"Fairway Laboratories, Inc.",EQT Production Company,Jul_Dec_2025,143
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,4K18102,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,498
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,4K19115,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,60
+002267_SW 2015 26R- Greene County 810 - Drill Cuttings- Scotts Run.pdf,5E14011,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,143
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,4K21123,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,157
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,4K18118,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,43
+002328_SW 2015 26R- Washington County 810 - Drill Cuttings- J. Moninger.pdf,5020055,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD DRILL CUTI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,110
+002263_SW 2015 26R- Greene County 810 - Drill Cuttings- J & J.pdf,5020055,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD DRILL CUTI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,112
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,4K13160,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,225
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,4K20133,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,413
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,4K25141,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,259
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,4K14001-06,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,667
+002328_SW 2015 26R- Washington County 810 - Drill Cuttings- J. Moninger.pdf,51020055,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD DRILL CUTI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,158
+002267_SW 2015 26R- Greene County 810 - Drill Cuttings- Scotts Run.pdf,5020055,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD DRILL CUTI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,112
+002257_SW 2015 26R- Greene County 810 - Drill Cuttings- Beazer.pdf,5020055,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD DRILL CUTI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,112
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,5011602,150714,auto,rejected,,medium,68.11100006103516,Solids,"Environmental Service Laboratories, Inc.",Advanced Disposal,Jul_Dec_2025,703
+002265_SW 2015 26R- Greene County 810 - Drill Cuttings- Koloski.pdf,BH-WBM,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,129
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,5K06137,150714,auto,rejected,,medium,68.11100006103516,R. SMITH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,70
+002257_SW 2015 26R- Greene County 810 - Drill Cuttings- Beazer.pdf,BH-OBM,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,143
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,4K17057,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,25
+002259_SW 2015 26R- Greene County 810 - Drill Cuttings- Christen.pdf,BH-WBM,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,26
+002327_SW 2015 26R- Washington County 810 - Drill Cuttings- Haywood.pdf,5E14011,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,144
+002176_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Christen.pdf,4K11107,150714,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,757
+002265_SW 2015 26R- Greene County 810 - Drill Cuttings- Koloski.pdf,5E14011,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,143
+002328_SW 2015 26R- Washington County 810 - Drill Cuttings- J. Moninger.pdf,BH-WBM,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,129
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,51120025,150714,auto,rejected,,medium,68.11100006103516,J&J,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,630
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,5H20025,150714,auto,rejected,,medium,68.11100006103516,J&J,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,631
+002259_SW 2015 26R- Greene County 810 - Drill Cuttings- Christen.pdf,BH-OBM,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,40
+002265_SW 2015 26R- Greene County 810 - Drill Cuttings- Koloski.pdf,51020055,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD DRILL CUTI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,158
+002259_SW 2015 26R- Greene County 810 - Drill Cuttings- Christen.pdf,51020055,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD DRILL CUTI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,55
+002328_SW 2015 26R- Washington County 810 - Drill Cuttings- J. Moninger.pdf,BH-OBM,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,143
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,7F22024,150714,auto,approved,,medium,136.22300720214844,CHRISTEN,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2844
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,5E14011,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2800
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,5D20055,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD DRILL CUTI,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2816
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,7E23147,150714,auto,approved,,medium,136.22300720214844,CHRISTEN,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2830
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8A23151-01,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,1076
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,5E14010,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,Fairway Laboratories,EQT Production Company,2019-2020,6963
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,BH-OBM,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,Fairway Laboratories,EQT Production Company,2019-2020,6977
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,5D20055,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD DRILL CUTI,Fairway Laboratories,EQT Production Company,2019-2020,6993
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7E23147-01,150714,auto,approved,,medium,136.22300720214844,CHRISTEN,Fairway Laboratories,EQT Production Company,2019-2020,7007
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8J05056-01,150714,auto,approved,,medium,136.22300720214844,CHRISTEN PAD,"Fairway Laboratories, Inc.",EQT Production Company,2019-2020,7048
+000846_SGL 223 Production 802.pdf,SGL223-FLOW BACK WATEF,151439,auto,approved,,medium,78.4530029296875,SGL223-FLOW BACK WATEF,FAIRWAY LABORATORIES,Energy Corporation of America,2010-2018,6
+000845_SGL 223 Frac Fluid 804.pdf,SGL223-FLOW BACK WATEF,151439,auto,approved,,medium,78.4530029296875,SGL223-FLOW BACK WATEF,FAIRWAY LABORATORIES,Energy Corporation of America,2010-2018,6
+005364_Bovinator_808.pdf,30220203,153366,auto,approved,,medium,68.11100006103516,7052782,"Pace Analytical Services, LLC","Environmental Service Laboratories, Inc.",2010-2018,14
+005364_Bovinator_808.pdf,7052782,153366,auto,approved,,high,136.22300720214844,Form U - Bovinator,"Environmental Service Laboratories, Inc.",Rice Drilling B LLC,2010-2018,5
+005363_Bovinator_806.pdf,30220201,153366,auto,approved,,medium,68.11100006103516,7052782,"Pace Analytical Services, Inc.","Environmental Service Laboratories, Inc.",2010-2018,28
+005365_Bovinator_810.pdf,7052782,153366,auto,approved,,high,136.22300720214844,Form U - Bovinator,"Environmental Service Laboratories, Inc.",Rice Drilling B LLC,2010-2018,6
+005365_Bovinator_810.pdf,,153366,auto,approved,,medium,68.11100006103516,,,,2010-2018,15
+005364_Bovinator_808.pdf,30220201,153366,auto,approved,,medium,68.11100006103516,7052782,"Pace Analytical Services, Inc.","Environmental Service Laboratories, Inc.",2010-2018,28
+005365_Bovinator_810.pdf,30220201,153366,auto,approved,,medium,68.11100006103516,7052782,"Pace Analytical Services, LLC","Environmental Service Laboratories, Inc.",2010-2018,29
+005363_Bovinator_806.pdf,7052782,153366,auto,approved,,high,136.22300720214844,Form U - Bovinator,"ENVIRONMENTAL SERVICE LABORATORIES, INC.",Rice Drilling B LLC,2010-2018,5
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7L18018,153366,auto,approved,,medium,136.22300720214844,BOVINATOR,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,6775
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,BOVINATOR,153366,auto,approved,,medium,68.11100006103516,,Fairway Laboratories,EQT Production Company,2019-2020,6812
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8J26004-01,153366,auto,approved,,medium,136.22300720214844,BOVINATOR,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,778
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8111002,153366,auto,approved,,medium,136.22300720214844,BOVINATOR,Fairway Laboratories,EQT Production Company,2019-2020,6846
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7052782,153366,auto,approved,,high,136.22300720214844,Form U - Bovinator,"Environmental Service Laboratories, Inc.",Rice Drilling B LLC,2019-2020,6788
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,40
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.","Waste Management of WV, Inc.",Jul_Dec_2025,58
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.","Waste Management of WV, Inc.",Jul_Dec_2025,58
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.","Waste Management of WV, Inc.",Jul_Dec_2025,58
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.",,Jul_Dec_2025,58
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.","Waste Management of WV, Inc.",Jul_Dec_2025,58
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,40
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.","Waste Management of WV, Inc.",Jul_Dec_2025,58
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,40
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.","Waste Management of WV, Inc.",Jul_Dec_2025,58
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,42
+002226_SW 2015 26R- Greene County 804 - Fracing Fluid- A. Rose.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,40
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,40
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.",,Jul_Dec_2025,58
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.","Waste Management of WV, Inc.",Jul_Dec_2025,58
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,40
+002245_SW 2015 26R- Greene County 804 - Fracing Fluid- Patterson Creek.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.",Waste Management,Jul_Dec_2025,40
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.",,Jul_Dec_2025,59
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.","Waste Management of WV, Inc.",Jul_Dec_2025,58
+004735_EQT Corporation 26R Annual Report_SW_1 of 4.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.",Rick Quinn Waste Management,2010-2018,457
+004735_EQT Corporation 26R Annual Report_SW_1 of 4.pdf,6G20217,144729,auto,approved,,medium,143.14500427246094,OLIVER WEST,Fairway Laboratories,EQT Production Company,2010-2018,497
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,30143138,144729,auto,approved,,medium,143.14500427246094,EQT-Oliver West-Frac Sand,"Pace Analytical Services, Inc.",WM,2019-2020,6065
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,5011602,147813,auto,rejected,,medium,68.11100006103516,Solids,"Environmental Service Laboratories, Inc.",Advanced Disposal,Jul_Dec_2025,702
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,4K13160,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,243
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,57
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,4K21123,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,154
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,4K25141,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,256
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,4K18102,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,375
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,4K11107,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,112
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,4K19115,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,Fairway Laboratories Inc.,EQT Production Company,Jul_Dec_2025,71
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,4K12115,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,326
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,4089,147813,auto,rejected,,medium,68.11100006103516,G2301A82,Shale Testing Solutions LLC,Advanced Disposal Service,Jul_Dec_2025,170
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,KOLOSKI,147813,auto,rejected,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,540
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,4K20133,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,410
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,4K14001,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,202
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,90,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,40
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,4K25141-03,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,259
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,5K06137,147813,auto,rejected,,medium,68.11100006103516,R. SMITH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,69
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,4K17057,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,22
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,51120025,147813,auto,rejected,,medium,68.11100006103516,J&J,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,633
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,4K17057-01,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,169
+002297_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Werner.pdf,4K18118,147813,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,604
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,6B26022,147813,auto,rejected,,medium,136.22300720214844,WERNER,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1870
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,6A29033,147813,auto,rejected,,medium,136.22300720214844,WERNER,Fairway Laboratories,EQT Production Company,2010-2018,1884
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7L01030,147813,auto,rejected,,medium,136.22300720214844,WERNER,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1973
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7K16123-01,147813,auto,rejected,,medium,136.22300720214844,WERNER,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1036
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,6C22134,147813,auto,rejected,,medium,136.22300720214844,WERNER,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1409
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7201030,147813,auto,rejected,,medium,136.22300720214844,WERNER,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1995
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7C21141-01,147813,auto,rejected,,medium,136.22300720214844,WERNER,Fairway Laboratories,EQT Production Company,2019-2020,3521
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6C22134,147813,auto,rejected,,medium,136.22300720214844,WERNER,Fairway Laboratories,EQT Production Company,2019-2020,6431
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,30261586,147813,auto,rejected,,medium,136.22300720214844,WERNER,Fairway Laboratories,EQT Production Company,2019-2020,10827
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7K16123,147813,auto,rejected,,medium,136.22300720214844,WERNER,Fairway Laboratories,EQT Production Company,2019-2020,3545
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,WERNER,147813,auto,rejected,,medium,136.22300720214844,WERNER,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,10847
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7D11176-01,147813,auto,rejected,,medium,136.22300720214844,WERNER,Fairway Laboratories,EQT Production Company,2019-2020,5541
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6A29033,147813,auto,rejected,,medium,136.22300720214844,WERNER,Fairway Laboratories,EQT Production Company,2019-2020,9845
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8G19120,147813,auto,rejected,,medium,136.22300720214844,WERNER,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,10868
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6B26022,147813,auto,rejected,,medium,136.22300720214844,WERNER,Fairway Laboratories,EQT Production Company,2019-2020,9859
+005485_John Briggs Pad_810.pdf,2192233,149231,auto,rejected,,medium,140.94700622558594,RUSH-Samantha,ALS Environmental,"Pace Analytical Services, Inc.",2010-2018,18
+004738_EQT Corporation 26R Annual Report_SW_4 of 4.pdf,7B14150-01,153710,auto,rejected,,medium,136.22300720214844,OLCZAK,Fairway Laboratories,EQT Production Company,2010-2018,1018
+004738_EQT Corporation 26R Annual Report_SW_4 of 4.pdf,7A13120,153710,auto,approved,,medium,136.22300720214844,OLCZAK,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1001
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8A08115-01,153710,auto,approved,,medium,136.22300720214844,OLCZAK,Fairway Laboratories,EQT Production Company,2019-2020,8736
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8E03083,153710,auto,approved,,medium,136.22300720214844,OLCZAK,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,2456
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7L01028,153710,auto,approved,,medium,136.22300720214844,OLCZAK,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,2441
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,84
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,83
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,5E21137-01,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,116
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,5E11006-01,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,83
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,5E11006,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,83
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5E11006-01,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,83
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,5E21137,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,116
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5E11006-01,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,83
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,5E21137,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,117
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,5E11006,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,86
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,5E11006,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,84
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,5E21137,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,116
+002245_SW 2015 26R- Greene County 804 - Fracing Fluid- Patterson Creek.pdf,5E21137-01,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,116
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,5E11006,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,84
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5E21137,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,116
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,5E11006,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,83
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,5E11006,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,83
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5E21137,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,116
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,5E11006,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,84
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,5E21137-01,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,116
+003695_2021_SWRO_26R_FINAL_SIGNED 2-24-22.pdf,310-256,148982,auto,approved,,medium,150.7969970703125,Oliver East FWI Sampling,Fairway Laboratories,"Civil & Environmental Consultants, Inc.",2021-2022,1676
+004735_EQT Corporation 26R Annual Report_SW_1 of 4.pdf,7L20051,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,199
+004735_EQT Corporation 26R Annual Report_SW_1 of 4.pdf,7H28013,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,Fairway Laboratories,EQT Production Company,2010-2018,301
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7L20051,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,Fairway Laboratories,EQT Production Company,2019-2020,2471
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7122003,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,8764
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7H28013,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,8750
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7L20051-01,148982,auto,approved,,medium,150.7969970703125,OLIVER EAST,Fairway Laboratories,EQT Production Company,2019-2020,2482
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,172
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,473
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,56-30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002177_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Connors.pdf,,144572,auto,approved,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,10
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,472
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,56-30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,56-30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,472
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002226_SW 2015 26R- Greene County 804 - Fracing Fluid- A. Rose.pdf,5G30057-01,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002245_SW 2015 26R- Greene County 804 - Fracing Fluid- Patterson Creek.pdf,56-30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,472
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,471
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,5G30057,144572,auto,approved,,medium,136.22300720214844,CONNORS,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,5738
+005023_MOR10_802_2322321.pdf,1806798,155389,manual,approved,,no_match,0.0,2322321,ALS-Fort Collins,ALS Environmental,2010-2018,20
+005556_PLHC Pad_804.pdf,,150236,auto,approved,,medium,68.11100006103516,,,,2010-2018,16
+005556_PLHC Pad_804.pdf,2779D,150236,auto,approved,,medium,68.11100006103516,2779D,FAIRWAY LABORATORIES,Weavertown Environmental,2010-2018,5
+000973_PLHC_802_26RLab.pdf,30169019,150236,auto,approved,,medium,68.11100006103516,5122398,"Pace Analytical Services, Inc.","Environmental Service Laboratories, Inc.",2010-2018,18
+002588_PLHC_812-806 6122733_1 ESL 01 30 2017 1424.pdf,6122733,150236,auto,approved,,medium,68.11100006103516,26R Waste Profile,"ENVIRONMENTAL SERVICE LABORATORIES, INC.",Rice Water Services - PA,2010-2018,2
+000973_PLHC_802_26RLab.pdf,5122398,150236,auto,approved,,high,68.11100006103516,26R Waste Profile,"Environmental Service Laboratories, Inc.",ALPHA Shale Resources LP,2010-2018,2
+000973_PLHC_802_26RLab.pdf,G1512D73,150236,auto,approved,,medium,68.11100006103516,G1512D73,Geochemical Testing,ENVIRONMENTAL SERVICE LAB,2010-2018,9
+002265_SW 2015 26R- Greene County 810 - Drill Cuttings- Koloski.pdf,G1407B10,150782,auto,approved,,medium,68.11100006103516,,Geochemical Testing,TERVITA,Jul_Dec_2025,500
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,23
+002240_SW 2015 26R- Greene County 804 - Fracing Fluid- Koloski.pdf,5620001,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,42
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5E22086-01,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,543
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K11107-04,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,752
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,51029129-0,150782,auto,approved,,medium,136.22300720214844,KOLOSKI FILTER SOCKS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,388
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K11107-02,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,750
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K11107-03,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,750
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K11107-01,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,750
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K20133-01,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,740
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,51029129,150782,auto,approved,,medium,136.22300720214844,KOLOSKI FILTER SOCKS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,388
+002226_SW 2015 26R- Greene County 804 - Fracing Fluid- A. Rose.pdf,5E22086,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,547
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5E22086,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,543
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,5E20005,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,513
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,5620001-01,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,527
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,BEAZER,150782,auto,approved,,medium,136.22300720214844,KOLOSKI FILTER SOCKS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,408
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K11107,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,113
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,5421034,150782,auto,approved,,medium,136.22300720214844,KOLOSKI FILTER SOCKS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,389
+002265_SW 2015 26R- Greene County 810 - Drill Cuttings- Koloski.pdf,SC23065,150782,auto,rejected,,medium,68.11100006103516,PA DRILL CUTTINGS,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,96
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K12115,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,291
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,5E20005,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,513
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,5E20001,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,527
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K19115,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,72
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,,150782,auto,rejected,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,140
+002240_SW 2015 26R- Greene County 804 - Fracing Fluid- Koloski.pdf,,150782,auto,rejected,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,29
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,KOLOSKI,150782,auto,rejected,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,539
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,5620001-01,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,"Fairway Laboratories, Inc.",EQT Production Company,Jul_Dec_2025,527
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,SE20005-01,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,513
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K25141,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,270
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,KOLOSKI,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,539
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K18118,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,41
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,5E22086,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,539
+002265_SW 2015 26R- Greene County 810 - Drill Cuttings- Koloski.pdf,5B06077,150782,auto,rejected,,medium,68.11100006103516,PA DRILL CUTTINGS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,368
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,5E22086,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,543
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,KOLOSKI,150782,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,539
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,BEAZER,150782,auto,rejected,,medium,136.22300720214844,KOLOSKI FILTER SOCKS,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,408
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,5029129-01,150782,auto,approved,,medium,136.22300720214844,KOLOSKI FILTER SOCKS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,388
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,5E22086,150782,auto,rejected,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,547
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,KOLOSKI,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,540
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K14001,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,185
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,5E22086-01,150782,auto,rejected,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,544
+002245_SW 2015 26R- Greene County 804 - Fracing Fluid- Patterson Creek.pdf,5E22086,150782,auto,rejected,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,539
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,KOLOSKI,150782,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,540
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K13160,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,230
+002245_SW 2015 26R- Greene County 804 - Fracing Fluid- Patterson Creek.pdf,,150782,auto,rejected,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,155
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,5E22086,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,543
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5620001-01,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,526
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5E20005-01,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,513
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K18102,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,618
+002265_SW 2015 26R- Greene County 810 - Drill Cuttings- Koloski.pdf,5D10102,150782,auto,rejected,,medium,68.11100006103516,PEN 15 PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,245
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,SE20005,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,513
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,5620001,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,527
+002265_SW 2015 26R- Greene County 810 - Drill Cuttings- Koloski.pdf,5F01007,150782,auto,rejected,,medium,68.11100006103516,R. SMITH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,560
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,KOLOSKI,150782,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,539
+002265_SW 2015 26R- Greene County 810 - Drill Cuttings- Koloski.pdf,4120860,150782,auto,rejected,,medium,68.11100006103516,Solids,"ENVIRONMENTAL SERVICE LABORATORIES, INC.",Advanced Disposal,Jul_Dec_2025,398
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,KOLOSKI,150782,auto,rejected,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,539
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,5029129,150782,auto,approved,,medium,136.22300720214844,KOLOSKI FILTER SOCKS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,388
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,5421036,150782,auto,approved,,medium,136.22300720214844,KOLOSKI FILTER SOCKS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,390
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5E20005,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,513
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K20133,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,411
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K21123,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,96
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,5E20005,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,513
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,5E20001,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,527
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,5E20005,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,515
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5029129,150782,auto,approved,,medium,136.22300720214844,KOLOSKI FILTER SOCKS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,388
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,5E20005,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,513
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,5620001-01,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,527
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,5E20005,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,513
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,5620001,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,527
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,5E22086,150782,auto,rejected,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,543
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,KOLOSKI,150782,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,539
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,5029129,150782,auto,approved,,medium,136.22300720214844,KOLOSKI FILTER SOCKS,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,388
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,5E22086-01,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,545
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5E22086,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,543
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,KOLOSKI,150782,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,539
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,5E22086,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,543
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,5E20005,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,513
+002226_SW 2015 26R- Greene County 804 - Fracing Fluid- A. Rose.pdf,KOLOSKI,150782,auto,rejected,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,539
+002188_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Koloski.pdf,4K17057,150782,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,175
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,5E22086,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,543
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,KOLOSKI,150782,auto,approved,,medium,68.11100006103516,,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,542
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,KOLOSKI,150782,auto,approved,,medium,68.11100006103516,,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,539
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,5421036,150782,auto,approved,,medium,136.22300720214844,KOLOSKI FILTER SOCKS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,388
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,5E20001,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2503
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,6D13034-01,150782,auto,rejected,,medium,136.22300720214844,KOLOSKI,Fairway Laboratories,EQT Production Company,2010-2018,2675
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,6D13034,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2678
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,KOLOSKI,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2206
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,5E20005,150782,auto,approved,,medium,136.22300720214844,KOLOSKI,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2489
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,KOLOSKI,150782,auto,rejected,,medium,136.22300720214844,KOLOSKI,Fairway Laboratories,EQT Production Company,2019-2020,5994
+005072_RHL28_810&806_G1806A43&8H21004.pdf,G1806A43,154750,auto,approved,,medium,68.11100006103516,G1806A43,Geochemical Testing,ARDEN LANDFILL,2010-2018,3
+005072_RHL28_810&806_G1806A43&8H21004.pdf,G1806E94,154750,auto,approved,,medium,68.11100006103516,G1806E94,Geochemical Testing,ARDEN LANDFILL,2010-2018,11
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,5J21009-01,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,572
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,KOCI,150743,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,573
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,KOCI,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,574
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5J21009-01,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,572
+002267_SW 2015 26R- Greene County 810 - Drill Cuttings- Scotts Run.pdf,6B01059,150743,auto,approved,,medium,136.22300720214844,KOCI,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,474
+002263_SW 2015 26R- Greene County 810 - Drill Cuttings- J & J.pdf,6B01059,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,474
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5J21009-01,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,574
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,KOCI,150743,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,573
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,5J21009-01,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,574
+002293_SW 2015 26R- Washington County 802 - Brine-Produced Fluid- Koci.pdf,4K12115,150743,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,5
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5J21009-01,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,572
+002327_SW 2015 26R- Washington County 810 - Drill Cuttings- Haywood.pdf,6B01059,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,475
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,5J21009-01,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,574
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,5J21009-01,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,573
+002328_SW 2015 26R- Washington County 810 - Drill Cuttings- J. Moninger.pdf,5E22089-01,150743,auto,approved,,medium,136.22300720214844,KOCI PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,461
+002257_SW 2015 26R- Greene County 810 - Drill Cuttings- Beazer.pdf,6B01059,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,474
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,5J21009-01,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,574
+002330_SW 2015 26R- Washington County 810 - Drill Cuttings- Koci.pdf,5E22089,150743,auto,approved,,medium,136.22300720214844,KOCI PAD,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,23
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,KOCI,150743,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,573
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,5J21009,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,573
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,KOCI,150743,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,576
+002226_SW 2015 26R- Greene County 804 - Fracing Fluid- A. Rose.pdf,5J21009-01,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,572
+002330_SW 2015 26R- Washington County 810 - Drill Cuttings- Koci.pdf,6801059,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,36
+002245_SW 2015 26R- Greene County 804 - Fracing Fluid- Patterson Creek.pdf,5J21009-01,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,572
+002263_SW 2015 26R- Greene County 810 - Drill Cuttings- J & J.pdf,5E22089-01,150743,auto,approved,,medium,136.22300720214844,KOCI PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,461
+002328_SW 2015 26R- Washington County 810 - Drill Cuttings- J. Moninger.pdf,6B01059,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,474
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,5J21009,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,574
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,5J21009-01,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,572
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,5J21009,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,572
+002330_SW 2015 26R- Washington County 810 - Drill Cuttings- Koci.pdf,5E08095,150743,auto,approved,,medium,136.22300720214844,KOCI PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,8
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,KOCI,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1800
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,6B01059,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1786
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,7F15239,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1945
+004737_EQT Corporation 26R Annual Report_SW_3 of 4.pdf,5J21009,150743,auto,rejected,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1338
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,5J21009,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,5977
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7F15239-01,150743,auto,approved,,medium,136.22300720214844,KOCI,Fairway Laboratories,EQT Production Company,2019-2020,8407
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,30147852,150743,auto,rejected,,medium,136.22300720214844,KOCI PAD,Fairway Laboratories,EQT Production Company,2019-2020,2069
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6B01059,150743,auto,approved,,medium,136.22300720214844,KOCI,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,8380
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,KOCI,150743,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,8394
+005601_Shotski Pad_806.pdf,30212484,152253,auto,approved,,medium,68.11100006103516,7030321,"Pace Analytical Services, Inc.","Environmental Service Laboratories, Inc.",2010-2018,28
+005599_Shotski Pad_802.pdf,7030321,152253,auto,approved,,high,136.22300720214844,Form U - Shotski,"Environmental Service Laboratories, Inc.",Rice Drilling B LLC,2010-2018,6
+005599_Shotski Pad_802.pdf,30212483,152253,auto,approved,,medium,68.11100006103516,7030321,"Pace Analytical Services, LLC","Environmental Service Laboratories, Inc.",2010-2018,15
+005602_Shotski Pad_808.pdf,30182580,152253,auto,approved,,medium,136.22300720214844,Rice Energy Shotski,"Pace Analytical Services, Inc.",WM,2010-2018,19
+005603_Shotski Pad_812.pdf,7102839,152253,auto,approved,,high,68.11100006103516,26R Waste Profile,"Environmental Service Laboratories, Inc.",Rice Drilling B LLC,2010-2018,6
+005601_Shotski Pad_806.pdf,7030321,152253,auto,approved,,high,136.22300720214844,Form U - Shotski,"Environmental Service Laboratories, Inc.",Rice Drilling B LLC,2010-2018,5
+005600_Shotski Pad_804.pdf,3935A,152253,auto,approved,,medium,68.11100006103516,3935A,FAIRWAY LABORATORIES,Weavertown Environmental,2010-2018,5
+005600_Shotski Pad_804.pdf,7737,152253,auto,approved,,medium,68.11100006103516,2-9907,Shale Testing Solutions LLC,Weavertown Environmental Group,2010-2018,16
+005599_Shotski Pad_802.pdf,30212484,152253,auto,approved,,medium,68.11100006103516,7030321,"Pace Analytical Services, Inc.","Environmental Service Laboratories, Inc.",2010-2018,29
+002647_Shotski_808 Pace30182580.pdf,30182580,152253,auto,approved,,medium,136.22300720214844,Rice Energy Shotski,"Pace Analytical Services, Inc.",Waste Management,2010-2018,1
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,30182580,152253,auto,approved,,medium,136.22300720214844,Rice Energy Shotski,"Pace Analytical Services, Inc.",Waste Management,2019-2020,6626
+002649_Shotski_810-806 G1602E19.pdf,G1602E19,152253,auto,approved,,medium,68.11100006103516,Drill Cuttings,Geochemical Testing,ARDEN LANDFILL,2010-2018,3
+002649_Shotski_810-806 G1602E19.pdf,G1602E20,152253,auto,approved,,medium,68.11100006103516,Drill Cuttings,Geochemical Testing,ARDEN LANDFILL,2010-2018,12
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8H22029,152253,auto,approved,,medium,136.22300720214844,SHOTSKI,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,10768
+003051_Shotski Top Hole 6040190_1 ESL 05 10 2016 1521.pdf,30178842,152253,auto,approved,,medium,68.11100006103516,6040190,"Pace Analytical Services, Inc.","Environmental Service Laboratories, Inc.",2010-2018,19
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7102839,152253,auto,approved,,high,136.22300720214844,Shotski Production Fluid,"ENVIRONMENTAL SERVICE LABORATORIES, INC.",Rice Drilling B LLC,2019-2020,3183
+003051_Shotski Top Hole 6040190_1 ESL 05 10 2016 1521.pdf,6040190,152253,auto,approved,,high,68.11100006103516,26R Waste Profile,"Environmental Service Laboratories, Inc.",Rice Drilling B LLC,2010-2018,2
+003051_Shotski Top Hole 6040190_1 ESL 05 10 2016 1521.pdf,G1604237,152253,auto,approved,,medium,68.11100006103516,,Geochemical Testing,ENVIRONMENTAL SERVICE LAB,2010-2018,9
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7030321,152253,auto,approved,,high,136.22300720214844,Form U - Shotski,"ENVIRONMENTAL SERVICE LABORATORIES, INC.",Rice Drilling B LLC,2019-2020,3152
+005485_John Briggs Pad_810.pdf,30203706,144663,auto,approved,,medium,94.75700378417967,6112391,"Pace Analytical Services, LLC","Environmental Service Laboratories, Inc.",2010-2018,27
+005481_John Briggs Pad_802.pdf,30206670,144663,auto,approved,,medium,94.75700378417967,6122790,"Pace Analytical Services, LLC","Environmental Service Laboratories, Inc.",2010-2018,18
+005481_John Briggs Pad_802.pdf,6122790,144663,auto,approved,,medium,94.75700378417967,26R Waste Profile,"Environmental Service Laboratories, Inc.",Rice Water Services - PA,2010-2018,6
+005481_John Briggs Pad_802.pdf,G1612C85,144663,auto,approved,,medium,94.75700378417967,,Geochemical Testing,ENVIRONMENTAL SERVICE LAB,2010-2018,14
+005485_John Briggs Pad_810.pdf,6112391,144663,auto,approved,,medium,94.75700378417967,Form U (4.26.16),"ENVIRONMENTAL SERVICE LABORATORIES, INC.",Rice Drilling B LLC,2010-2018,6
+005484_John Briggs Pad_808.pdf,9013,144663,auto,approved,,medium,94.75700378417967,4005B,Shale Testing Solutions LLC,Weavertown Environmental Group,2010-2018,17
+005484_John Briggs Pad_808.pdf,4005B,144663,auto,approved,,medium,94.75700378417967,4005B,Fairway Laboratories,Weavertown Environmental,2010-2018,5
+005483_John Briggs Pad_806.pdf,11406,144663,auto,approved,,medium,189.5140075683593,John Briggs,Shale Testing Solutions LLC,,2010-2018,12
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8A16150-01,144663,auto,approved,,medium,189.5140075683593,JOHN BRIGGS,Fairway Laboratories,EQT Production Company,2019-2020,2044
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,30265359,144663,auto,approved,,medium,189.5140075683593,2338666 John Briggs,"Pace Analytical Services, LLC",Sarah Leung,2019-2020,10465
+002923_John Briggs Production 6122790_1 ESL 01 30 2017 1420.pdf,6122790,144663,auto,approved,,medium,94.75700378417967,26R Waste Profile,"Environmental Service Laboratories, Inc.",Rice Water Services - PA,2010-2018,2
+002923_John Briggs Production 6122790_1 ESL 01 30 2017 1420.pdf,30206670,144663,auto,approved,,medium,94.75700378417967,6122790,"Pace Analytical Services, LLC","Environmental Service Laboratories, Inc.",2010-2018,19
+002511_John Briggs_804Sludge L15071100.pdf,L15071100,144663,auto,approved,,medium,94.75700378417967,Waste Analyses,Microbac,Rice Energy,2010-2018,4
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,9013,144663,auto,approved,,medium,189.5140075683593,Rice John Briggs,Shale Testing Solutions LLC,Weavertown Environmental Group,2019-2020,6556
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7K29001,144663,auto,approved,,medium,189.5140075683593,JOHN BRIGGS,Fairway Laboratories,EQT Production Company,2019-2020,10426
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7L12197,144663,auto,approved,,medium,189.5140075683593,JOHN BRIGGS,Fairway Laboratories,EQT Production Company,2019-2020,10440
+002514_John Briggs_810 6112391 ESL FINAL 12 08 2016 1619.pdf,30203706,144663,auto,approved,,medium,94.75700378417967,6112391,"Pace Analytical Services, LLC","Environmental Service Laboratories, Inc.",2010-2018,23
+002511_John Briggs_804Sludge L15071100.pdf,30154253,144663,auto,approved,,medium,189.5140075683593,John Briggs Pad,"Pace Analytical Services, Inc.",Microbac Laboratories Inc.,2010-2018,52
+002514_John Briggs_810 6112391 ESL FINAL 12 08 2016 1619.pdf,6112391,144663,auto,approved,,medium,94.75700378417967,Form U,"ENVIRONMENTAL SERVICE LABORATORIES, INC.",Rice Drilling B LLC,2010-2018,2
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7L12197-01,144663,auto,approved,,medium,189.5140075683593,JOHN BRIGGS,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,10441
+001301_JBriggs_804_26RLab.pdf,30154253,144663,auto,approved,,medium,189.5140075683593,John Briggs Pad,"Pace Analytical Services, Inc.",Microbac Laboratories Inc.,2010-2018,52
+002511_John Briggs_804Sludge L15071100.pdf,2084536 L15071102,144663,auto,approved,,medium,94.75700378417967,,ALS Environmental,,2010-2018,62
+005658_William Lane Pad_810.pdf,,144706,auto,approved,,medium,193.73800659179688,WILLIAM LANE,Fairway Laboratories,EQT Production Company,2010-2018,5
+005657_William Lane Pad_806.pdf,7L21222,144706,auto,approved,,medium,193.73800659179688,WILLIAM LANE,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,18
+005657_William Lane Pad_806.pdf,7K29004,144706,auto,approved,,medium,193.73800659179688,WILLIAM LANE,Fairway Laboratories,EQT Production Company,2010-2018,5
+"000712_EQT 3 - William Lane  Pad_472,503 Filters, Rags, Oil Containing Waste_2018.pdf",30277793,144706,auto,rejected,Called Keane Mill Hall in lab report,medium,96.86900329589844,Keane Mill Hall,"Pace Analytical Services, LLC",,2019-2020,8
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,7K29004-01,144706,auto,approved,,medium,193.73800659179688,WILLIAM LANE,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,9941
+007355_3086376_fr.pdf,3086376,144706,auto,rejected,,medium,136.22300720214844,XTO 320 Rutledge Lane,"Pace Analytical Services, Inc.",Vogel Disposal,2010-2018,21
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,,151509,auto,approved,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,24
+002226_SW 2015 26R- Greene County 804 - Fracing Fluid- A. Rose.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,411
+002226_SW 2015 26R- Greene County 804 - Fracing Fluid- A. Rose.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,415
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,411
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,415
+002257_SW 2015 26R- Greene County 810 - Drill Cuttings- Beazer.pdf,5010102,151509,auto,rejected,,medium,68.11100006103516,PEN 15 PAD,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,245
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K14001,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,187
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,411
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,415
+002257_SW 2015 26R- Greene County 810 - Drill Cuttings- Beazer.pdf,30136213,151509,auto,rejected,,medium,68.11100006103516,4120860,"Pace Analytical Services, Inc.",,Jul_Dec_2025,406
+002257_SW 2015 26R- Greene County 810 - Drill Cuttings- Beazer.pdf,4120860,151509,auto,rejected,,medium,68.11100006103516,Solids,"ENVIRONMENTAL SERVICE LABORATORIES, INC.",Advanced Disposal,Jul_Dec_2025,398
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,411
+002243_SW 2015 26R- Greene County 804 - Fracing Fluid- Nicoloff.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,415
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,BEAZER,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,409
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K12115-05,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,366
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,411
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,415
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,411
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,415
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K17057,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,176
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,24K14001,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,224
+002257_SW 2015 26R- Greene County 810 - Drill Cuttings- Beazer.pdf,5F01007,151509,auto,rejected,,medium,68.11100006103516,R. SMITH,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,554
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K12115,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,292
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K19115,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,92
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K11107,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,465
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K18118,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,446
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,411
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,415
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,SH14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,412
+002231_SW 2015 26R- Greene County 804 - Fracing Fluid- Christen.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,416
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,BEAZER,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,409
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K20133,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,412
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K18102,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,505
+002257_SW 2015 26R- Greene County 810 - Drill Cuttings- Beazer.pdf,5B06077,151509,auto,rejected,,medium,68.11100006103516,PA DRILL CUTTINGS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,368
+002226_SW 2015 26R- Greene County 804 - Fracing Fluid- A. Rose.pdf,BEAZER,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,409
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,415
+002239_SW 2015 26R- Greene County 804 - Fracing Fluid- Johnston.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,411
+002257_SW 2015 26R- Greene County 810 - Drill Cuttings- Beazer.pdf,G1407B10,151509,auto,rejected,,medium,68.11100006103516,G1407B10,Geochemical Testing,TERVITA,Jul_Dec_2025,500
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,411
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,415
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K13160,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,245
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K21123,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,241
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,411
+002318_SW 2015 26R- Washington County 804 - Fracing Fluid- Pine Oaks.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,415
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K25141,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,258
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,BEAZER,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,409
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,415
+002233_SW 2015 26R- Greene County 804 - Fracing Fluid- Cooper.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,411
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,411
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,415
+002229_SW 2015 26R- Greene County 804 - Fracing Fluid- Beazer.pdf,,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,13
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,411
+002314_SW 2015 26R- Washington County 804 - Fracing Fluid- Iams.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,415
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,411
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,415
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,BEAZER,151509,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,409
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,BEAZER,151509,auto,approved,,medium,68.11100006103516,,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,409
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,411
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,415
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,411
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,415
+002257_SW 2015 26R- Greene County 810 - Drill Cuttings- Beazer.pdf,5C23065-01,151509,auto,rejected,,medium,68.11100006103516,PA DRILL CUTTINGS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,96
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K25141-03,151509,auto,rejected,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,261
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,411
+002321_SW 2015 26R- Washington County 804 - Fracing Fluid- Werner.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,415
+002174_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Beazer.pdf,4K19115#1,151509,auto,rejected,,medium,68.11100006103516,PA Producion Flud Sampling,FAIRWAY LABORATORIES INC.,EQT,Jul_Dec_2025,658
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2246
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2241
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,BEAZER,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,793
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,5H27014,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,2019-2020,5656
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,BEAZER,151509,auto,approved,,medium,136.22300720214844,BEAZER,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,5652
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,5H14110,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,2019-2020,4624
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,5H24079,151509,auto,approved,,medium,136.22300720214844,BEAZER,Fairway Laboratories,EQT Production Company,2019-2020,4630
+001060_20250709120413944.pdf,30127690,147584,manual,approved,,no_match,0.0,SHAWPAD,"Pace Analytical Services, Inc.",,Jul_Dec_2025,193
+005074_Shaw1_802_2322270&2330952.pdf,1808199,147584,manual,approved,,no_match,0.0,2330952,ALS Environmental,ALS Environmental,2010-2018,71
+005075_Shaw1_810&806_G1805H54&8G17002.pdf,G1805H54,147584,manual,approved,,no_match,0.0,ARDEN LANDFILL,Geochemical Testing,ARDEN LANDFILL,2010-2018,3
+005074_Shaw1_802_2322270&2330952.pdf,1806752,147584,manual,approved,,no_match,0.0,2322270,ALS -- Fort Collins,ALS Environmental,2010-2018,28
+005074_Shaw1_802_2322270&2330952.pdf,1807428,147584,manual,approved,,no_match,0.0,Specific Conductance,ALS Environmental,ALS Environmental,2010-2018,38
+005074_Shaw1_802_2322270&2330952.pdf,2322270,147584,manual,approved,,no_match,0.0,PA Form 26R Part 2.d,ALS Environmental,CNX,2010-2018,6
+002265_SW 2015 26R- Greene County 810 - Drill Cuttings- Koloski.pdf,51023057,150730,auto,approved,,medium,136.22300720214844,PETTIT PA DRILL CUTTINGS,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,507
+002267_SW 2015 26R- Greene County 810 - Drill Cuttings- Scotts Run.pdf,,150730,auto,approved,,medium,136.22300720214844,PETTIT PA DRILL CUTTINGS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,158
+002253_SW 2015 26R- Greene County 804 - Fracing Fluid- Walker B.pdf,Pettit,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,710
+002328_SW 2015 26R- Washington County 810 - Drill Cuttings- J. Moninger.pdf,SCD5H05008,150730,auto,approved,,medium,136.22300720214844,PETTIT PA DRILL CUTTINGS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,538
+002266_SW 2015 26R- Greene County 810 - Drill Cuttings- Pettit.pdf,,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,26
+002247_SW 2015 26R- Greene County 804 - Fracing Fluid- Phillips.pdf,5L16023,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,710
+002248_SW 2015 26R- Greene County 804 - Fracing Fluid- Pierce.pdf,,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,8
+002327_SW 2015 26R- Washington County 810 - Drill Cuttings- Haywood.pdf,51023057,150730,auto,approved,,medium,136.22300720214844,PETTIT PA DRILL CUTTINGS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,508
+002234_SW 2015 26R- Greene County 804 - Fracing Fluid- D. Tharp.pdf,5L16023,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,712
+002246_SW 2015 26R- Greene County 804 - Fracing Fluid- Pettit.pdf,,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,8
+002255_SW 2015 26R- Greene County 804 - Fracing Fluid- White.pdf,5L16023,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,710
+002252_SW 2015 26R- Greene County 804 - Fracing Fluid- Thompson.pdf,5L16023,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,710
+002244_SW 2015 26R- Greene County 804 - Fracing Fluid- Ostrich.pdf,PETTIT,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,710
+002242_SW 2015 26R- Greene County 804 - Fracing Fluid- Moore.pdf,5L16023-01,150730,auto,approved,,medium,136.22300720214844,PETTIT,Fairway Laboratories,EQT Production Company,Jul_Dec_2025,710
+002254_SW 2015 26R- Greene County 804 - Fracing Fluid- West Run.pdf,5L16023,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,710
+002236_SW 2015 26R- Greene County 804 - Fracing Fluid- Hawkins.pdf,5L16023,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,710
+002235_SW 2015 26R- Greene County 804 - Fracing Fluid- Hardin.pdf,5L16023,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,710
+002228_SW 2015 26R- Greene County 804 - Fracing Fluid- Atcheson.pdf,5L16023,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,710
+002194_SW 2015 26R- Greene County 802 - Brine-Produced Fluid- Pettit.pdf,4K19115,150730,auto,approved,,medium,68.11100006103516,PA Production Fluid Sampling,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,7
+002263_SW 2015 26R- Greene County 810 - Drill Cuttings- J & J.pdf,5D23057,150730,auto,approved,,medium,136.22300720214844,PETTIT PA DRILL CUTTINGS,FAIRWAY LABORATORIES,EQT Production Company,Jul_Dec_2025,507
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,5L16023,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2413
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,6G11032,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2961
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,6G11031,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2969
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,5H05008,150730,auto,approved,,medium,136.22300720214844,PETTIT PA DRILL CUTTINGS,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,2999
+004736_EQT Corporation 26R Annual Report_SW_2 of 4.pdf,PETTIT,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,2010-2018,1393
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,5H05008,150730,auto,approved,,medium,136.22300720214844,PETTIT,FAIRWAY LABORATORIES,EQT Production Company,2019-2020,8796
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,6G11031,150730,auto,approved,,medium,136.22300720214844,PETTIT,Fairway Laboratories,EQT Production Company,2019-2020,8809
+000813_SW_EQT 2018 Annual_2-21-19_VOL4of4.red.pdf,8L06052,150730,auto,approved,,medium,136.22300720214844,PETTIT,Fairway Laboratories,EQT Production Company,2019-2020,2657

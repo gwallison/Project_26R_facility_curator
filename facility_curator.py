@@ -28,6 +28,9 @@ import streamlit as st
 HERE         = Path(__file__).parent
 SESSIONS_DIR = HERE / "sessions"
 SESSIONS_DIR.mkdir(parents=True, exist_ok=True)
+DATA_DIR           = HERE / "data"
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+CURATED_LINKS_PATH = DATA_DIR / "curated_links.parquet"
 
 LINKS_PARQUET = Path(
     r"G:\My Drive\sandbox\26R\link_DEP_waste_to_labs\data\links.parquet"
@@ -51,7 +54,7 @@ _WASTE_COLS = [
     "DISPOSAL_METHOD", "WASTE_FACILITY_NAME",
 ]
 
-# Columns persisted in candidate_links.csv
+# Columns for the global curated links store (and per-session candidate CSVs)
 LINK_COLS = [
     "original_filename", "lab_report_id", "pad_WELL_PAD_ID",
     "source", "status", "notes",
@@ -159,20 +162,69 @@ def save_cpads(sp: Path, df: pd.DataFrame):
     _touch(sp)
 
 
-def load_clinks(sp: Path) -> pd.DataFrame:
-    p = sp / "candidate_links.csv"
-    if not p.exists():
+# ─────────────────────────────────────────────────────────────────────────────
+# Global curated links store
+# ─────────────────────────────────────────────────────────────────────────────
+def _norm_rid(val) -> str:
+    """Normalise a lab_report_id value to a canonical string for dedup/comparison."""
+    if pd.isna(val):
+        return ""
+    return str(val).strip()
+
+
+def load_global_store() -> pd.DataFrame:
+    if not CURATED_LINKS_PATH.exists():
         return pd.DataFrame(columns=LINK_COLS)
-    df = pd.read_csv(p, dtype={"lab_report_id": str, "notes": str})
-    df["notes"] = df["notes"].fillna("")
+    df = pd.read_parquet(CURATED_LINKS_PATH)
+    df["lab_report_id"]   = df["lab_report_id"].apply(_norm_rid)
+    df["notes"]           = df["notes"].fillna("").astype(str)
+    df["pad_WELL_PAD_ID"] = df["pad_WELL_PAD_ID"].astype(str)
     for c in LINK_COLS:
         if c not in df.columns:
             df[c] = None
     return df[LINK_COLS].copy()
 
 
+def save_global_store(df: pd.DataFrame):
+    df = df[LINK_COLS].copy()
+    df["lab_report_id"]   = df["lab_report_id"].apply(_norm_rid)
+    df["notes"]           = df["notes"].fillna("").astype(str)
+    df["pad_WELL_PAD_ID"] = df["pad_WELL_PAD_ID"].astype(str)
+    df = df.drop_duplicates(
+        subset=["original_filename", "lab_report_id", "pad_WELL_PAD_ID"],
+        keep="first",
+    )
+    df.to_parquet(CURATED_LINKS_PATH, index=False)
+
+
+def load_clinks(sp: Path) -> pd.DataFrame:
+    """Return all global store rows whose pad belongs to this session."""
+    gs = load_global_store()
+    if gs.empty:
+        return pd.DataFrame(columns=LINK_COLS)
+    cp = load_cpads(sp)
+    session_pads = set(cp["pad_WELL_PAD_ID"].astype(str).dropna())
+    if not session_pads:
+        return pd.DataFrame(columns=LINK_COLS)
+    return gs[gs["pad_WELL_PAD_ID"].astype(str).isin(session_pads)].copy()
+
+
 def save_clinks(sp: Path, df: pd.DataFrame):
-    df[LINK_COLS].to_csv(sp / "candidate_links.csv", index=False)
+    """Upsert df rows into the global store; other sessions' rows are untouched."""
+    gs = load_global_store()
+    df = df[LINK_COLS].copy()
+    df["pad_WELL_PAD_ID"] = df["pad_WELL_PAD_ID"].astype(str)
+    df["lab_report_id"]   = df["lab_report_id"].apply(_norm_rid)
+    incoming_keys = set(
+        zip(df["original_filename"].astype(str), df["lab_report_id"], df["pad_WELL_PAD_ID"])
+    )
+    gs["pad_WELL_PAD_ID"] = gs["pad_WELL_PAD_ID"].astype(str)
+    gs_keep = gs[~gs.apply(
+        lambda r: (str(r["original_filename"]), _norm_rid(r["lab_report_id"]), r["pad_WELL_PAD_ID"])
+                  in incoming_keys,
+        axis=1,
+    )]
+    save_global_store(pd.concat([gs_keep, df], ignore_index=True))
     _touch(sp)
 
 
@@ -231,45 +283,109 @@ def create_session(
     cp["included"] = False
     save_cpads(sp, cp)
 
-    save_clinks(sp, pd.DataFrame(columns=LINK_COLS))
     return sp
 
 
 def sync_auto_links(sp: Path, matched: pd.DataFrame, pad_ids: set | None = None) -> int:
-    """Add auto-links for the given pad_ids (or all included pads if None); never removes rows."""
+    """Add auto-links for the given pad_ids to the global store; never removes rows."""
     cp = load_cpads(sp)
-    cl = load_clinks(sp)
     if pad_ids is None:
         pad_ids = set(cp.loc[cp["included"], "pad_WELL_PAD_ID"].dropna())
-    included = pad_ids
-    # Normalise all three key parts to str to avoid int/float type mismatches
+    included_str = {str(v) for v in pad_ids}
+
+    gs = load_global_store()
     existing = set(
         zip(
-            cl["original_filename"].astype(str),
-            cl["lab_report_id"].astype(str),
-            cl["pad_WELL_PAD_ID"].astype(str),
+            gs["original_filename"].astype(str),
+            gs["lab_report_id"].apply(_norm_rid),
+            gs["pad_WELL_PAD_ID"].astype(str),
         )
     )
-    included_str = set(str(v) for v in included)
     new_rows = []
     for _, r in matched[matched["pad_WELL_PAD_ID"].astype(str).isin(included_str)].iterrows():
-        key = (str(r["original_filename"]), str(r.get("lab_report_id", "")), str(r["pad_WELL_PAD_ID"]))
+        key = (str(r["original_filename"]), _norm_rid(r.get("lab_report_id")), str(r["pad_WELL_PAD_ID"]))
         if key not in existing:
             row = {c: r.get(c) for c in LINK_COLS}
-            row.update(source="auto", status="pending", notes="")
+            row.update(source="auto", status="pending", notes="",
+                       pad_WELL_PAD_ID=str(row["pad_WELL_PAD_ID"]))
             new_rows.append(row)
     if new_rows:
-        cl = pd.concat(
-            [cl, pd.DataFrame(new_rows, columns=LINK_COLS)],
-            ignore_index=True,
-        )
-        # Belt-and-suspenders dedup — preserves first occurrence (keeps status/notes)
-        cl = cl.drop_duplicates(
-            subset=["original_filename", "lab_report_id", "pad_WELL_PAD_ID"],
-            keep="first",
-        )
-        save_clinks(sp, cl)
+        gs = pd.concat([gs, pd.DataFrame(new_rows, columns=LINK_COLS)], ignore_index=True)
+        save_global_store(gs)
+        _touch(sp)
     return len(new_rows)
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# One-time migration: absorb per-session candidate_links.csv into global store
+# ─────────────────────────────────────────────────────────────────────────────
+def _migrate_session_csvs():
+    """Merge all per-session candidate_links.csv files into the global store.
+
+    Runs once per session folder (sentinel file .migrated prevents re-runs).
+    Conflict resolution: approved > rejected > pending.
+    Existing global store rows are never overwritten.
+    """
+    if not SESSIONS_DIR.exists():
+        return
+    STATUS_RANK = {"approved": 0, "rejected": 1, "pending": 2}
+    frames = []
+    to_mark = []
+    for d in sorted(SESSIONS_DIR.iterdir()):
+        csv_path = d / "candidate_links.csv"
+        sentinel = d / ".migrated"
+        if not d.is_dir() or not csv_path.exists() or sentinel.exists():
+            continue
+        try:
+            df = pd.read_csv(csv_path, dtype={"lab_report_id": str, "notes": str})
+            df["notes"]           = df["notes"].fillna("").astype(str)
+            df["lab_report_id"]   = df["lab_report_id"].apply(_norm_rid)
+            df["pad_WELL_PAD_ID"] = df["pad_WELL_PAD_ID"].astype(str)
+            for c in LINK_COLS:
+                if c not in df.columns:
+                    df[c] = None
+            frames.append(df[LINK_COLS])
+            to_mark.append(sentinel)
+        except Exception:
+            pass
+
+    if not frames:
+        # Still mark sentinels for any sessions with missing CSVs
+        for d in sorted(SESSIONS_DIR.iterdir()):
+            if d.is_dir() and not (d / ".migrated").exists():
+                (d / ".migrated").touch()
+        return
+
+    combined = pd.concat(frames, ignore_index=True)
+    combined["_rank"] = combined["status"].map(STATUS_RANK).fillna(99)
+    combined = (
+        combined.sort_values("_rank")
+        .drop(columns="_rank")
+        .drop_duplicates(subset=["original_filename", "lab_report_id", "pad_WELL_PAD_ID"], keep="first")
+    )
+
+    if CURATED_LINKS_PATH.exists():
+        existing = load_global_store()
+        existing_keys = set(
+            zip(existing["original_filename"].astype(str),
+                existing["lab_report_id"].apply(_norm_rid),
+                existing["pad_WELL_PAD_ID"].astype(str))
+        )
+        combined = combined[
+            ~combined.apply(
+                lambda r: (str(r["original_filename"]), _norm_rid(r["lab_report_id"]), str(r["pad_WELL_PAD_ID"]))
+                          in existing_keys,
+                axis=1,
+            )
+        ]
+        combined = pd.concat([existing, combined], ignore_index=True)
+
+    save_global_store(combined)
+    for sentinel in to_mark:
+        sentinel.touch()
+
+
+_migrate_session_csvs()
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -510,12 +626,12 @@ with tab_links:
         cl = cl_raw[cl_raw["pad_WELL_PAD_ID"].astype(str).isin(included_ids_str)].copy()
 
         with st.expander("🔍 Debug info"):
-            st.write(f"**candidate_links.csv rows (total):** {len(cl_raw)}")
+            st.write(f"**Global store rows for this session's pads:** {len(cl_raw)}")
             st.write(f"**included pad IDs ({len(included_ids_str)}):** {sorted(included_ids_str)[:10]}")
             if not cl_raw.empty:
                 sample_ids = sorted(cl_raw["pad_WELL_PAD_ID"].astype(str).unique())[:10]
-                st.write(f"**pad_WELL_PAD_ID values in links CSV:** {sample_ids}")
-                st.write(f"**dtype in links CSV:** {cl_raw['pad_WELL_PAD_ID'].dtype}")
+                st.write(f"**pad_WELL_PAD_ID values in global store:** {sample_ids}")
+                st.write(f"**dtype in global store:** {cl_raw['pad_WELL_PAD_ID'].dtype}")
             st.write(f"**dtype in pads CSV:** {cp_cl_tab['pad_WELL_PAD_ID'].dtype}")
             st.write(f"**rows after filter:** {len(cl)}")
             st.write("**Raw included values (first 5):**")
@@ -594,8 +710,30 @@ with tab_links:
         )
 
         sel_cl = ev_cl.selection.rows if ev_cl else []
+
+        # Persist the selected row key in session state so status buttons work even if
+        # the dataframe selection is cleared during the button-click rerun.
         if sel_cl and sel_cl[0] < len(disp):
             row = disp.iloc[sel_cl[0]]
+            st.session_state["cl_selected_key"] = {
+                "original_filename": row["original_filename"],
+                "lab_report_id":     row["lab_report_id"],
+                "pad_WELL_PAD_ID":   row["pad_WELL_PAD_ID"],
+                "notes":             str(row.get("notes") or ""),
+            }
+
+        sel_key = st.session_state.get("cl_selected_key")
+        row = None
+        if sel_key:
+            matches = disp[
+                (disp["original_filename"] == sel_key["original_filename"])
+                & (disp["lab_report_id"].apply(_norm_rid) == _norm_rid(sel_key["lab_report_id"]))
+                & (disp["pad_WELL_PAD_ID"].astype(str) == str(sel_key["pad_WELL_PAD_ID"]))
+            ]
+            if not matches.empty:
+                row = matches.iloc[0]
+
+        if row is not None:
             st.divider()
 
             cp_cl = load_cpads(sp)
@@ -618,7 +756,7 @@ with tab_links:
                 f"  ·  [Open PDF p.{pg}]({row['pdf']})"
             )
 
-            notes_key_cl = f"cl_notes_{row['original_filename']}_{row.get('lab_report_id', '')}_{row['pad_WELL_PAD_ID']}"
+            notes_key_cl = f"cl_notes_{_norm_rid(row['lab_report_id'])}_{row['pad_WELL_PAD_ID']}"
             act1, act2, act3, act4 = st.columns([2, 1, 1, 1])
             with act1:
                 notes_val_cl = st.text_input("Notes", value=str(row.get("notes") or ""), key=notes_key_cl, label_visibility="collapsed", placeholder="Notes (optional)")
@@ -626,13 +764,15 @@ with tab_links:
             def _set_cl_status(new_status: str):
                 cl_upd = load_clinks(sp)
                 mask = (
-                    (cl_upd["original_filename"] == row["original_filename"])
-                    & (cl_upd["lab_report_id"].astype(str) == str(row.get("lab_report_id") or ""))
-                    & (cl_upd["pad_WELL_PAD_ID"] == row["pad_WELL_PAD_ID"])
+                    (cl_upd["original_filename"] == sel_key["original_filename"])
+                    & (cl_upd["lab_report_id"].apply(_norm_rid) == _norm_rid(sel_key["lab_report_id"]))
+                    & (cl_upd["pad_WELL_PAD_ID"].astype(str) == str(sel_key["pad_WELL_PAD_ID"]))
                 )
                 cl_upd.loc[mask, "status"] = new_status
                 cl_upd.loc[mask, "notes"] = notes_val_cl
                 save_clinks(sp, cl_upd)
+                n = int(mask.sum())
+                st.toast(f"{'Approved' if new_status == 'approved' else 'Rejected' if new_status == 'rejected' else 'Reset to pending'} {n} row(s).")
 
             with act2:
                 if st.button("✅ Approve", key="cl_approve", type="primary"):
@@ -785,15 +925,15 @@ with tab_links:
                         key_rid = str(nm_row.get("lab_report_id") or "")
                         already = (
                             (cl_now["original_filename"] == key_fn)
-                            & (cl_now["lab_report_id"].astype(str) == key_rid)
-                            & (cl_now["pad_WELL_PAD_ID"] == selected_pad_id)
+                            & (cl_now["lab_report_id"].apply(_norm_rid) == _norm_rid(key_rid))
+                            & (cl_now["pad_WELL_PAD_ID"].astype(str) == str(selected_pad_id))
                         ).any()
                         if already:
                             st.warning("This (filename, report_id, pad) combination is already in the list.")
                         else:
                             new_row = {c: nm_row.get(c) for c in LINK_COLS}
                             new_row.update(
-                                pad_WELL_PAD_ID=selected_pad_id,
+                                pad_WELL_PAD_ID=str(selected_pad_id),
                                 source="manual",
                                 status="pending",
                                 notes="",
@@ -938,7 +1078,7 @@ with tab_review:
                         )
 
                 st.divider()
-                notes_key = f"notes_{row['original_filename']}_{row.get('lab_report_id', '')}_{pad_id}"
+                notes_key = f"notes_{_norm_rid(row.get('lab_report_id'))}_{pad_id}"
                 notes_val = st.text_input(
                     "Notes (optional)",
                     value=str(row.get("notes") or ""),
@@ -949,8 +1089,8 @@ with tab_review:
                     cl_upd = load_clinks(sp)
                     mask = (
                         (cl_upd["original_filename"] == row["original_filename"])
-                        & (cl_upd["lab_report_id"].astype(str) == str(row.get("lab_report_id") or ""))
-                        & (cl_upd["pad_WELL_PAD_ID"] == pad_id)
+                        & (cl_upd["lab_report_id"].apply(_norm_rid) == _norm_rid(row.get("lab_report_id")))
+                        & (cl_upd["pad_WELL_PAD_ID"].astype(str) == str(pad_id))
                     )
                     cl_upd.loc[mask, "status"] = new_status
                     cl_upd.loc[mask, "notes"] = notes_val
@@ -976,6 +1116,9 @@ with tab_output:
     else:
         st.subheader(f"Output — {session_meta.get('facility_name', '')}")
         cl = load_clinks(sp)
+        cp_out = load_cpads(sp)
+        included_pad_strs_out = set(cp_out.loc[cp_out["included"], "pad_WELL_PAD_ID"].astype(str))
+        cl = cl[cl["pad_WELL_PAD_ID"].astype(str).isin(included_pad_strs_out)]
 
         approved = cl[cl["status"] == "approved"].copy()
         n_pending  = (cl["status"] == "pending").sum()
