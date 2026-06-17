@@ -92,6 +92,7 @@ def main():
     print("Loading lab results…")
     lab = pd.read_parquet(LAB_PARQUET)
     lab["_rid"] = lab["lab_report_id"].fillna("").astype(str).str.strip()
+    lab.loc[lab["_rid"].str.lower() == "[none]", "_rid"] = ""
 
     empty_files = sorted(lab[lab["_rid"] == ""]["original_filename"].unique())
     print(f"Files with empty lab_report_id: {len(empty_files)}")
@@ -146,7 +147,8 @@ def main():
         Path(r"G:\My Drive\sandbox\26R\link_DEP_waste_to_labs\data\links.parquet")
     )
     link_rid = links["lab_report_id"].fillna("").astype(str).str.strip()
-    empty_link_fns = set(links.loc[link_rid == "", "original_filename"])
+    link_rid_empty = (link_rid == "") | (link_rid.str.lower() == "[none]")
+    empty_link_fns = set(links.loc[link_rid_empty, "original_filename"])
     assigned_fns = {r["original_filename"] for r in sample_rows}
     ambig_fns = {a["original_filename"] for a in ambiguous}
     orphan_fns = empty_link_fns - assigned_fns - ambig_fns
@@ -160,7 +162,7 @@ def main():
 
         orphan_resolved = 0
         for _, lr in links[
-            (link_rid == "") & links["original_filename"].isin(orphan_fns)
+            link_rid_empty & links["original_filename"].isin(orphan_fns)
         ].iterrows():
             fn = lr["original_filename"]
             fp = int(lr["first_page"])

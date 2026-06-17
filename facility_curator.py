@@ -112,7 +112,7 @@ def _apply_rid_to_lab(df: pd.DataFrame, sample_map: dict) -> pd.DataFrame:
     if not sample_map:
         return df
     rid = df["lab_report_id"].fillna("").astype(str).str.strip()
-    empty_mask = rid == ""
+    empty_mask = (rid == "") | (rid.str.lower() == "[none]")
     if not empty_mask.any():
         return df
     df = df.copy()
@@ -131,7 +131,7 @@ def _apply_rid_to_links(df: pd.DataFrame, page_map: dict) -> pd.DataFrame:
     if not page_map:
         return df
     rid = df["lab_report_id"].fillna("").astype(str).str.strip()
-    empty_mask = rid == ""
+    empty_mask = (rid == "") | (rid.str.lower() == "[none]")
     if not empty_mask.any():
         return df
     df = df.copy()
@@ -230,7 +230,10 @@ def _norm_rid(val) -> str:
     """Normalise a lab_report_id value to a canonical string for dedup/comparison."""
     if pd.isna(val):
         return ""
-    return str(val).strip()
+    s = str(val).strip()
+    if s.lower() == "[none]":
+        return ""
+    return s
 
 
 def _key_rid(rid, first_page) -> str:
@@ -744,20 +747,30 @@ with tab_links:
                 return f"{name} ({total}: {', '.join(parts)})"
             return f"{name} (0 links)"
 
+        sorted_pids = sorted(included_ids_str)
         pad_options_list = ["All included pads"] + [
-            _pad_label(pid) for pid in sorted(included_ids_str)
+            _pad_label(pid) for pid in sorted_pids
         ]
         pad_id_by_label = {
-            _pad_label(pid): pid for pid in sorted(included_ids_str)
+            _pad_label(pid): pid for pid in sorted_pids
         }
 
+        prev_pid = st.session_state.get("cl_pad_id")
+        if prev_pid in sorted_pids:
+            default_idx = sorted_pids.index(prev_pid) + 1
+        else:
+            default_idx = 0
+
         sel_pad_label = st.selectbox(
-            "Pad", pad_options_list, key="cl_pad_sel",
+            "Pad", pad_options_list, index=default_idx, key="cl_pad_sel",
         )
         if sel_pad_label == "All included pads":
             active_pad_ids = included_ids_str
+            st.session_state["cl_pad_id"] = None
         else:
-            active_pad_ids = {pad_id_by_label[sel_pad_label]}
+            sel_pid = pad_id_by_label[sel_pad_label]
+            active_pad_ids = {sel_pid}
+            st.session_state["cl_pad_id"] = sel_pid
 
         cl = cl_all[cl_all["pad_WELL_PAD_ID"].astype(str).isin(active_pad_ids)].copy()
 
@@ -917,6 +930,12 @@ with tab_links:
                 (lab_df["original_filename"] == sel_fn)
                 & (lab_df["lab_report_id"].astype(str) == sel_rid)
             ].sort_values(["original_page", "lab_sample_id"]).reset_index(drop=True)
+
+            if analytes.empty and sel_rid:
+                analytes = lab_df[
+                    (lab_df["original_filename"] == sel_fn)
+                    & (lab_df["lab_sample_id"].astype(str).str.startswith(sel_rid))
+                ].sort_values(["original_page", "lab_sample_id"]).reset_index(drop=True)
 
             if analytes.empty:
                 st.warning("No analyte rows found for this (filename, report ID) pair.")
