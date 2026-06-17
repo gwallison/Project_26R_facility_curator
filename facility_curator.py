@@ -31,6 +31,8 @@ SESSIONS_DIR.mkdir(parents=True, exist_ok=True)
 DATA_DIR           = HERE / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 CURATED_LINKS_PATH = DATA_DIR / "curated_links.parquet"
+RID_SAMPLE_MAP     = DATA_DIR / "report_id_assignments.csv"
+RID_PAGE_MAP       = DATA_DIR / "report_id_page_map.csv"
 
 LINKS_PARQUET = Path(
     r"G:\My Drive\sandbox\26R\link_DEP_waste_to_labs\data\links.parquet"
@@ -90,8 +92,64 @@ def status_icon(s: str) -> str:
 # Cached global data (read-only)
 # ─────────────────────────────────────────────────────────────────────────────
 @st.cache_data
+def _load_rid_maps():
+    """Load synthetic report-ID mappings (sample-level and page-level)."""
+    sample_map = {}
+    page_map = {}
+    if RID_SAMPLE_MAP.exists():
+        sm = pd.read_csv(RID_SAMPLE_MAP, dtype=str)
+        for _, r in sm.iterrows():
+            sample_map[(r["original_filename"], r["lab_sample_id"])] = r["assigned_rid"]
+    if RID_PAGE_MAP.exists():
+        pm = pd.read_csv(RID_PAGE_MAP, dtype=str)
+        for _, r in pm.iterrows():
+            page_map[(r["original_filename"], int(r["original_page"]))] = r["assigned_rid"]
+    return sample_map, page_map
+
+
+def _apply_rid_to_lab(df: pd.DataFrame, sample_map: dict) -> pd.DataFrame:
+    """Fill empty lab_report_id using sample-level map."""
+    if not sample_map:
+        return df
+    rid = df["lab_report_id"].fillna("").astype(str).str.strip()
+    empty_mask = rid == ""
+    if not empty_mask.any():
+        return df
+    df = df.copy()
+    df.loc[empty_mask, "lab_report_id"] = [
+        sample_map.get((fn, sid), "")
+        for fn, sid in zip(
+            df.loc[empty_mask, "original_filename"],
+            df.loc[empty_mask, "lab_sample_id"],
+        )
+    ]
+    return df
+
+
+def _apply_rid_to_links(df: pd.DataFrame, page_map: dict) -> pd.DataFrame:
+    """Fill empty lab_report_id using page-level map."""
+    if not page_map:
+        return df
+    rid = df["lab_report_id"].fillna("").astype(str).str.strip()
+    empty_mask = rid == ""
+    if not empty_mask.any():
+        return df
+    df = df.copy()
+    df.loc[empty_mask, "lab_report_id"] = [
+        page_map.get((fn, int(fp)), "")
+        for fn, fp in zip(
+            df.loc[empty_mask, "original_filename"],
+            df.loc[empty_mask, "first_page"],
+        )
+    ]
+    return df
+
+
+@st.cache_data
 def _load_links():
     df = pd.read_parquet(LINKS_PARQUET)
+    _, page_map = _load_rid_maps()
+    df = _apply_rid_to_links(df, page_map)
     return (
         df[df["confidence"] != "no_match"].copy(),
         df[df["confidence"] == "no_match"].copy(),
@@ -115,7 +173,9 @@ def _load_waste():
 
 @st.cache_data
 def _load_lab_results():
-    return pd.read_parquet(LAB_PARQUET)
+    df = pd.read_parquet(LAB_PARQUET)
+    sample_map, _ = _load_rid_maps()
+    return _apply_rid_to_lab(df, sample_map)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -657,30 +717,55 @@ with tab_links:
         st.subheader(f"Candidate Links — {session_meta.get('facility_name', '')}")
         cl_raw = load_clinks(sp)
         cp_cl_tab = load_cpads(sp)
-        # Normalise to str to avoid int/float type mismatches after CSV round-trip
         included_ids_str = set(
             str(v) for v in cp_cl_tab.loc[cp_cl_tab["included"], "pad_WELL_PAD_ID"]
         )
-        cl = cl_raw[cl_raw["pad_WELL_PAD_ID"].astype(str).isin(included_ids_str)].copy()
+        cl_all = cl_raw[cl_raw["pad_WELL_PAD_ID"].astype(str).isin(included_ids_str)].copy()
 
-        with st.expander("🔍 Debug info"):
-            st.write(f"**Global store rows for this session's pads:** {len(cl_raw)}")
-            st.write(f"**included pad IDs ({len(included_ids_str)}):** {sorted(included_ids_str)[:10]}")
-            if not cl_raw.empty:
-                sample_ids = sorted(cl_raw["pad_WELL_PAD_ID"].astype(str).unique())[:10]
-                st.write(f"**pad_WELL_PAD_ID values in global store:** {sample_ids}")
-                st.write(f"**dtype in global store:** {cl_raw['pad_WELL_PAD_ID'].dtype}")
-            st.write(f"**dtype in pads CSV:** {cp_cl_tab['pad_WELL_PAD_ID'].dtype}")
-            st.write(f"**rows after filter:** {len(cl)}")
-            st.write("**Raw included values (first 5):**")
-            raw_cp = pd.read_csv(sp / "candidate_pads.csv")
-            st.dataframe(raw_cp[["pad_WELL_PAD_ID", "included"]].head())
+        # ── Pad selector ──────────────────────────────────────────────────
+        pad_name_map_cl = dict(zip(cp_cl_tab["pad_WELL_PAD_ID"], cp_cl_tab["pad_WELL_PAD"]))
+        pad_status_counts = cl_all.groupby("pad_WELL_PAD_ID")["status"].value_counts().unstack(fill_value=0)
+        for col in ("pending", "approved", "rejected"):
+            if col not in pad_status_counts.columns:
+                pad_status_counts[col] = 0
+
+        def _pad_label(pid):
+            name = pad_name_map_cl.get(pid, pid)
+            if pid in pad_status_counts.index:
+                r = pad_status_counts.loc[pid]
+                total = int(r.sum())
+                parts = []
+                if r["approved"]:
+                    parts.append(f"{int(r['approved'])} approved")
+                if r["pending"]:
+                    parts.append(f"{int(r['pending'])} pending")
+                if r["rejected"]:
+                    parts.append(f"{int(r['rejected'])} rejected")
+                return f"{name} ({total}: {', '.join(parts)})"
+            return f"{name} (0 links)"
+
+        pad_options_list = ["All included pads"] + [
+            _pad_label(pid) for pid in sorted(included_ids_str)
+        ]
+        pad_id_by_label = {
+            _pad_label(pid): pid for pid in sorted(included_ids_str)
+        }
+
+        sel_pad_label = st.selectbox(
+            "Pad", pad_options_list, key="cl_pad_sel",
+        )
+        if sel_pad_label == "All included pads":
+            active_pad_ids = included_ids_str
+        else:
+            active_pad_ids = {pad_id_by_label[sel_pad_label]}
+
+        cl = cl_all[cl_all["pad_WELL_PAD_ID"].astype(str).isin(active_pad_ids)].copy()
 
         if not included_ids_str:
-            st.info("No included pads yet. Check the **Include** box for one or more pads in the **Candidate Pads** tab and save.")
+            st.info("No included pads yet. Check the **Include** box for one or more pads in the **Candidate Pads** tab.")
         elif cl.empty:
             st.info(
-                f"{len(included_ids_str)} pad(s) included but no auto-links found for them. "
+                "No auto-links found for the selected pad(s). "
                 "Use **Add manual links** below to assign lab reports manually."
             )
         else:
@@ -689,7 +774,7 @@ with tab_links:
             n_r = (cl["status"] == "rejected").sum()
             st.caption(
                 f"⏳ {n_p} pending  ·  ✅ {n_a} approved  ·  "
-                f"❌ {n_r} rejected  ·  {len(cl)} for {len(included_ids_str)} included pad(s)"
+                f"❌ {n_r} rejected  ·  {len(cl)} link(s)"
             )
 
         sf_col, ba_col, br_col = st.columns([4, 1, 1])
@@ -703,14 +788,14 @@ with tab_links:
         with ba_col:
             if st.button("✅ Approve All", key="cl_approve_all"):
                 cl_upd = load_clinks(sp)
-                mask = cl_upd["pad_WELL_PAD_ID"].astype(str).isin(included_ids_str)
+                mask = cl_upd["pad_WELL_PAD_ID"].astype(str).isin(active_pad_ids)
                 cl_upd.loc[mask, "status"] = "approved"
                 save_clinks(sp, cl_upd)
                 st.rerun()
         with br_col:
             if st.button("❌ Reject All", key="cl_reject_all"):
                 cl_upd = load_clinks(sp)
-                mask = cl_upd["pad_WELL_PAD_ID"].astype(str).isin(included_ids_str)
+                mask = cl_upd["pad_WELL_PAD_ID"].astype(str).isin(active_pad_ids)
                 cl_upd.loc[mask, "status"] = "rejected"
                 save_clinks(sp, cl_upd)
                 st.rerun()
@@ -774,8 +859,6 @@ with tab_links:
         if row is not None:
             st.divider()
 
-            cp_cl = load_cpads(sp)
-            pad_name_map_cl = dict(zip(cp_cl["pad_WELL_PAD_ID"], cp_cl["pad_WELL_PAD"]))
             pad_label = pad_name_map_cl.get(row["pad_WELL_PAD_ID"], f"Pad ID {row['pad_WELL_PAD_ID']}")
 
             try:
@@ -868,23 +951,28 @@ with tab_links:
             cp = load_cpads(sp)
             included_pads = cp[cp["included"]].copy()
 
-            # Show unlinked pads first, then the rest
-            all_candidate_ids = set(cl["pad_WELL_PAD_ID"])
-            included_pads["_has_link"] = included_pads["pad_WELL_PAD_ID"].isin(all_candidate_ids)
-            included_pads = included_pads.sort_values("_has_link").reset_index(drop=True)
-
-            pad_options = {
-                f"{'✓' if row['_has_link'] else '○'} {row['pad_WELL_PAD']} (ID {int(row['pad_WELL_PAD_ID'])})": row["pad_WELL_PAD_ID"]
-                for _, row in included_pads.iterrows()
-            }
-            if not pad_options:
-                st.info("No included pads. Adjust the pad list in Candidate Pads.")
+            if len(active_pad_ids) == 1:
+                selected_pad_id = next(iter(active_pad_ids))
             else:
-                st.caption("○ = no candidates yet  ·  ✓ = has candidates")
-                selected_label = st.selectbox(
-                    "Target pad", list(pad_options.keys()), key="manual_pad_sel"
-                )
-                selected_pad_id = pad_options[selected_label]
+                all_candidate_ids = set(cl_all["pad_WELL_PAD_ID"])
+                included_pads["_has_link"] = included_pads["pad_WELL_PAD_ID"].isin(all_candidate_ids)
+                included_pads = included_pads.sort_values("_has_link").reset_index(drop=True)
+
+                pad_options = {
+                    f"{'✓' if row['_has_link'] else '○'} {row['pad_WELL_PAD']} (ID {row['pad_WELL_PAD_ID']})": row["pad_WELL_PAD_ID"]
+                    for _, row in included_pads.iterrows()
+                }
+                if not pad_options:
+                    st.info("No included pads. Adjust the pad list in Candidate Pads.")
+                    selected_pad_id = None
+                else:
+                    st.caption("○ = no candidates yet  ·  ✓ = has candidates")
+                    selected_label = st.selectbox(
+                        "Target pad", list(pad_options.keys()), key="manual_pad_sel"
+                    )
+                    selected_pad_id = pad_options[selected_label]
+
+            if selected_pad_id is not None:
                 selected_pad_name = included_pads.loc[
                     included_pads["pad_WELL_PAD_ID"] == selected_pad_id, "pad_WELL_PAD"
                 ].iloc[0]
