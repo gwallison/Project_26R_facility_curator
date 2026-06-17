@@ -267,6 +267,8 @@ def load_global_store() -> pd.DataFrame:
     for c in LINK_COLS:
         if c not in df.columns:
             df[c] = None
+    _, page_map = _load_rid_maps()
+    df = _apply_rid_to_links(df, page_map)
     return df[LINK_COLS].copy()
 
 
