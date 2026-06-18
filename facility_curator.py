@@ -15,7 +15,10 @@ Usage (from this directory):
 
 import json
 import re
+import threading
 from datetime import date
+from functools import partial
+from http.server import HTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import quote
 
@@ -49,6 +52,8 @@ WASTE_PARQUET = Path(
 )
 
 GCS_BASE = "https://storage.googleapis.com/fta-form26r-library"
+LOCAL_PDF_ROOT = Path(r"D:\PA_Form26r_PDFs\all_pdfs")
+LOCAL_PDF_PORT = 8765
 
 _WASTE_COLS = [
     "UNCONVENTIONAL_IND", "pad_WELL_PAD_ID", "PERMIT_NUM", "WELL_NO",
@@ -72,6 +77,25 @@ def slugify(name: str) -> str:
     return re.sub(r"\s+", "-", s.strip())[:50] or "unnamed"
 
 
+def _start_pdf_server():
+    """Start a local HTTP server for the PDF directory (once per process)."""
+    if getattr(_start_pdf_server, "_started", False):
+        return
+    if not LOCAL_PDF_ROOT.is_dir():
+        return
+    handler = partial(SimpleHTTPRequestHandler, directory=str(LOCAL_PDF_ROOT))
+    try:
+        server = HTTPServer(("127.0.0.1", LOCAL_PDF_PORT), handler)
+    except OSError:
+        return
+    t = threading.Thread(target=server.serve_forever, daemon=True)
+    t.start()
+    _start_pdf_server._started = True
+
+
+_start_pdf_server()
+
+
 def pdf_url(row) -> str:
     sn = quote(str(row.get("set_name", "")), safe="")
     fn = quote(str(row["original_filename"]), safe="")
@@ -79,6 +103,8 @@ def pdf_url(row) -> str:
         pg = int(row["first_page"]) if pd.notna(row.get("first_page")) else 1
     except (ValueError, TypeError):
         pg = 1
+    if _start_pdf_server._started if hasattr(_start_pdf_server, "_started") else False:
+        return f"http://127.0.0.1:{LOCAL_PDF_PORT}/{sn}/{fn}#page={pg}"
     return f"{GCS_BASE}/full-set/{sn}/{fn}#page={pg}"
 
 
