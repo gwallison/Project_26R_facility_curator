@@ -1,0 +1,348 @@
+pad_WELL_PAD_ID,pad_WELL_PAD,CLIENT,COUNTY,n_waste_records,total_tons,total_bbls,first_period,last_period,included
+154284,NEUMANN,SNYDER BROS INC,Armstrong,440,,,Apr 2021 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+155777,CRYTZER,SNYDER BROS INC,Armstrong,408,,,Apr 2022 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+155212,AUSTIN PAD,SNYDER BROS INC,Armstrong,378,,,Apr 2021 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+151874,AMBROSE PAD,SNYDER BROS INC,Armstrong,330,,,Apr 2021 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+156139,LIMESTONE RUN WELL PAD,SNYDER BROS INC,Armstrong,328,,,Apr 2023 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+154517,ROLLING HILLS,SNYDER BROS INC,Armstrong,324,,,Apr 2021 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+154544,LASH,SNYDER BROS INC,Armstrong,268,,,Apr 2021 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+157025,IDA WELL PAD,SNYDER BROS INC,Armstrong,264,,,Apr 2023 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+157024,CLEPPER WELL PAD,SNYDER BROS INC,Armstrong,246,,,Apr 2023 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+153668,RENSHAW WELL PAD,SNYDER BROS INC,Armstrong,240,,,Apr 2022 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+157482,CALLEN WELL PAD,SNYDER BROS INC,Armstrong,240,,,Apr 2024 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+154069,KUHNS PAD,SNYDER BROS INC,Armstrong,233,,,Apr 2022 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+145142,DURALIA,XPR RESOURCES LLC,Westmoreland,217,,,Apr 2022 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+156595,MUDLICK WELL PAD,SNYDER BROS INC,Armstrong,200,,,Apr 2023 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+158020,RINGGOLD WELL PAD,SNYDER BROS INC,Armstrong,199,,,Apr 2025 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+157187,SUNNYSIDE WELL PAD,SNYDER BROS INC,Armstrong,192,,,Aug 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+155167,PER W60,PENNENERGY RESOURCES LLC,Butler,189,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+152962,FURNACE RUN,SNYDER BROS INC,Armstrong,188,,,Apr 2021 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+154359,PER W71 WELL PAD,PENNENERGY RESOURCES LLC,Butler,180,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+150802,W69,PENNENERGY RESOURCES LLC,Butler,180,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+154091,NOLDER PAD,SNYDER BROS INC,Armstrong,176,,,Apr 2021 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+153958,DYNAMITE,SNYDER BROS INC,Armstrong,174,,,Apr 2021 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+149486,USCHAK 2,XPR RESOURCES LLC,Westmoreland,174,,,Apr 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),True
+154389,PER W32,PENNENERGY RESOURCES LLC,Butler,174,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+153870,PER W45,PENNENERGY RESOURCES LLC,Butler,168,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+154148,PER W34 WELL PAD,PENNENERGY RESOURCES LLC,Butler,168,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+152144,PAD W9,PENNENERGY RESOURCES LLC,Armstrong,162,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+157186,PER W76 WELL PAD,PENNENERGY RESOURCES LLC,Butler,160,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+157649,Graham Well Pad ,APEX ENERGY (PA) LLC,Westmoreland,159,209.88,,Apr 2023 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+154293,PER W22 WELL PAD,PENNENERGY RESOURCES LLC,Butler,156,,,Apr 2024 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+152316,BIBLICAL LIFE INSTITUTE,MDS ENERGY DEV LLC,Armstrong,140,,,Apr 2022 (WASTE: Unconventional wells),Sep 2021 (WASTE: Unconventional wells),False
+155820,PER W44 WELL PAD,PENNENERGY RESOURCES LLC,Butler,140,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+155168,PER W56,PENNENERGY RESOURCES LLC,Butler,138,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+151728,W70,PENNENERGY RESOURCES LLC,Butler,135,,,Apr 2024 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+157557,PER W58 WELL PAD,PENNENERGY RESOURCES LLC,Butler,129,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+145159,RENICK 3468,RE GAS DEV LLC,Butler,121,,,Dec 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+156256,PER W46,PENNENERGY RESOURCES LLC,Butler,120,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+155275,NORAH,APEX ENERGY (PA) LLC,Westmoreland,118,,,Apr 2022 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+145495,MCBROOM,XPR RESOURCES LLC,Westmoreland,115,,,Apr 2022 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+155282,PER W57,PENNENERGY RESOURCES LLC,Butler,115,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+156873,POTTS WELL SITE,APEX ENERGY (PA) LLC,Westmoreland,105,,,Apr 2022 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+147855,BRICKER WELL PAD,REX ENERGY OPERATING CORP,Butler,105,,,Aug 2024 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+154656,ZAHN PAD,PENNENERGY RESOURCES LLC,Beaver,98,,,Apr 2024 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+150675,W15,PENNENERGY RESOURCES LLC,Butler,96,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+145385,W74,PENNENERGY RESOURCES LLC,Butler,90,,,Aug 2024 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+153349,PER B34 WELL PAD,PENNENERGY RESOURCES LLC,Butler,90,,,Dec 2021 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+145327,GERA,XPR RESOURCES LLC,Westmoreland,88,,,Apr 2022 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+158106,PER W80 WELL PAD,PENNENERGY RESOURCES LLC,Butler,84,,,Apr 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+154384,PER B22,PENNENERGY RESOURCES LLC,Beaver,84,,,Dec 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+156129,PER L103,PENNENERGY RESOURCES LLC,Butler,83,,,Apr 2024 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+154382,PER B24,PENNENERGY RESOURCES LLC,Beaver,78,,,Apr 2024 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+154521,PER B9,PENNENERGY RESOURCES LLC,Beaver,78,,,Dec 2021 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+151656,WEST PAD 55,PENNENERGY RESOURCES LLC,Butler,78,,,Dec 2021 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+153423,PF EISAMAN,APEX ENERGY (PA) LLC,Westmoreland,75,,,Apr 2022 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+144590,BAILLIE TRUST WELL PAD,RE GAS DEV LLC,Butler,72,,,Dec 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+150943,CORBETT 1,XPR RESOURCES LLC,Westmoreland,72,,,Apr 2025 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+155467,REESEDALE RIDGE,SNYDER BROS INC,Armstrong,72,,,Apr 2022 (WASTE: Unconventional wells),Sep 2021 (WASTE: Unconventional wells),False
+151333,PETERSON,APEX ENERGY (PA) LLC,Armstrong,71,,,Apr 2022 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+147231,RENO WELL PAD,RE GAS DEV LLC,Butler,71,,,Aug 2024 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+148826,MARCO,XPR RESOURCES LLC,Westmoreland,65,,,Apr 2022 (WASTE: Unconventional wells),Sep 2021 (WASTE: Unconventional wells),False
+157754,STONE HOUSE WELL PAD,SNYDER BROS INC,Armstrong,64,,,Aug 2025 (WASTE: Unconventional wells),May 2025 (WASTE: Unconventional wells),False
+157968,CALLAS WELL PAD,SNYDER BROS INC,Armstrong,63,,,Dec 2025 (WASTE: Unconventional wells),Nov 2025 (WASTE: Unconventional wells),False
+154383,PER B17,PENNENERGY RESOURCES LLC,Beaver,60,,,Apr 2024 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+147657,W23,PENNENERGY RESOURCES LLC,Butler,60,,,Aug 2024 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+157967,HAYS RUN WELL PAD,SNYDER BROS INC,Armstrong,56,,,Apr 2025 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+149150,RAPE WELL PAD,RE GAS DEV LLC,Butler,56,,,Dec 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+150291,W77,PENNENERGY RESOURCES LLC,Butler,54,,,Dec 2021 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+152567,STEWART CENTRAL PAD-21,APEX ENERGY (PA) LLC,Westmoreland,50,,,Apr 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+153337,PER B15,PENNENERGY RESOURCES LLC,Beaver,48,,,Dec 2021 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+150884,FERREE WELL PAD,RE GAS DEV LLC,Butler,45,,,Aug 2024 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+148858,MCELHINNY WELL PAD,REX ENERGY OPERATING CORP,Butler,42,,,Dec 2024 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+148416,GILLILAND WELL PAD,REX ENERGY OPERATING CORP,Butler,42,,,Dec 2021 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+157753,FROSTY MUG WELL PAD,SNYDER BROS INC,Armstrong,40,,,Aug 2025 (WASTE: Unconventional wells),Oct 2025 (WASTE: Unconventional wells),False
+154783,HOFER WELL PAD,RE GAS DEV LLC,Butler,40,,,Dec 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+153852,PER B39,PENNENERGY RESOURCES LLC,Beaver,40,,,Dec 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+149152,RAU UNIT,ATLAS RESOURCES LLC,Indiana,37,181,,Apr 2023 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+153174,SHIELDS,RE GAS DEV LLC,Butler,36,,,Dec 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+158360,Bowser Well Pad,SNYDER BROS INC,Armstrong,36,,,Jan 2026 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+145086,W73,PENNENERGY RESOURCES LLC,Butler,36,,,Aug 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+152390,MCILVAINE CENTRAL PAD 15,APEX ENERGY (PA) LLC,Westmoreland,34,,,Apr 2023 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+148451,GROSICK WELL PAD,REX ENERGY OPERATING CORP,Butler,33,,,Mar 2022 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+153038,PER B37,PENNENERGY RESOURCES LLC,Beaver,33,,,Dec 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+149180,RESOURCE RECOVERY 3,XPR RESOURCES LLC,Centre,32,,,Aug 2021 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+145773,W75,PENNENERGY RESOURCES LLC,Butler,32,,,Aug 2024 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+157693,PER W47 WELL SITE,PENNENERGY RESOURCES LLC,Armstrong,30,,,Dec 2025 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+153864,FATUR,APEX ENERGY (PA) LLC,Westmoreland,29,,,Apr 2022 (WASTE: Unconventional wells),Sep 2023 (WASTE: Unconventional wells),False
+149487,USCHAK 1,XPR RESOURCES LLC,Westmoreland,28,,,Apr 2022 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+157410,ANEGADA WELL PAD,INR OPR LLC,Indiana,27,1933.25,,Apr 2025 (WASTE: Unconventional wells),May 2025 (WASTE: Unconventional wells),False
+151931,BEAVER PAD 8,PENNENERGY RESOURCES LLC,Beaver,27,,,Apr 2024 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+151086,DUFF,CAMPBELL OIL & GAS INC,Westmoreland,27,,,Apr 2022 (WASTE: Unconventional wells),Sep 2021 (WASTE: Unconventional wells),False
+145827,W16,PENNENERGY RESOURCES LLC,Armstrong,26,,,Dec 2021 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+151422,MICHAEL WELL PAD,RE GAS DEV LLC,Butler,25,,,Dec 2022 (WASTE: Unconventional wells),Oct 2024 (WASTE: Unconventional wells),False
+150814,BELL PROPERTIES WELL PAD,RE GAS DEV LLC,Butler,25,,,Dec 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+148939,NATIONAL METALS EAST,XPR RESOURCES LLC,Westmoreland,24,,,Apr 2022 (WASTE: Unconventional wells),Sep 2021 (WASTE: Unconventional wells),False
+147571,BVL/MUSHROOM FARM 5-1813,SNYDER BROS INC,Armstrong,22,,,Apr 2022 (WASTE: Unconventional wells),Sep 2023 (WASTE: Unconventional wells),False
+149318,SLAVEK 2H & 3H,REX ENERGY OPERATING CORP,Westmoreland,22,,,Apr 2022 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+145571,SKACEL,XPR RESOURCES LLC,Westmoreland,22,,,Apr 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+154645,PER B25,PENNENERGY RESOURCES LLC,Beaver,21,,,Dec 2025 (WASTE: Unconventional wells),Nov 2025 (WASTE: Unconventional wells),False
+147723,ANDROSTIC,XPR RESOURCES LLC,Westmoreland,21,,,Apr 2022 (WASTE: Unconventional wells),Nov 2024 (WASTE: Unconventional wells),False
+152198,FLEEGER WELL PAD,RE GAS DEV LLC,Butler,20,,,Dec 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+157777,TORTOLA WELL PAD,INR OPR LLC,Indiana,20,13.213.213.213.213.2,,Apr 2025 (WASTE: Unconventional wells),May 2025 (WASTE: Unconventional wells),False
+148377,FRYE,XPR RESOURCES LLC,Westmoreland,20,,,Apr 2022 (WASTE: Unconventional wells),Sep 2021 (WASTE: Unconventional wells),False
+147230,HALSTEAD 1 122,BLX INC,BUTLER,19,,,Apr 2022 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+151385,BEAVER PAD 12,PENNENERGY RESOURCES LLC,Beaver,19,,,Dec 2021 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+152443,FLEEGER 2 WELL PAD,RE GAS DEV LLC,Butler,19,,,Feb 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+145796,SCHILLING SOUTH WELL PAD,RE GAS DEV LLC,Butler,18,,,Feb 2025 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+158771,JOST VAN DYKE WELL PAD,INR OPR LLC,Indiana,17,,,Aug 2025 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+147337,BVL/MUSHROOM FARM 1-1813,SNYDER BROS INC,Armstrong,17,,,Apr 2022 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+157752,SHARISKY PAD,SNYDER BROS INC,Armstrong,16,,,Apr 2025 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+151495,POWELL PAD,RE GAS DEV LLC,Butler,16,,,Dec 2024 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+145779,PER B02 WELL PAD,PENNENERGY RESOURCES LLC,Beaver,16,,,Dec 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+151096,BEAVER PAD 5,PENNENERGY RESOURCES LLC,Beaver,16,,,Dec 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+154082,KERN WELL PAD,RE GAS DEV LLC,Butler,16,,,Dec 2022 (WASTE: Unconventional wells),Mar 2023 (WASTE: Unconventional wells),False
+150486,B3,PENNENERGY RESOURCES LLC,Beaver,16,,,Jan 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+151821,BLOOM WELL PAD,RE GAS DEV LLC,Butler,15,,,Dec 2024 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+148429,GRAHAM WELL PAD,REX ENERGY OPERATING CORP,Butler,15,,,Feb 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+150292,W78,PENNENERGY RESOURCES LLC,Butler,15,,,Jan 2025 (WASTE: Unconventional wells),Oct 2025 (WASTE: Unconventional wells),False
+145356,B1,PENNENERGY RESOURCES LLC,Beaver,15,,,Feb 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+146151,DAVID G HILL 3-135,BLX INC,Armstrong,14,,,Apr 2024 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+158420,PER W38 Well Site,PENNENERGY RESOURCES LLC,Armstrong,14,,,Nov 2025 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+146699,BVL/MUSHROOM FARM 2-1813,SNYDER BROS INC,Armstrong,13,,,Apr 2023 (WASTE: Unconventional wells),Sep 2023 (WASTE: Unconventional wells),False
+153806,WILSON WELL PAD,RE GAS DEV LLC,Butler,12,,,Feb 2022 (WASTE: Unconventional wells),Jan 2025 (WASTE: Unconventional wells),False
+153776,MACKRELL WELL PAD,RE GAS DEV LLC,Butler,12,,,Jan 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+151313,BURR PAD,RE GAS DEV LLC,Butler,12,,,Dec 2021 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+147559,BOSNALL 7,EXCO RESOURCES PA INC,CLEARFIELD,12,90,,Aug 2023 (WASTE: Unconventional wells),May 2025 (WASTE: Unconventional wells),False
+152367,PER B11,PENNENERGY RESOURCES LLC,Beaver,12,,,Dec 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+146815,L GRAFF 1-54.335,BLX INC,Butler,12,,,Apr 2021 (WASTE: Unconventional wells),Nov 2025 (WASTE: Unconventional wells),False
+146937,D KING 1-82.04,BLX INC,Butler,12,,,Apr 2024 (WASTE: Unconventional wells),Sep 2021 (WASTE: Unconventional wells),False
+151503,HAMILTON PAD,RE GAS DEV LLC,Butler,12,,,Dec 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+146035,BVL/MUSHROOM FARM 4-1813,SNYDER BROS INC,Armstrong,12,,,Aug 2021 (WASTE: Unconventional wells),Oct 2025 (WASTE: Unconventional wells),False
+146594,MID PENN COAL UNIT B 1H,CAMPBELL OIL & GAS INC,Clearfield,11,,,Aug 2024 (WASTE: Unconventional wells),Oct 2025 (WASTE: Unconventional wells),False
+147590,PANIZZI 4,REX ENERGY OPERATING CORPORATION,WESTMORELAND,11,,,Apr 2022 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+147930,CARSON WELL PAD,REX ENERGY OPERATING CORP,Butler,10,,,Dec 2022 (WASTE: Unconventional wells),Sep 2021 (WASTE: Unconventional wells),False
+151193,FLINNER WELL PAD,RE GAS DEV LLC,Butler,10,,,Dec 2021 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+146810,MILLIGAN-SNYDER UNIT 3,SNYDER BROS INC,Armstrong,10,,,Apr 2023 (WASTE: Unconventional wells),Nov 2025 (WASTE: Unconventional wells),False
+152388,QUEST REALTY CENTRAL PAD 7,APEX ENERGY (PA) LLC,Westmoreland,10,,,Aug 2023 (WASTE: Unconventional wells),Sep 2023 (WASTE: Unconventional wells),False
+152989,SCULPTOR,EM ENERGY PA LLC,Butler,10,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+149360,STEBBINS WELL PAD,RE GAS DEV LLC,Butler,10,,,Feb 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+146813,R BAYER 1-41.55,BLX INC,Butler,9,,,Apr 2024 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+147768,BAME WELL PAD,RE GAS DEV LLC,Butler,9,,,Dec 2022 (WASTE: Unconventional wells),Mar 2023 (WASTE: Unconventional wells),False
+150901,HONG-BARCO,MDS ENERGY DEV LLC,Armstrong,9,,,Apr 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+149726,MID PENN COAL UNIT A 1H,CAMPBELL OIL & GAS INC,Clearfield,9,,,Apr 2022 (WASTE: Unconventional wells),Oct 2021 (WASTE: Unconventional wells),False
+147455,EAGLEHOUSE 4,REX ENERGY OPERATING CORPORATION,WESTMORELAND,8,,,Apr 2025 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+157821,COP 324 Elk,PPG OPER LLC,Clearfield,8,,,Feb 2024 (WASTE: Unconventional wells),Jun 2023 (WASTE: Unconventional wells),False
+155290,PER B50,PENNENERGY RESOURCES LLC,Beaver,8,,,Jan 2025 (WASTE: Unconventional wells),Jan 2025 (WASTE: Unconventional wells),False
+147334,C EDWARD DUNMIRE ETUX 2-331M,MDS ENERGY LTD,Armstrong,8,,,Aug 2025 (WASTE: Unconventional wells),Oct 2025 (WASTE: Unconventional wells),False
+152199,SHARLOW WELL PAD,RE GAS DEV LLC,Butler,8,,,Feb 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+150798,URSA MINOR,EM ENERGY PA LLC,Butler,8,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+153060,BAIRD WELL PAD,RE GAS DEV LLC,Butler,8,,,Jan 2023 (WASTE: Unconventional wells),Mar 2023 (WASTE: Unconventional wells),False
+155304,PER B46,PENNENERGY RESOURCES LLC,Beaver,8,,,Jan 2023 (WASTE: Unconventional wells),Jan 2025 (WASTE: Unconventional wells),False
+150855,B4,PENNENERGY RESOURCES LLC,Beaver,8,,,Nov 2023 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+146279,WEITZ SOUTH 20 PAD,DOMINION EXPLORATION & PROD INC,WESTMORELAND,7,,,Apr 2023 (WASTE: Unconventional wells),Mar 2022 (WASTE: Unconventional wells),False
+147054,PANIZZI 3,REX ENERGY OPERATING CORPORATION,WESTMORELAND,7,,,Aug 2022 (WASTE: Unconventional wells),Sep 2021 (WASTE: Unconventional wells),False
+146037,BVL/MUSHROOM FARM 3-1813,SNYDER BROS INC,Armstrong,7,,,Jan 2022 (WASTE: Unconventional wells),Sep 2023 (WASTE: Unconventional wells),False
+146262,V CYPHER 1-69.59,BLX INC,Butler,7,,,Apr 2021 (WASTE: Unconventional wells),May 2022 (WASTE: Unconventional wells),False
+148017,NV38HS,CNX GAS CO LLC,Washington,7,,,Dec 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+150846,THOMAS JOHNSON,MDS ENERGY DEV LLC,Armstrong,7,,,Apr 2025 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+145656,NV34HS,CNX GAS CO LLC,Washington,7,,,Dec 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+148725,NV58HS,CNX GAS CO LLC,Washington,6,,,Dec 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+149408,TALARICO WELL PAD,REX ENERGY OPERATING CORP,Butler,6,,,Dec 2022 (WASTE: Unconventional wells),Sep 2021 (WASTE: Unconventional wells),False
+151241,DRACO,EM ENERGY PA LLC,Butler,6,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+151282,BURGH WELL PAD,RE GAS DEV LLC,Butler,6,,,Jan 2023 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+151387,BRUNN,REDMILL DRILLING,Butler,6,,,Dec 2022 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+148269,EAGLEHOUSE 5-6,REX ENERGY OPERATING CORPORATION,WESTMORELAND,6,,,Jun 2023 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+150885,WEST WELL PAD,RE GAS DEV LLC,Butler,6,,,Jan 2023 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+149003,PALLACK WELL PAD,REX ENERGY OPERATING CORP,Butler,6,,,Dec 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+155115,PER B7,PENNENERGY RESOURCES LLC,Beaver,6,,,Jan 2023 (WASTE: Unconventional wells),Jan 2023 (WASTE: Unconventional wells),False
+152072,ADAMS,RE GAS DEV LLC,Butler,6,,,Apr 2024 (WASTE: Unconventional wells),Mar 2023 (WASTE: Unconventional wells),False
+152127,MANUEL WELL PAD,RE GAS DEV LLC,Butler,6,,,Feb 2025 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+149891,NV60HS,CNX GAS CO LLC,Washington,6,,,Dec 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+151118,LYNX,EM ENERGY PA LLC,Butler,6,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+147705,ALDER RUN LAND LP 3H,REX ENERGY OPERATING CORP,Clearfield,6,,,Aug 2022 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+146158,SLAVEK 1H,REX ENERGY OPERATING CORP,Westmoreland,6,,,Apr 2025 (WASTE: Unconventional wells),Mar 2022 (WASTE: Unconventional wells),False
+146487,WILSON-JOHNSTON UNIT 1M,SNYDER BROS INC,Armstrong,6,,,Apr 2021 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+147140,EAGLEHOUSE 7,REX ENERGY OPERATING CORPORATION,WESTMORELAND,6,,,Apr 2025 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+147130,BIBLICAL LIFE INSTITUTE 1M,MDS ENERGY LTD,Armstrong,5,,,Mar 2023 (WASTE: Unconventional wells),Oct 2025 (WASTE: Unconventional wells),False
+151386,KLABNKI,REDMILL DRILLING,Butler,5,,,Apr 2023 (WASTE: Unconventional wells),Nov 2023 (WASTE: Unconventional wells),False
+146943,BLOOM 8315,XTO ENERGY INC,INDIANA,5,73,,Apr 2024 (WASTE: Unconventional wells),Oct 2024 (WASTE: Unconventional wells),False
+147036,W H KUHNS HEIRS 6M-143,SNYDER BROS INC,Armstrong,5,,,Dec 2024 (WASTE: Unconventional wells),Oct 2024 (WASTE: Unconventional wells),False
+146489,D BREWER 1 67.3,BLX INC,Butler,5,,,Aug 2021 (WASTE: Unconventional wells),Nov 2023 (WASTE: Unconventional wells),False
+147129,L GRAFF 1-103.27,BLX INC,BUTLER,5,,,Aug 2021 (WASTE: Unconventional wells),May 2023 (WASTE: Unconventional wells),False
+148253,DRUSHEL WELL PAD,REX ENERGY OPERATING CORP,Butler,5,,,Dec 2022 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+146695,ALDER RUN LAND LP 5H,XPR RESOURCES LLC,Clearfield,5,,,Feb 2023 (WASTE: Unconventional wells),Oct 2025 (WASTE: Unconventional wells),False
+147244,PANIZZI 2,REX ENERGY OPERATING CORPORATION,WESTMORELAND,4,,,Aug 2021 (WASTE: Unconventional wells),Sep 2021 (WASTE: Unconventional wells),False
+146185,YASENOSKY 3,ATLAS RESOURCES LLC,FAYETTE,4,,,Dec 2021 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+154019,FRYE WELL PAD,RE GAS DEV LLC,Butler,4,,,Jan 2023 (WASTE: Unconventional wells),Jan 2025 (WASTE: Unconventional wells),False
+146605,JEAN V LEWIS 1M-39,SNYDER BROS INC,Armstrong,4,,,Apr 2021 (WASTE: Unconventional wells),May 2022 (WASTE: Unconventional wells),False
+159072,VIRGIN GORDA WELL PAD,INR OPR LLC,Indiana,4,,,Feb 2026 (WASTE: Unconventional wells),Jan 2026 (WASTE: Unconventional wells),False
+148726,LAMPERSKI WELL PAD,RE GAS DEV LLC,Butler,4,,,Dec 2024 (WASTE: Unconventional wells),Feb 2025 (WASTE: Unconventional wells),False
+150933,DORSCH WELL PAD,RE GAS DEV LLC,Butler,4,,,Dec 2022 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+146741,PEVARNIK 7,ATLAS RESOURCES LLC,GREENE,4,,,Dec 2021 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+152332,GRAY WELL PAD,RE GAS DEV LLC,Butler,4,,,Mar 2023 (WASTE: Unconventional wells),Mar 2023 (WASTE: Unconventional wells),False
+147031,JEAN A UEHLING 1 255,SNYDER BROS INC,Jefferson,4,,,Dec 2022 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+146746,YASENOSKY UNIT 4,ATLAS RESOURCES LLC,FAYETTE,4,,,Dec 2021 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+148801,LYNN WELL PAD,REX ENERGY OPERATING CORP,Butler,4,,,Mar 2023 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+146844,KREPPS 3,ATLAS RESOURCES LLC,FAYETTE,4,,,Dec 2021 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+145916,SAMUEL W MONTGOMERY JR ETUX 1M-38,MDS ENERGY LTD,Armstrong,4,,,Apr 2023 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+147575,WILSON-RHEA UNIT 1M,MDS ENERGY LTD,Armstrong,4,,,Apr 2022 (WASTE: Unconventional wells),Sep 2023 (WASTE: Unconventional wells),False
+147558,ALDER RUN LAND LP 1H,REX ENERGY OPERATING CORPORATION,CLEARFIELD,4,,,Jul 2022 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+147555,SPITZ MITCHELL UNIT 1M,SNYDER BROS INC,Jefferson,4,,,Aug 2024 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+148018,NV39HS,CNX GAS CO LLC,Washington,4,,,Dec 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+147161,BOBBISH 4,ATLAS RESOURCES LLC,FAYETTE,3,,,Dec 2022 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+145350,HEGARTY-A,CARRIZO (MARCELLUS) LLC,Clearfield,3,,,Apr 2022 (WASTE: Unconventional wells),May 2022 (WASTE: Unconventional wells),False
+146599,MICHAEL SHANEOUR ETUX 1M-20,MDS ENERGY DEV LLC,Armstrong,3,,,Jul 2024 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+145349,COWFER B,CARRIZO (MARCELLUS) LLC,Clearfield,3,,,Apr 2022 (WASTE: Unconventional wells),May 2022 (WASTE: Unconventional wells),False
+145347,ERICKSON-A,CARRIZO (MARCELLUS) LLC,Clearfield,3,,,Apr 2022 (WASTE: Unconventional wells),May 2022 (WASTE: Unconventional wells),False
+147498,FAY-PENN 44,ATLAS RESOURCES LLC,FAYETTE,3,,,Dec 2021 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+147232,T OHL 1-37.48,BLX INC,Butler,3,,,Apr 2021 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+146027,ALDER RUN LAND LP 2H,XPR RESOURCES LLC,Clearfield,3,,,Jul 2022 (WASTE: Unconventional wells),Oct 2025 (WASTE: Unconventional wells),False
+145345,GERHART,CARRIZO (MARCELLUS) LLC,Clearfield,3,,,Apr 2022 (WASTE: Unconventional wells),May 2022 (WASTE: Unconventional wells),False
+149741,HUFNAGEL WELL PAD,RE GAS DEV LLC,Lawrence,3,,,Dec 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+147128,W WATSON 1 47.6,BLX INC,BUTLER,3,,,Apr 2023 (WASTE: Unconventional wells),Jul 2021 (WASTE: Unconventional wells),False
+146704,BOWSER-WILL 1M,MDS ENERGY LTD,Armstrong,3,,,Jul 2025 (WASTE: Unconventional wells),Nov 2024 (WASTE: Unconventional wells),False
+146728,JAREK 6,ATLAS RESOURCES LLC,GREENE,3,,,Dec 2021 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+145302,RHP-A,CARRIZO (MARCELLUS) LLC,Clearfield,3,,,Apr 2022 (WASTE: Unconventional wells),May 2022 (WASTE: Unconventional wells),False
+148019,NV42HS,CNX GAS CO LLC,Washington,3,,,Dec 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+146640,CLINE 5,ATLAS RESOURCES LLC,GREENE,3,,,Dec 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+146030,WILLIAM & PHILIP MCAULEY 1M-D,MDS ENERGY LTD,Armstrong,3,,,Mar 2022 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+146372,TMH DEVELOPMENT COMPANY LLC 1M,MDS ENERGY LTD,Armstrong,3,,,Apr 2022 (WASTE: Unconventional wells),Jun 2021 (WASTE: Unconventional wells),False
+151822,DUNMIRE,RE GAS DEV LLC,Butler,3,,,Mar 2023 (WASTE: Unconventional wells),Mar 2023 (WASTE: Unconventional wells),False
+145964,KOVALIC 13,ATLAS RESOURCES LLC,FAYETTE,3,,,Dec 2021 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+145924,J ALLEN THROWER UNIT 582 1,SNYDER BROS INC,Butler,3,,,Jul 2021 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+146192,MEDVED 4,ATLAS RESOURCES LLC,Fayette,3,,,Dec 2021 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+146141,MCCREA 1,WILLIAM MCINTIRE COAL OIL & GAS,BUTLER,3,,,Dec 2022 (WASTE: Unconventional wells),Mar 2025 (WASTE: Unconventional wells),False
+146805,HAROLD P MATEER 1M-45.5,SNYDER BROS INC,Armstrong,2,,,Nov 2022 (WASTE: Unconventional wells),Nov 2024 (WASTE: Unconventional wells),False
+146806,TREGASKES UNIT 1,SNYDER BROS INC,ARMSTRONG,2,,,Nov 2025 (WASTE: Unconventional wells),Oct 2024 (WASTE: Unconventional wells),False
+144830,L&L PROPERTIES WELL PAD,RE GAS DEV LLC,Butler,2,,,Mar 2023 (WASTE: Unconventional wells),Mar 2023 (WASTE: Unconventional wells),False
+144831,CEASER WELL PAD,RE GAS DEV LLC,Butler,2,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+146702,BVL-SOLOSKI 4-249,SNYDER BROS INC,Armstrong,2,,,Jun 2022 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+144935,COP TR 324 A PAD,EASTERN AMER ENERGY CORP,CLEARFIELD,2,,,May 2025 (WASTE: Unconventional wells),May 2025 (WASTE: Unconventional wells),False
+146032,HOOKS-PHILLIPS UNIT 1M,SNYDER BROS INC,Armstrong,2,,,Dec 2022 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+145037,TWENTIER 2070,SWEPI LP,Lawrence,2,,,Dec 2021 (WASTE: Unconventional wells),Mar 2023 (WASTE: Unconventional wells),False
+146812,BVL/MUSHROOM FARM 6-1813,SNYDER BROS INC,Armstrong,2,,,Mar 2023 (WASTE: Unconventional wells),Mar 2024 (WASTE: Unconventional wells),False
+146816,CONCORDIA LUTH MINISTRIES 1 679,SNYDER BROS INC,Butler,2,,,Apr 2022 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+146135,TRIPLE W FARMS NAIR 1M,SNYDER BROS INC,Clarion,2,,,Jun 2022 (WASTE: Unconventional wells),Nov 2023 (WASTE: Unconventional wells),False
+146140,BVL/SHAWMUT 4M-100,SNYDER BROS INC,Armstrong,2,,,Aug 2021 (WASTE: Unconventional wells),Nov 2024 (WASTE: Unconventional wells),False
+146818,MC INTYRE 1-179,SNYDER BROS INC,Armstrong,2,,,Dec 2025 (WASTE: Unconventional wells),Feb 2022 (WASTE: Unconventional wells),False
+144717,CRATTY WELL PAD,EM ENERGY PA LLC,Butler,2,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+146705,PAUL R ATKINSON ETUX 3M-56,MDS ENERGY DEV LLC,Armstrong,2,,,Apr 2022 (WASTE: Unconventional wells),Apr 2024 (WASTE: Unconventional wells),False
+145918,KEVIN R BOWSER ETUX 1M-41,SNYDER BROS INC,Armstrong,2,,,Feb 2024 (WASTE: Unconventional wells),May 2025 (WASTE: Unconventional wells),False
+146698,L BERGBIGLER 1 247,BLX INC,Butler,2,,,Jul 2022 (WASTE: Unconventional wells),Nov 2025 (WASTE: Unconventional wells),False
+146148,CLEO P CLAYPOOL 3M-277,SNYDER BROS INC,Armstrong,2,,,Aug 2023 (WASTE: Unconventional wells),Sep 2024 (WASTE: Unconventional wells),False
+155151,MONOCEROS,EM ENERGY PA LLC,Butler,2,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+146530,WHIPKEY 9,ATLAS RESOURCES LLC,Greene,2,,,Dec 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+146583,BVL/SHAWMUT 2M-100,SNYDER BROS INC,Armstrong,2,,,Nov 2024 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+146591,D BERGBIGLER 1 84 67,BLX INC,Butler,2,,,Apr 2021 (WASTE: Unconventional wells),Apr 2024 (WASTE: Unconventional wells),False
+146596,TIMOTHY L BOWSER ETUX 1M-86,MDS ENERGY LTD,Armstrong,2,,,May 2021 (WASTE: Unconventional wells),Nov 2024 (WASTE: Unconventional wells),False
+146419,MATTHEWS 31,ATLAS RESOURCES LLC,GREENE,2,,,Dec 2022 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+146396,SHOUP 4,ATLAS RESOURCES LLC,WASHINGTON,2,,,Dec 2022 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+146025,GEER UNIT 1,SNYDER BROS INC,Jefferson,2,,,Aug 2025 (WASTE: Unconventional wells),May 2021 (WASTE: Unconventional wells),False
+146701,BOWSER-WRAY UNIT 1M,SNYDER BROS INC,Armstrong,2,,,Jan 2024 (WASTE: Unconventional wells),May 2021 (WASTE: Unconventional wells),False
+146260,CARL E SHIELDS 1M,SNYDER BROS INC,Armstrong,2,,,Jan 2024 (WASTE: Unconventional wells),May 2025 (WASTE: Unconventional wells),False
+153181,KLEVER,RE GAS DEV LLC,Butler,2,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+146257,SAGC 3M-172,SNYDER BROS INC,Armstrong,2,,,Jul 2025 (WASTE: Unconventional wells),Jun 2024 (WASTE: Unconventional wells),False
+146697,JOE J KUHNS ETUX 1A-75,MDS ENERGY LTD,Armstrong,2,,,Aug 2025 (WASTE: Unconventional wells),Mar 2024 (WASTE: Unconventional wells),False
+146183,WILLIS 24,ATLAS RESOURCES LLC,GREENE,2,,,Dec 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+146182,HADENAK 3,ATLAS RESOURCES LLC,FAYETTE,2,,,Dec 2022 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+146480,BVL-MCCONNELL UNIT 1M,SNYDER BROS INC,Armstrong,2,,,Dec 2022 (WASTE: Unconventional wells),Oct 2024 (WASTE: Unconventional wells),False
+147606,HONSAKER 15,ATLAS RESOURCES LLC,FAYETTE,2,,,Dec 2021 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+146926,H M BOYER 3-77,BLX INC,Armstrong,2,,,Jan 2025 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+147332,WOLFE (ARMCLAR) 17M-278,SNYDER BROS INC,Armstrong,2,,,Aug 2022 (WASTE: Unconventional wells),Jul 2024 (WASTE: Unconventional wells),False
+146928,GEORGE W COLWELL ETAL 2M-139,SNYDER BROS INC,Armstrong,2,,,Aug 2023 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+147335,MATTHEW ANTHONY 3M-86,MDS ENERGY LTD,Armstrong,2,,,Dec 2023 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+147339,BOB R GEORGE ETUX 3M-59,MDS ENERGY LTD,Armstrong,2,,,Jun 2023 (WASTE: Unconventional wells),Mar 2025 (WASTE: Unconventional wells),False
+147340,WESLEY R BOWSER ETUX 3M-60,MDS ENERGY LTD,Armstrong,2,,,Jul 2025 (WASTE: Unconventional wells),May 2021 (WASTE: Unconventional wells),False
+147372,MORTON 10,ATLAS RESOURCES LLC,GREENE,2,,,Dec 2021 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+147378,KOLENCIK 2,ATLAS RESOURCES LLC,FAYETTE,2,,,Dec 2021 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+149067,PLESNIAK WELL PAD,REX ENERGY OPERATING CORP,Butler,2,,,Jan 2022 (WASTE: Unconventional wells),Jan 2022 (WASTE: Unconventional wells),False
+147439,ROGER H CLAYPOOLE ETUX 1M-528,SNYDER BROS INC,Armstrong,2,,,Jul 2023 (WASTE: Unconventional wells),May 2021 (WASTE: Unconventional wells),False
+148643,JRGL WELL PAD,REX ENERGY OPERATING CORP,Butler,2,,,Jan 2022 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+148605,JACKSON FARMS UNIT 33,ATLAS RESOURCES LLC,Fayette,2,,,Dec 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+147474,CAMPBELL 15,ATLAS RESOURCES LLC,FAYETTE,2,,,Dec 2022 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+147483,MORTON 9,ATLAS RESOURCES LLC,GREENE,2,,,Dec 2021 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+148004,NV41HS,CNX GAS CO LLC,Washington,2,,,Dec 2021 (WASTE: Unconventional wells),Dec 2021 (WASTE: Unconventional wells),False
+147761,BALAZICK 8H,ATLAS RESOURCES LLC,Washington,2,,,Dec 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+147576,GARY L WARNER ETUX 3-78,MDS ENERGY LTD,Armstrong,2,,,Aug 2025 (WASTE: Unconventional wells),May 2022 (WASTE: Unconventional wells),False
+149503,VOLL B WELL PAD,REX ENERGY OPERATING CORP,Butler,2,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+149502,VOLL A WELL PAD,REX ENERGY OPERATING CORP,Butler,2,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+147040,MDS ENERGY 1M,MDS ENERGY LTD,Armstrong,2,,,Feb 2021 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+147234,RUSSELL R FOUSE 2M,MDS ENERGY LTD,Armstrong,1,,,Sep 2025 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+147436,MINTEER-CONAWAY UNIT 1M,SNYDER BROS INC,Armstrong,1,,,Oct 2023 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+148814,MAGILL WELL PAD,REX ENERGY OPERATING CORP,Butler,1,,,Oct 2023 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+146031,ROGER A FREEHLING ETAL 1M-100,SNYDER BROS INC,Armstrong,1,,,Aug 2024 (WASTE: Unconventional wells),Aug 2024 (WASTE: Unconventional wells),False
+146033,C H SNYDER COMPANY 4-135,SNYDER BROS INC,Armstrong,1,,,Jul 2021 (WASTE: Unconventional wells),Jul 2021 (WASTE: Unconventional wells),False
+146036,TIMOTHY L CLAYPOOLE ETUX 1M-101,SNYDER BROS INC,Armstrong,1,,,Nov 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+146043,MICHAEL T ZECCA 2M,MDS ENERGY LTD,Armstrong,1,,,Apr 2022 (WASTE: Unconventional wells),Apr 2022 (WASTE: Unconventional wells),False
+147435,SAMUEL W MONTGOMERY 2-109,SNYDER BROS INC,Armstrong,1,,,Jun 2023 (WASTE: Unconventional wells),Jun 2023 (WASTE: Unconventional wells),False
+147346,DANIEL S CRYTZER 1M,MDS ENERGY DEV LLC,Armstrong,1,,,Feb 2024 (WASTE: Unconventional wells),Feb 2024 (WASTE: Unconventional wells),False
+147431,MO MINTEER FARMS LP 1M-1603,SNYDER BROS INC,Armstrong,1,,,Jun 2025 (WASTE: Unconventional wells),Jun 2025 (WASTE: Unconventional wells),False
+146144,TODD D MALKEY ETUX 2M-32,MDS ENERGY LTD,Armstrong,1,,,Apr 2024 (WASTE: Unconventional wells),Apr 2024 (WASTE: Unconventional wells),False
+146147,MANOR MINERALS UNIT 1M-A,SNYDER BROS INC,Armstrong,1,,,Mar 2021 (WASTE: Unconventional wells),Mar 2021 (WASTE: Unconventional wells),False
+147044,TERRY L BOWSER ETUX 1M-53,MDS ENERGY LTD,Armstrong,1,,,Mar 2022 (WASTE: Unconventional wells),Mar 2022 (WASTE: Unconventional wells),False
+146708,MICHAEL J LORD ETUX 1M-5,MDS ENERGY LTD,Armstrong,1,,,Oct 2025 (WASTE: Unconventional wells),Oct 2025 (WASTE: Unconventional wells),False
+147047,R SLEPPY 1-86.6,BLX INC,Indiana,1,,,Jan 2024 (WASTE: Unconventional wells),Jan 2024 (WASTE: Unconventional wells),False
+147444,THOMAS D VASTINE ETUX 1-44,MDS ENERGY LTD,Armstrong,1,,,Sep 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+148709,KOVACH UNIT,ATLAS RESOURCES LLC,FAYETTE,1,,,Dec 2021 (WASTE: Unconventional wells),Dec 2021 (WASTE: Unconventional wells),False
+147037,SHARISKY 1M-355,SNYDER BROS INC,Armstrong,1,,,Apr 2023 (WASTE: Unconventional wells),Apr 2023 (WASTE: Unconventional wells),False
+145932,MCCANN PAD,PDC MOUNTAINEER LLC,Cambria,1,,,Nov 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+146963,LAYMAN 6 OG WELL,ATLAS RESOURCES LLC,WESTMORELAND,1,,,Dec 2021 (WASTE: Unconventional wells),Dec 2021 (WASTE: Unconventional wells),False
+148452,GRUBBS WELL PAD,RE GAS DEV LLC,Butler,1,,,Mar 2023 (WASTE: Unconventional wells),Mar 2023 (WASTE: Unconventional wells),False
+147445,THOMAS W GRIMM ETUX 1M-47,MDS ENERGY LTD,Armstrong,1,,,Oct 2023 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+146940,GILBERT C QUERIO 1A-43,MDS ENERGY LTD,Armstrong,1,,,Aug 2025 (WASTE: Unconventional wells),Aug 2025 (WASTE: Unconventional wells),False
+146936,CARSON INDUSTRIES 1M,MDS ENERGY LTD,Armstrong,1,,,Feb 2024 (WASTE: Unconventional wells),Feb 2024 (WASTE: Unconventional wells),False
+147491,BERTOVICH 25,ATLAS RESOURCES LLC,Fayette,1,,,Dec 2021 (WASTE: Unconventional wells),Dec 2021 (WASTE: Unconventional wells),False
+148254,DANNIC WELL PAD,FLATIRONS DEVELOPMENT LLC,Jefferson,1,,,Nov 2022 (WASTE: Unconventional wells),Nov 2022 (WASTE: Unconventional wells),False
+146809,A J STOREY 1,CAMPBELL OIL & GAS INC,Armstrong,1,,,Nov 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+147933,CARTER UNIT,ATLAS RESOURCES LLC,GREENE,1,,,Nov 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+147570,SMITH-BARGERSTOCK 1,SNYDER BROS INC,Armstrong,1,,,Jan 2024 (WASTE: Unconventional wells),Jan 2024 (WASTE: Unconventional wells),False
+146935,NBSC 1M-63,MDS ENERGY LTD,Armstrong,1,,,Oct 2023 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+158454,HERMINIE WELL PAD,APEX ENERGY (PA) LLC,Westmoreland,1,,,May 2024 (WASTE: Unconventional wells),May 2024 (WASTE: Unconventional wells),False
+146934,OESTERLING 8165,XTO ENERGY INC,ARMSTRONG,1,,,May 2025 (WASTE: Unconventional wells),May 2025 (WASTE: Unconventional wells),False
+147363,JANITOR 5,ATLAS RESOURCES LLC,Westmoreland,1,,,Dec 2022 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+149324,SMITH UNIT 59H,ATLAS RESOURCES LLC,Westmoreland,1,,,Dec 2021 (WASTE: Unconventional wells),Dec 2021 (WASTE: Unconventional wells),False
+150642,DALE BOWSER,MDS ENERGY DEV LLC,Armstrong,1,,,May 2023 (WASTE: Unconventional wells),May 2023 (WASTE: Unconventional wells),False
+146598,RAYMOND W & SUSAN TARR 1M,MDS ENERGY LTD,Armstrong,1,,,Oct 2022 (WASTE: Unconventional wells),Oct 2022 (WASTE: Unconventional wells),False
+146588,GEORGE AMBROSE 3-112,SNYDER BROS INC,Armstrong,1,,,Apr 2025 (WASTE: Unconventional wells),Apr 2025 (WASTE: Unconventional wells),False
+146590,E STUART CLAYPOOLE ETUX 1-205,SNYDER BROS INC,Armstrong,1,,,Feb 2024 (WASTE: Unconventional wells),Feb 2024 (WASTE: Unconventional wells),False
+150115,MICHAEL T ZECCA,MDS ENERGY DEV LLC,Armstrong,1,,,May 2023 (WASTE: Unconventional wells),May 2023 (WASTE: Unconventional wells),False
+150213,ALFRED C BEERS,MDS ENERGY DEV LLC,Armstrong,1,,,Oct 2024 (WASTE: Unconventional wells),Oct 2024 (WASTE: Unconventional wells),False
+147329,STERLING RUN CLUB 5,EXCO RESOURCES PA INC,CENTRE,1,,,Sep 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+146597,ROBERT A ZABOROWSKI ETUX 1M 47 5,SNYDER BROS INC,Butler,1,,,Nov 2021 (WASTE: Unconventional wells),Nov 2021 (WASTE: Unconventional wells),False
+147263,LEE 11,ATLAS RESOURCES LLC,FAYETTE,1,,,Dec 2022 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+147344,ARBUCKLE 1-67.3,BLX INC,Armstrong,1,,,Jul 2021 (WASTE: Unconventional wells),Jul 2021 (WASTE: Unconventional wells),False
+146602,SOLOMON-WISE 1M-27,MDS ENERGY LTD,Armstrong,1,,,Nov 2024 (WASTE: Unconventional wells),Nov 2024 (WASTE: Unconventional wells),False
+146603,JAMES A HELD ETUX 1M-25,MDS ENERGY LTD,Armstrong,1,,,Sep 2022 (WASTE: Unconventional wells),Sep 2022 (WASTE: Unconventional wells),False
+150403,MARSHALL MILLER 1M,MDS ENERGY DEV LLC,Armstrong,1,,,Oct 2023 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+146624,REDMAN 26,ATLAS RESOURCES LLC,FAYETTE,1,,,Dec 2022 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+146636,J L L 1A,ATLAS RESOURCES LLC,Greene,1,,,Dec 2022 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+150550,CARL SHOPE 1M,MDS ENERGY DEV LLC,Armstrong,1,,,Oct 2023 (WASTE: Unconventional wells),Oct 2023 (WASTE: Unconventional wells),False
+146586,MARION W SHAFFER 1M,MDS ENERGY DEV LLC,Armstrong,1,,,Sep 2023 (WASTE: Unconventional wells),Sep 2023 (WASTE: Unconventional wells),False
+147224,SAGC 2-172,SNYDER BROS INC,Armstrong,1,,,Jul 2022 (WASTE: Unconventional wells),Jul 2022 (WASTE: Unconventional wells),False
+149766,DAVID J PORE,MDS ENERGY DEV LLC,Armstrong,1,,,Oct 2025 (WASTE: Unconventional wells),Oct 2025 (WASTE: Unconventional wells),False
+146504,HUBER 13,ATLAS RESOURCES LLC,WESTMORELAND,1,,,Dec 2022 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+146493,RALPH MYERS ETUX 2M-28,MDS ENERGY LTD,Armstrong,1,,,Sep 2025 (WASTE: Unconventional wells),Sep 2025 (WASTE: Unconventional wells),False
+149742,KENNETH STASUKINAS UNIT 1M,SNYDER BROS INC,Armstrong,1,,,Apr 2021 (WASTE: Unconventional wells),Apr 2021 (WASTE: Unconventional wells),False
+147333,ROBERT MCKAY (MOHNEY) 3M-162,SNYDER BROS INC,Armstrong,1,,,Jan 2024 (WASTE: Unconventional wells),Jan 2024 (WASTE: Unconventional wells),False
+149577,WILLIAMS 2062,SWEPI LP,Butler,1,,,Jun 2022 (WASTE: Unconventional wells),Jun 2022 (WASTE: Unconventional wells),False
+147121,FLEEGER UNIT 1M-107.6,SNYDER BROS INC,Armstrong,1,,,Oct 2024 (WASTE: Unconventional wells),Oct 2024 (WASTE: Unconventional wells),False
+150923,THOMAS HALL,MDS ENERGY DEV LLC,Armstrong,1,,,Apr 2023 (WASTE: Unconventional wells),Apr 2023 (WASTE: Unconventional wells),False
+147086,WOLF 27,ATLAS RESOURCES LLC,Fayette,1,,,Dec 2021 (WASTE: Unconventional wells),Dec 2021 (WASTE: Unconventional wells),False
+146311,AUSTINBURG WELL PAD,NOVUS OPERATING LLC,Tioga,1,,,Dec 2022 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+146305,HONSAKER 17,ATLAS RESOURCES LLC,FAYETTE,1,,,Dec 2022 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+146265,DONALD J ANTONACE ETUX 2M-50,SNYDER BROS INC,Armstrong,1,,,Apr 2021 (WASTE: Unconventional wells),Apr 2021 (WASTE: Unconventional wells),False
+146703,DANIEL J SMICIK ETUX 1M-71,SNYDER BROS INC,Armstrong,1,,,Dec 2022 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+146264,JACK G YOUNKINS ETUX 1M-15,MDS ENERGY LTD,Armstrong,1,,,Aug 2023 (WASTE: Unconventional wells),Aug 2023 (WASTE: Unconventional wells),False
+147081,BELL 10,ATLAS RESOURCES LLC,Greene,1,,,Dec 2022 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False
+146832,HUBER 14,ATLAS RESOURCES LLC,Westmoreland,1,,,Dec 2022 (WASTE: Unconventional wells),Dec 2022 (WASTE: Unconventional wells),False

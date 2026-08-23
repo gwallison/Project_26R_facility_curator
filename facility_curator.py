@@ -62,8 +62,11 @@ _WASTE_COLS = [
 ]
 
 # Columns for the global curated links store (and per-session candidate CSVs)
+# report_id (lab_report_registry's stable per-entity id) added 2026-08-21
+# (Step 7) alongside the legacy lab_report_id -- existing curated_links.parquet
+# rows backfill to None via load_global_store()'s missing-column handling.
 LINK_COLS = [
-    "original_filename", "lab_report_id", "pad_WELL_PAD_ID",
+    "original_filename", "lab_report_id", "report_id", "pad_WELL_PAD_ID",
     "source", "status", "notes",
     "confidence", "loc_score", "project_name",
     "lab_name", "client_name", "set_name", "first_page",
@@ -818,6 +821,21 @@ with tab_links:
                 f"❌ {n_r} rejected  ·  {len(cl)} link(s)"
             )
 
+        if sel_pad_label != "All included pads":
+            pad_row = all_pads[all_pads["pad_WELL_PAD_ID"].astype(str) == str(sel_pid)]
+            if not pad_row.empty:
+                pr = pad_row.iloc[0]
+                st.markdown(
+                    f"<div style='font-size:0.8em; color:gray; margin:-0.25em 0 0.5em 0;'>"
+                    f"<b>Pad:</b> {pr['pad_WELL_PAD']} &nbsp;·&nbsp; "
+                    f"<b>Pad ID:</b> {pr['pad_WELL_PAD_ID']} &nbsp;·&nbsp; "
+                    f"<b>Operator:</b> {pr['CLIENT']} &nbsp;·&nbsp; "
+                    f"<b>County:</b> {pr['COUNTY']} &nbsp;·&nbsp; "
+                    f"<b>Farm:</b> {pr['FARM']}"
+                    f"</div>",
+                    unsafe_allow_html=True,
+                )
+
         sf_col, ba_col, br_col = st.columns([4, 1, 1])
         with sf_col:
             status_filter = st.multiselect(
@@ -848,7 +866,7 @@ with tab_links:
 
         ev_cl = st.dataframe(
             disp[[
-                "", "pdf", "original_filename", "lab_report_id",
+                "", "pdf", "original_filename", "lab_report_id", "report_id",
                 "pad_WELL_PAD_ID", "project_name", "lab_name", "client_name",
                 "confidence", "loc_score", "source", "notes",
             ]],
@@ -861,7 +879,8 @@ with tab_links:
                 "":               st.column_config.TextColumn("",           width="small"),
                 "pdf":            st.column_config.LinkColumn("PDF",        display_text="Open", width="small"),
                 "original_filename": st.column_config.TextColumn("Filename", width="large"),
-                "lab_report_id":  st.column_config.TextColumn("Report ID", width="small"),
+                "lab_report_id":  st.column_config.TextColumn("Legacy RID", width="small"),
+                "report_id":      st.column_config.TextColumn("Report ID", width="small"),
                 "pad_WELL_PAD_ID": st.column_config.NumberColumn("Pad ID", format="%d",   width="small"),
                 "project_name":   st.column_config.TextColumn("Project",   width="medium"),
                 "lab_name":       st.column_config.TextColumn("Lab",       width="medium"),
@@ -1024,21 +1043,24 @@ with tab_links:
                     included_pads["pad_WELL_PAD_ID"] == selected_pad_id, "pad_WELL_PAD"
                 ].iloc[0]
 
-                # Ranked suggestions: no_match items whose best-guess pad name
-                # shares tokens with the selected pad
-                nm = no_match_labs.copy()
+                # For manual linking, search across all lab units (both matched and unmatched)
+                nm = pd.concat([no_match_labs, matched_links], ignore_index=True)
                 pad_tokens = set(re.findall(r"\w+", str(selected_pad_name).lower())) - {"the", "and", "or", "of", "at"}
                 if "matched_pad_name" in nm.columns:
                     nm["_overlap"] = nm["matched_pad_name"].apply(
                         lambda v: len(pad_tokens & set(re.findall(r"\w+", str(v).lower()))) if pd.notna(v) else 0
                     )
-                    ranked = nm[nm["_overlap"] > 0].sort_values(["_overlap", "loc_score"], ascending=False)
+                    # Filter ranked suggestions to unmatched items or items linked to other pads
+                    ranked = nm[
+                        (nm["_overlap"] > 0) & 
+                        (nm["pad_WELL_PAD_ID"].astype(str) != str(selected_pad_id))
+                    ].sort_values(["_overlap", "loc_score"], ascending=False)
                 else:
                     ranked = pd.DataFrame()
 
                 search_q = st.text_input(
-                    "Search no-match lab units (filename, project, client)",
-                    placeholder="e.g. Kingsley, Chief, 26R-100",
+                    "Search all lab units (filename, project, client, report ID)",
+                    placeholder="e.g. Kingsley, Chief, 26R-100, 3002500",
                     key="nm_search",
                 )
 
@@ -1048,6 +1070,7 @@ with tab_links:
                         nm["original_filename"].str.contains(q, case=False, na=False)
                         | nm.get("project_name", pd.Series(dtype=str)).str.contains(q, case=False, na=False)
                         | nm.get("client_name", pd.Series(dtype=str)).str.contains(q, case=False, na=False)
+                        | nm.get("lab_report_id", pd.Series(dtype=str)).str.contains(q, case=False, na=False)
                     )
                     show_nm = nm[mask].sort_values("loc_score", ascending=False)
                     st.write(f"**Search results ({len(show_nm)}):**")
@@ -1055,15 +1078,16 @@ with tab_links:
                     show_nm = ranked
                     st.write(f"**Ranked suggestions ({len(ranked)}) — name token overlap:**")
                 else:
-                    show_nm = nm.sort_values("loc_score", ascending=False)
-                    st.write("**All no-match units (sorted by score):**")
+                    # Filter suggestions shown by default to exclude those already linked to this pad
+                    show_nm = nm[nm["pad_WELL_PAD_ID"].astype(str) != str(selected_pad_id)].sort_values("loc_score", ascending=False)
+                    st.write("**All other lab units (sorted by score):**")
 
                 show_nm = show_nm.head(150).reset_index(drop=True)
                 show_nm["pdf"] = show_nm.apply(pdf_url, axis=1)
 
                 ev_nm = st.dataframe(
                     show_nm[[
-                        "pdf", "original_filename", "lab_report_id",
+                        "pdf", "original_filename", "lab_report_id", "report_id",
                         "project_name", "lab_name", "client_name",
                         "matched_pad_name", "loc_score",
                     ]],
@@ -1075,7 +1099,8 @@ with tab_links:
                     column_config={
                         "pdf":               st.column_config.LinkColumn("PDF",        display_text="Open", width="small"),
                         "original_filename": st.column_config.TextColumn("Filename",   width="large"),
-                        "lab_report_id":     st.column_config.TextColumn("Report ID",  width="small"),
+                        "lab_report_id":     st.column_config.TextColumn("Legacy RID", width="small"),
+                        "report_id":         st.column_config.TextColumn("Report ID",  width="small"),
                         "project_name":      st.column_config.TextColumn("Project",    width="medium"),
                         "lab_name":          st.column_config.TextColumn("Lab",        width="medium"),
                         "client_name":       st.column_config.TextColumn("Client",     width="medium"),
@@ -1172,7 +1197,7 @@ with tab_review:
             ev_rev = st.dataframe(
                 q[[
                     "", "pdf", "pad_name", "original_filename",
-                    "lab_report_id", "project_name", "lab_name", "client_name",
+                    "lab_report_id", "report_id", "project_name", "lab_name", "client_name",
                     "confidence", "loc_score", "source",
                 ]],
                 use_container_width=True,
@@ -1185,7 +1210,8 @@ with tab_review:
                     "pdf":            st.column_config.LinkColumn("PDF",       display_text="Open", width="small"),
                     "pad_name":       st.column_config.TextColumn("Pad",       width="medium"),
                     "original_filename": st.column_config.TextColumn("Filename", width="large"),
-                    "lab_report_id":  st.column_config.TextColumn("Report ID", width="small"),
+                    "lab_report_id":  st.column_config.TextColumn("Legacy RID", width="small"),
+                    "report_id":      st.column_config.TextColumn("Report ID", width="small"),
                     "project_name":   st.column_config.TextColumn("Project",   width="medium"),
                     "lab_name":       st.column_config.TextColumn("Lab",       width="medium"),
                     "client_name":    st.column_config.TextColumn("Client",    width="medium"),
@@ -1208,7 +1234,8 @@ with tab_review:
                 with left:
                     st.subheader("Lab report")
                     st.write(f"**Filename:** {row['original_filename']}")
-                    st.write(f"**Report ID:** {row.get('lab_report_id') or '—'}")
+                    st.write(f"**Legacy RID:** {row.get('lab_report_id') or '—'}")
+                    st.write(f"**Report ID:** {row.get('report_id') or '—'}")
                     st.write(f"**Project:** {row.get('project_name') or '—'}")
                     st.write(f"**Lab:** {row.get('lab_name') or '—'}")
                     st.write(f"**Client:** {row.get('client_name') or '—'}")
