@@ -1,0 +1,387 @@
+pad_WELL_PAD_ID,pad_WELL_PAD,CLIENT,COUNTY,n_waste_records,total_tons,total_bbls,first_period,last_period,included
+144599,PAUL SCHILINSKI WAS,CHESAPEAKE APPALACHIA LLC,Washington,76,,,Apr 2018 (WASTE: Unconventional wells),Sep 2017 (WASTE: Unconventional wells),True
+144664,JOSEPH POWERS WAS,CHESAPEAKE APPALACHIA LLC,Washington,35,,,Apr 2018 (WASTE: Unconventional wells),Nov 2017 (WASTE: Unconventional wells),True
+150408,FRED JONES WAS,CHESAPEAKE APPALACHIA LLC,Washington,33,,,Apr 2018 (WASTE: Unconventional wells),Sep 2017 (WASTE: Unconventional wells),True
+147597,SUSAN SCOFIELD WAS,CHESAPEAKE APPALACHIA LLC,Washington,25,,,Apr 2018 (WASTE: Unconventional wells),Nov 2017 (WASTE: Unconventional wells),True
+145053,JAMES BIRD WAS,CHESAPEAKE APPALACHIA LLC,Washington,25,,,Dec 2017 (WASTE: Unconventional wells),Oct 2017 (WASTE: Unconventional wells),True
+145672,BERNARD MCCULLEY WAS,CHESAPEAKE APPALACHIA LLC,Washington,24,,,Apr 2018 (WASTE: Unconventional wells),May 2018 (WASTE: Unconventional wells),True
+145082,GUY AVOLIO WAS,CHESAPEAKE APPALACHIA LLC,Washington,21,,,Apr 2018 (WASTE: Unconventional wells),Oct 2017 (WASTE: Unconventional wells),True
+149314,SKOVRAN UNIT 26H,ATLAS RESOURCES LLC,Fayette,21,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148571,HURTT UNIT 4H,EQT CHAP LLC,Mercer,20,,,Feb 2017 (WASTE: Unconventional wells),Nov 2017 (WASTE: Unconventional wells),True
+148486,HARTLEY UNIT 6H,EQT CHAP LLC,Fayette,18,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149200,ROBINHILL,ATLAS RESOURCES LLC,Washington,17,,,Jan - Jun 2012 (Unconventional wells),Jul-Dec 2015 (WASTE ONLY: Unconventional Wells),True
+148450,GROOMS UNIT 11H,EQT CHAP LLC,Greene,16,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149201,ROBINHILL 15H,ATLAS RESOURCES LLC,Washington,15,,,Jan - Jun 2012 (Unconventional wells),Jul-Dec 2015 (WASTE ONLY: Unconventional Wells),True
+148838,MARYNCHAK UNIT 2H,EQT CHAP LLC,Washington,15,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147993,NV17,CNX GAS CO LLC,Greene,14,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+144823,MILLER UNIT,EQT CHAP LLC,Greene,14,,,Jan - Jun 2014 (Unconventional wells),Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),True
+147874,BURCHIANTI 53,ATLAS RESOURCES LLC,Greene,14,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+154434,MARLIN FUNKA WAS,SWN PROD CO LLC,Washington,14,,,Apr 2018 (WASTE: Unconventional wells),Sep 2017 (WASTE: Unconventional wells),True
+147991,NV15BCV,CNX GAS CO LLC,Greene,12,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148804,LYTLE UNIT 1H,CHIEF OIL & GAS LLC,Clearfield,12,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+155389,MOR10SH,CNX GAS CO LLC,Greene,12,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147995,NV20CV,CNX GAS CO LLC,GREENE,12,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149517,WALKER B,EQT PROD CO,Greene,11,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148469,HAMBLETON UNIT 5H,EQT CHAP LLC,Washington,10,,,Jan - Jun 2014 (Unconventional wells),Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),True
+151884,MOR9SH,CNX GAS CO LLC,Greene,10,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146175,PORTER-NAYLOR,EQT CHAP LLC,Fayette,10,,,Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),Jul - Dec 2014 (Unconventional wells),True
+144951,ROBERT SHORTS WAS,CHESAPEAKE APPALACHIA LLC,Washington,10,,,Dec 2017 (WASTE: Unconventional wells),Oct 2017 (WASTE: Unconventional wells),True
+149231,RUSH JOHN UNIT,RANGE RESOURCES APPALACHIA LLC,Washington,9,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149300,SIERZEGA UNIT,RANGE RESOURCES APPALACHIA LLC,Washington,9,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147989,NV29HS,CNX GAS CO LLC,Greene,9,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149324,SMITH UNIT 59H,ATLAS RESOURCES LLC,Westmoreland,9,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148005,GH10CV,CNX GAS CO LLC,GREENE,8,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+144934,ROSUL UNIT (EAST),EQT CHAP LLC,Fayette,8,,,Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),Jul - Dec 2014 (Unconventional wells),True
+147136,ROBINHILL 21H,EQT CHAP LLC,Washington,8,,,Jan - Jun 2012 (Unconventional wells),Jul-Dec 2015 (WASTE ONLY: Unconventional Wells),True
+148680,KIKTA UNIT 1H,EQT CHAP LLC,Fayette,8,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2013 (Unconventional wells),True
+148006,GH11CV,CNX GAS CO LLC,GREENE,8,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148004,NV41HS,CNX GAS CO LLC,Washington,8,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+149557,WEST ELEANOR UNIT,RANGE RESOURCES APPALACHIA LLC,Washington,8,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149313,SKIRPAN UNIT,ATLAS RESOURCES LLC,Fayette,8,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146945,ROBINHILL UNIT 9H,EQT CHAP LLC,Washington,8,,,Jan - Jun 2012 (Unconventional wells),Jul-Dec 2015 (WASTE ONLY: Unconventional Wells),True
+148914,NV48HS,CNX GAS CO LLC,Greene,8,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149475,TROYER/SPACE MANAGEMENT UNIT 10H,RANGE RESOURCES APPALACHIA LLC,Washington,7,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148893,MILLER JOHN UNIT 1H,RANGE RESOURCES APPALACHIA LLC,Washington,7,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148017,NV38HS,CNX GAS CO LLC,Washington,7,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+148320,FAYETTE BEAGLE CLUB UNIT 5H,ATLAS RESOURCES LLC,Fayette,7,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147974,COCHRAN UNIT,EQT CHAP LLC,Fayette,7,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148016,NV36HS,CNX GAS CO LLC,Washington,7,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+149121,PYLES,EQT PROD CO,Greene,7,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149422,TESLOVICH UNIT 29H,ATLAS RESOURCES LLC,Fayette,7,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146724,ROSA UNIT 6H,EQT CHAP LLC,Fayette,6,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149419,TEMPLE JONATHAN UNIT 1H-A,RANGE RESOURCES APPALACHIA LLC,Washington,6,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148750,LEHMAN UNIT,RANGE RESOURCES APPALACHIA LLC,WASHINGTON,6,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148978,OHIO VALLEY LBC UNIT,RANGE RESOURCES APPALACHIA LLC,Washington,6,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+145950,HOSLER 8,ATLAS RESOURCES LLC,FAYETTE,6,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149549,WEIMER LILLIAN UNIT 1H,RANGE RESOURCES APPALACHIA LLC,Washington,6,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148694,KIRCHNER UNIT 3,ATLAS RESOURCES LLC,FAYETTE,6,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148143,MOR14SH,CNX GAS CO LLC,Greene,6,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148231,DICARLO UNIT 13H,EQT CHAP LLC,Fayette,6,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147486,PEVARNIK 8,ATLAS RESOURCES LLC,GREENE,6,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+145715,ATCHESON,EQT PROD CO,Greene,6,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149188,RICE UNIT,CHIEF OIL & GAS LLC,GREENE,6,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149076,POLLANA UNIT 2H,RANGE RESOURCES APPALACHIA LLC,Washington,6,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148020,CNX-2A,CNX GAS CO LLC,GREENE,6,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148018,NV39HS,CNX GAS CO LLC,Washington,6,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147809,BERCOSKY UNIT 6H,EQT CHAP LLC,Washington,6,,,Jan - Jun 2013 (Unconventional wells),Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),True
+147699,ADAMSON B,EQT PROD CO,Greene,6,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147804,NV19BCV,CNX GAS CO LLC,Greene,6,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148013,MOR17SH,CNX GAS CO LLC,Greene,6,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+144937,HOEHN UNIT,EQT CHAP LLC,Fayette,6,,,Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),True
+144874,NIED UNIT,EQT CHAP LLC,Greene,6,,,Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),Jul - Dec 2014 (Unconventional wells),True
+149599,WORSTELL UNIT 1H,RANGE RESOURCES APPALACHIA LLC,Washington,6,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+153736,WARD HAROLD UNIT 3H-8H,RANGE RESOURCES APPALACHIA LLC,Washington,6,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147999,NV25ACV,CNX GAS CO LLC,Greene,6,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147992,NV16BCV,CNX GAS CO LLC,Greene,6,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148718,KURUTZ UNIT 10H,EQT CHAP LLC,Fayette,6,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148144,CROUSHORE 10H,ATLAS RESOURCES LLC,Fayette,6,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+152396,STEWART,EQT CHAP LLC,Fayette,6,,,Apr 2019 (WASTE: Unconventional wells),Apr 2019 (WASTE: Unconventional wells),True
+148000,NV26CCV,CNX GAS CO LLC,Greene,6,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+144595,NV56HS,CNX GAS CO LLC,Washington,6,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147761,BALAZICK 8H,ATLAS RESOURCES LLC,Washington,5,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148003,NV32HS,CNX GAS CO LLC,Washington,5,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+148604,JACKSON FARMS UNIT,ATLAS RESOURCES LLC,FAYETTE,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147489,KOVACH 21,ATLAS RESOURCES LLC,Greene,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148002,NV31HS,CNX GAS CO LLC,Washington,5,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+148387,GAME LANDS UNIT 1,ATLAS RESOURCES LLC,Greene,5,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147487,BELL 4,ATLAS RESOURCES LLC,GREENE,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149606,YANAVICH UNIT 1H,RANGE RESOURCES APPALACHIA LLC,Washington,5,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148878,MENICHI UNIT 8H,RANGE RESOURCES APPALACHIA LLC,Washington,5,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146530,WHIPKEY 9,ATLAS RESOURCES LLC,Greene,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149002,PAINTER UNIT 2H,RANGE RESOURCES APPALACHIA LLC,Washington,5,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147260,OLEXA 8,ATLAS RESOURCES LLC,FAYETTE,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148674,KEPPLE,ATLAS RESOURCES LLC,WESTMORELAND,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148019,NV42HS,CNX GAS CO LLC,Washington,5,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147875,BURCHIANTI UNIT 61H,ATLAS RESOURCES LLC,Greene,5,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+148874,MELE UNIT,RANGE RESOURCES APPALACHIA LLC,Washington,5,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149227,DIAMONDVILLE,EQT PROD CO,Indiana,5,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149229,RUKAVINA UNIT 1H,RANGE RESOURCES APPALACHIA LLC,Washington,5,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146388,HUNTER UNIT 24,ATLAS RESOURCES LLC,WESTMORELAND,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146308,HEADLEE 11,ATLAS RESOURCES LLC,Greene,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149316,SKOVRAN UNIT 37H,EQT CHAP LLC,Fayette,5,,,Jul - Dec 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146185,YASENOSKY 3,ATLAS RESOURCES LLC,FAYETTE,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146741,PEVARNIK 7,ATLAS RESOURCES LLC,GREENE,5,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146747,KOVACH 33,ATLAS RESOURCES LLC,Greene,5,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146746,YASENOSKY UNIT 4,ATLAS RESOURCES LLC,FAYETTE,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146744,BURCHIANTI 30,ATLAS RESOURCES LLC,GREENE,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146742,BURCHIANTI 6,ATLAS RESOURCES LLC,Greene,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146532,TOM 2,ATLAS RESOURCES LLC,GREENE,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146633,CONSOL/USX 30,ATLAS RESOURCES LLC,Greene,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+145964,KOVALIC 13,ATLAS RESOURCES LLC,FAYETTE,5,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148745,LBROS UNIT 1H,RANGE RESOURCES APPALACHIA LLC,WASHINGTON,4,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148828,MARGARIA PAUL UNIT 1H,RANGE RESOURCES APPALACHIA LLC,Washington,4,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146843,BOLEN 2,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149361,STEFKOVICH JEROME UNIT 1H,RANGE RESOURCES APPALACHIA LLC,Washington,4,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146059,PHILLIPS 20,ATLAS RESOURCES LLC,WESTMORELAND,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146189,J L L 2,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146170,SHOAF 8,ATLAS RESOURCES LLC,Westmoreland,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149571,WHITMER THOMAS UNIT,RANGE RESOURCES APPALACHIA LLC,Washington,4,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149105,PUNXSUTAWNEY HUNTING CLUB 1,EOG RESOURCES INC,Clearfield,4,,,"Jan - Jun 2011 (Marcellus Only, 6 months)","Jan - Jun 2011 (Marcellus Only, 6 months)",True
+149290,SHEPERD UNIT 4H,EQT CHAP LLC,Fayette,4,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147071,CONGELIO 5,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146963,LAYMAN 6 OG WELL,ATLAS RESOURCES LLC,WESTMORELAND,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148641,JORDAN UNIT 29H,EQT CHAP LLC,Greene,4,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+148640,JORDAN 17,ATLAS RESOURCES LLC,Greene,4,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147261,BURNSIDE 8,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147263,LEE 11,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147165,JUROSCO 1,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148577,B IAMS,EQT PROD CO,Washington,4,,,"Jan - Jun 2011 (Marcellus Only, 6 months)",Jan - Jun 2012 (Unconventional wells),True
+147148,GREENAWALT 23,ATLAS RESOURCES LLC,WESTMORELAND,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147161,BOBBISH 4,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147603,CHRISTOPHER 10,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147602,FAIRBANK ROD & GUN CLUB 6,ATLAS RESOURCES LLC,Fayette,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148008,GH2,CNX GAS CO LLC,Greene,4,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147612,COLVIN 6,ATLAS RESOURCES LLC,Greene,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148014,MOR20SH,CNX GAS CO LLC,Greene,4,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147872,BUDAY UNIT,ATLAS RESOURCES LLC,Greene,4,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+144862,ROSUL UNIT (WEST),EQT CHAP LLC,Fayette,4,,,Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),Jul - Dec 2014 (Unconventional wells),True
+149601,WRIGHT,EQT PROD CO,Armstrong,4,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147933,CARTER UNIT,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147997,NV22,CNX GAS CO LLC,Greene,4,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147688,ROSE-ROBISON,EQT PROD CO,Greene,4,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147498,FAY-PENN 44,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148461,GURKI UNIT,EQT CHAP LLC,Westmoreland,4,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147377,BURCHIANTI 11A,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147383,MATTHEWS 32A,ATLAS RESOURCES LLC,Greene,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147370,CONSOL/USX 59,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147270,PEVARNIK 9,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147369,SPRINGER 19,ATLAS RESOURCES LLC,Greene,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147483,MORTON 9,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147265,KESLAR 9,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148319,FAVERIO UNIT 5H,ATLAS RESOURCES LLC,Fayette,4,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148429,GRAHAM WELL PAD,REX ENERGY OPERATING CORP,Butler,4,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147655,SANDROCK,VANTAGE ENERGY APPALACHIA LLC,Greene,4,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2013 (Unconventional wells),True
+148001,NV30HS,CNX GAS CO LLC,Washington,4,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146305,HONSAKER 17,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146401,MITCHELL 20,ATLAS RESOURCES LLC,Greene,4,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146517,ECKERD 1,ATLAS RESOURCES LLC,Washington,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146628,BUDAY 10,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146639,ZINN UNIT 2,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146412,CONSOL/USX 90,ATLAS RESOURCES LLC,Greene,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146524,GAYDOS 11,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148886,MIDLER/FROEBE A UNIT 3H,RANGE RESOURCES APPALACHIA LLC,Washington,4,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148935,MUTNANSKY UNIT 9H,EQT CHAP LLC,Fayette,4,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146729,WILLIS 19A,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148887,MIDLER/FROEBE B UNIT 5H,RANGE RESOURCES APPALACHIA LLC,Washington,4,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146190,MATHEWS 36,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+145953,SZUHAY 5,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146191,JORDAN 16,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146292,HOSLER 7,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149131,R MILLER UNIT 1H,CHIEF OIL & GAS LLC,Somerset,4,,,Jul - Dec 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146745,BURCHIANTI 33,ATLAS RESOURCES LLC,Greene,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146732,WILLIS 16,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146957,SHUGLIE 4,ATLAS RESOURCES LLC,Westmoreland,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146413,BEZJAK 26,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149056,PHOTON UNIT 1H,RANGE RESOURCES APPALACHIA LLC,Washington,4,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146526,HATHAWAY 8,ATLAS RESOURCES LLC,GREENE,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148829,"MARGARIA, RAYMOND UNIT",RANGE RESOURCES APPALACHIA LLC,Washington,4,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146722,OLEXA 9,ATLAS RESOURCES LLC,FAYETTE,4,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148513,HEPLER UNIT 1H,EQT CHAP LLC,Westmoreland,4,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147086,WOLF 27,ATLAS RESOURCES LLC,Fayette,4,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148499,HEADLEE UNIT,ATLAS RESOURCES LLC,Greene,4,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146052,SERRO 8,ATLAS RESOURCES LLC,Westmoreland,3,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146056,BAUGHMAN 1,ATLAS RESOURCES LLC,WESTMORELAND,3,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+145954,YEAGLEY 1,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148727,LANCO UNIT 6H,EQT CHAP LLC,Greene,3,,,Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),True
+148760,LINDLEY JOHN UNIT 4H,RANGE RESOURCES APPALACHIA LLC,Washington,3,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146845,KERR 9,ATLAS RESOURCES LLC,GREENE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146844,KREPPS 3,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146841,REDMAN 27,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146836,CAMPBELL 14,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146834,MATTY/MOMYER 1,ATLAS RESOURCES LLC,WESTMORELAND,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146832,HUBER 14,ATLAS RESOURCES LLC,Westmoreland,3,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146853,MATTHEWS 30,ATLAS RESOURCES LLC,GREENE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146721,LYNN 9,ATLAS RESOURCES LLC,Westmoreland,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146640,CLINE 5,ATLAS RESOURCES LLC,GREENE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146643,JORDAN 15,ATLAS RESOURCES LLC,GREENE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146624,REDMAN 26,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146627,BIDDLE 30,ATLAS RESOURCES LLC,Greene,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146537,HOLBERT 5,ATLAS RESOURCES LLC,GREENE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148988,OSTRICH,EQT PROD CO,Greene,3,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+146630,GROVES 8,ATLAS RESOURCES LLC,GREENE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146636,J L L 1A,ATLAS RESOURCES LLC,Greene,3,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146402,WILLIS 20,ATLAS RESOURCES LLC,GREENE,3,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149073,PMG GRACE UNIT 1H,CHIEF OIL & GAS LLC,Somerset,3,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146509,ORR 36,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2013 (Unconventional wells),Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),True
+146507,FULMER UNIT 11,ATLAS RESOURCES LLC,Westmoreland,3,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146504,HUBER 13,ATLAS RESOURCES LLC,WESTMORELAND,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146419,MATTHEWS 31,ATLAS RESOURCES LLC,GREENE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146192,MEDVED 4,ATLAS RESOURCES LLC,Fayette,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146183,WILLIS 24,ATLAS RESOURCES LLC,GREENE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149173,REJISS UNIT 1H,EQT CHAP LLC,Fayette,3,,,Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),True
+146396,SHOUP 4,ATLAS RESOURCES LLC,WASHINGTON,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146392,DONEY 13,ATLAS RESOURCES LLC,Westmoreland,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149148,RANKIN UNIT 2H,EQT CHAP LLC,Greene,3,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+149112,PUNXSUTAWNEY HUNTING CLUB 29H,EOG RESOURCES INC,Clearfield,3,,,"Jan - Jun 2011 (Marcellus Only, 6 months)","Jan - Jun 2011 (Marcellus Only, 6 months)",True
+149098,PRITTS UNIT,ATLAS RESOURCES LLC,Fayette,3,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149326,SMOUSE 5,ATLAS RESOURCES LLC,WESTMORELAND,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149393,SWANK,EQT PROD CO,Armstrong,3,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148353,FLORO UNIT,ATLAS RESOURCES LLC,Westmoreland,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148388,GAME LANDS UNIT 2,ATLAS RESOURCES LLC,Greene,3,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147479,DANCHO/BROWN 5,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148321,FDS UNIT 6H,EQT CHAP LLC,Fayette,3,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+147472,PHILLIPS 21,ATLAS RESOURCES LLC,WESTMORELAND,3,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147491,BERTOVICH 25,ATLAS RESOURCES LLC,Fayette,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147378,KOLENCIK 2,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147379,GENOVESE 10,ATLAS RESOURCES LLC,Fayette,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148485,HART UNIT 9H,EQT CHAP LLC,Greene,3,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147074,UDOVICH UNIT 3,ATLAS RESOURCES LLC,GREENE,3,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148606,JACKSON FARMS UNIT 37H,ATLAS RESOURCES LLC,Fayette,3,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+147075,WILLIS 23,ATLAS RESOURCES LLC,GREENE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147151,YATES 3,ATLAS RESOURCES LLC,WESTMORELAND,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147169,ROBINSON 29,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2013 (Unconventional wells),True
+146970,TERCHO-SHIMKO 3,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146971,CHRISTOPHER 9,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146973,BIDDLE 28,ATLAS RESOURCES LLC,Greene,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148607,JACKSON FARMS UNIT 41H,EQT CHAP LLC,Fayette,3,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148709,KOVACH UNIT,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2014 (Unconventional wells),Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),True
+147474,CAMPBELL 15,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147368,CONSOL/USX 66,ATLAS RESOURCES LLC,GREENE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148029,COOPER,EQT PROD CO,Greene,3,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147598,SITTLER 1,ATLAS RESOURCES LLC,Fayette,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147601,SKOVRAN 22,ATLAS RESOURCES LLC,Fayette,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147610,RAZILLARD 1,ATLAS RESOURCES LLC,Greene,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147607,HONSAKER 16,ATLAS RESOURCES LLC,FAYETTE,3,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147956,CHICO UNIT 1H,EQT CHAP LLC,Fayette,3,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147923,CARDINE UNIT 5H,ATLAS RESOURCES LLC,Fayette,3,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149608,YARECK 4H,ATLAS RESOURCES LLC,Greene,3,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+144663,JOHN BRIGGS,CHESAPEAKE APPALACHIA LLC,Greene,3,,,Jul - Dec 2013 (Unconventional wells),Jul - Dec 2013 (Unconventional wells),True
+144602,GEORGE RICHTER GRE,CHESAPEAKE APPALACHIA LLC,Greene,2,,,Jul - Dec 2013 (Unconventional wells),Jul - Dec 2013 (Unconventional wells),True
+149581,WILSON UNIT,ATLAS RESOURCES LLC,Westmoreland,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+144875,CRAIG LASH UNIT,EQT CHAP LLC,Westmoreland,2,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+150874,BOWSER UNIT,EQT CHAP LLC,Mercer,2,,,Jul-Dec 2015 (WASTE ONLY: Unconventional Wells),Jul-Dec 2015 (WASTE ONLY: Unconventional Wells),True
+149631,ZOROSAK UNIT,EQT CHAP LLC,Westmoreland,2,,,Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),Jan-Jun 2015 (WASTE ONLY: Unconventional Wells),True
+150730,PETTIT,EQT PROD CO,Greene,2,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147808,BERCOSKY UNIT,ATLAS RESOURCES LLC,Washington,2,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+147779,REDBANK,EQT PROD CO,Clarion,2,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147753,BABICH 3,ATLAS RESOURCES LLC,Westmoreland,2,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147990,NV13,CNX GAS CO LLC,Washington,2,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+151702,SCOTTS RUN,EQT PROD CO,Greene,2,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146394,REDMAN 29,ATLAS RESOURCES LLC,Fayette,2,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146065,REDMAN UNIT 30,ATLAS RESOURCES LLC,FAYETTE,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146066,SWIANTEK 1,ATLAS RESOURCES LLC,Fayette,2,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146978,MATHEWS 37,ATLAS RESOURCES LLC,Greene,2,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146968,JOHN MCMURRAY WAS,CHESAPEAKE APPALACHIA LLC,Washington,2,,,Aug 2017 (WASTE: Unconventional wells),Dec 2017 (WASTE: Unconventional wells),True
+147784,BASISTA-DERMOTTA UNIT WEST PAD,EQT CHAP LLC,Westmoreland,2,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148010,GH35,CNX GAS CO LLC,Greene,2,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147868,BRUNO UNIT,EQT CHAP LLC,Greene,2,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147594,PAINTER 4,ATLAS RESOURCES LLC,Westmoreland,2,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+148032,G14-COP-F,EOG RESOURCES INC,ELK,2,,,"Jan - Jun 2011 (Marcellus Only, 6 months)","Jan - Jun 2011 (Marcellus Only, 6 months)",True
+147500,HOLBERT 6,ATLAS RESOURCES LLC,Greene,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2013 (Unconventional wells),True
+148283,ELIAS 11H,ATLAS RESOURCES LLC,Westmoreland,2,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+148277,ROSBOROUGH,EQT PROD CO,Armstrong,2,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148126,COWDEN 47H,ATLAS RESOURCES LLC,WASHINGTON,2,,,Jan - Jun 2012 (Unconventional wells),Jul-Dec 2016 (WASTE ONLY: Unconventional Wells),True
+147650,MCULLOUGH UNIT,EQT CHAP LLC,Mercer,2,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147606,HONSAKER 15,ATLAS RESOURCES LLC,FAYETTE,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147475,ORR 33,ATLAS RESOURCES LLC,Fayette,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147152,DONEY 12,ATLAS RESOURCES LLC,WESTMORELAND,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146964,HUNTER 11,ATLAS RESOURCES LLC,Westmoreland,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147246,GUARDASONI UNIT,EQT CHAP LLC,Westmoreland,2,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+148588,BROWNS RUN / J D THISTLETHWAITE,EQT PROD CO,Greene,2,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2013 (Unconventional wells),True
+148493,HAWKINS,EQT PROD CO,Greene,2,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148605,JACKSON FARMS UNIT 33,ATLAS RESOURCES LLC,Fayette,2,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147082,MCCLURE 4,ATLAS RESOURCES LLC,GREENE,2,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147373,GH15CV,CNX GAS CO LLC,GREENE,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148435,GRANT UNIT 15,EQT CHAP LLC,Fayette,2,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+147366,BRAZZON 7,ATLAS RESOURCES LLC,FAYETTE,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147371,SKOVRAN 23,ATLAS RESOURCES LLC,Fayette,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147364,DONEY 11,ATLAS RESOURCES LLC,Westmoreland,2,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147363,JANITOR 5,ATLAS RESOURCES LLC,Westmoreland,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147267,WILLIS 18,ATLAS RESOURCES LLC,GREENE,2,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147490,FILIAGGI 7,ATLAS RESOURCES LLC,Fayette,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147081,BELL 10,ATLAS RESOURCES LLC,Greene,2,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146801,HINDMAN UNIT 3H,EQT CHAP LLC,Butler,2,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2013 (Unconventional wells),True
+147072,DANCHO/BROWN 4,ATLAS RESOURCES LLC,FAYETTE,2,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146522,SPRINGER 18,ATLAS RESOURCES LLC,Greene,2,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+149113,PUNXSUTAWNEY HUNTING CLUB 30H,EOG RESOURCES INC,Clearfield,2,,,"Jan - Jun 2011 (Marcellus Only, 6 months)","Jan - Jun 2011 (Marcellus Only, 6 months)",True
+147147,ANGELCYK 6,ATLAS RESOURCES LLC,WESTMORELAND,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149315,SKOVRAN UNIT 32H,ATLAS RESOURCES LLC,Fayette,2,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146395,HAMMEL UNIT 2,ATLAS RESOURCES LLC,WASHINGTON,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146069,SPRINGER 17,ATLAS RESOURCES LLC,Greene,2,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146171,LASH 17,ATLAS RESOURCES LLC,WESTMORELAND,2,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+149527,"WARD HAROLD UNIT 1H,2H",RANGE RESOURCES APPALACHIA LLC,WASHINGTON,2,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149511,W L HOPKINS,EQT PRODUCTION CO,GREENE,2,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149506,VRONA UNIT,EQT CHAP LLC,Greene,2,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+144566,JOHNSON UNIT,EQT CHAP LLC,Greene,2,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146182,HADENAK 3,ATLAS RESOURCES LLC,FAYETTE,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149230,RUSH 18,ATLAS RESOURCES LLC,GREENE,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146287,MALIK 4,ATLAS RESOURCES LLC,Westmoreland,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146300,BOWERS WEST UNIT 1H,CHIEF OIL & GAS LLC,Somerset,2,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149061,PINE OAKS,CHESAPEAKE APPALACHIA LLC,WASHINGTON,2,,,"Jan - Jun 2011 (Marcellus Only, 6 months)","Jan - Jun 2011 (Marcellus Only, 6 months)",True
+148884,MICHAEL MCNICHOLAS GRE,CHESAPEAKE APPALACHIA LLC,Greene,2,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2013 (Unconventional wells),True
+146728,JAREK 6,ATLAS RESOURCES LLC,GREENE,2,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146284,TRUE 1,ATLAS RESOURCES LLC,Westmoreland,2,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+149111,PUNXSUTAWNEY HUNTING CLUB 27H,EOG RESOURCES INC,Clearfield,2,,,"Jan - Jun 2011 (Marcellus Only, 6 months)","Jan - Jun 2011 (Marcellus Only, 6 months)",True
+149069,PMG ALLEN UNIT 1H,CHIEF OIL & GAS LLC,Somerset,2,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146404,CNX-3,CNX GAS CO LLC,GREENE,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148850,MCADOO UNIT,RANGE RESOURCES APPALACHIA LLC,Washington,2,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148889,MILESKY UNIT,CHIEF OIL & GAS LLC,Greene,2,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146833,KISNER UNIT 6,ATLAS RESOURCES LLC,Westmoreland,2,,,Jan - Jun 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146847,GH2CV,CNX GAS CO LLC,GREENE,2,,,Jan - Jun 2014 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146735,BUDAY 9,ATLAS RESOURCES LLC,GREENE,2,,,Jan - Jun 2013 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+144572,CONNORS,EQT PROD CO,Greene,1,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+144730,JAMES M RICE PAD A,CHESAPEAKE APPALACHIA LLC,Greene,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+151352,HILDEBRAND,EQT PROD CO,Greene,1,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+149582,WILSON UNIT 22H,EQT CHAP LLC,Westmoreland,1,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+144944,KENTOR INC,CHESAPEAKE APPALACHIA LLC,Greene,1,,,"Jan - Jun 2011 (Marcellus Only, 6 months)","Jan - Jun 2011 (Marcellus Only, 6 months)",True
+147073,JAREK 7,ATLAS RESOURCES LLC,GREENE,1,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+148752,LEICHLITER,ATLAS RESOURCES LLC,Fayette,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147163,BIDDLE 14,ATLAS RESOURCES LLC,Greene,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146966,MATTY/MOMYER 2,ATLAS RESOURCES LLC,WESTMORELAND,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+148589,MCMILLAN,EQT PROD CO,Greene,1,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+147367,YANOSKY 5H,ATLAS RESOURCES LLC,Washington,1,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+147499,LILLY 28,ATLAS RESOURCES LLC,Greene,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147066,BRANTHOOVER 11,ATLAS RESOURCES LLC,Westmoreland,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147068,BRAZZON 15,ATLAS RESOURCES LLC,FAYETTE,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147214,PUNXSUTAWNEY HUNTING CLUB 7H,EOG RESOURCES INC,Clearfield,1,,,"Jan - Jun 2011 (Marcellus Only, 6 months)","Jan - Jun 2011 (Marcellus Only, 6 months)",True
+147456,LIGHTNER EAST UNIT 1H,EQT CHAP LLC,Blair,1,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147458,LIGHTNER UNIT 1H,CHIEF OIL & GAS LLC,Blair,1,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147484,GH14CV,CNX GAS CO LLC,GREENE,1,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148272,ECKERD UNIT,ATLAS RESOURCES LLC,Washington,1,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+147547,CLERMONT PAD NF-B,EOG RESOURCES INC,ELK,1,,,"Jan - Jun 2011 (Marcellus Only, 6 months)","Jan - Jun 2011 (Marcellus Only, 6 months)",True
+147848,BREAKNECK BEAGLE CLUB WELL PAD,RE GAS DEV LLC,Butler,1,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2013 (Unconventional wells),True
+147814,BEROVICH BEA,CHESAPEAKE APPALACHIA LLC,Beaver,1,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+147975,CODY TRUST BEA,CHESAPEAKE APPALACHIA LLC,Beaver,1,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+148009,GH34,CNX GAS CO LLC,GREENE,1,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+147608,BURCHIANTI 29,ATLAS RESOURCES LLC,GREENE,1,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+147599,MASTERBRAY 1,ATLAS RESOURCES LLC,FAYETTE,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+147600,CONSOL/USX 53,ATLAS RESOURCES LLC,GREENE,1,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+148123,COWDEN 15,ATLAS RESOURCES LLC,WASHINGTON,1,,,Jul - Dec 2013 (Unconventional wells),Jul - Dec 2013 (Unconventional wells),True
+148598,J S THISTLEHWAITE,EQT PROD CO,Greene,1,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+148311,WEDEKIND,EQT PROD CO,Clarion,1,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+147440,KIRKWOOD BEA,CHESAPEAKE APPALACHIA LLC,Beaver,1,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146620,FULMER UNIT 10,ATLAS RESOURCES LLC,Westmoreland,1,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146739,WHIPKEY 8,ATLAS RESOURCES LLC,Greene,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146727,PALANKEY 2,ATLAS RESOURCES LLC,FAYETTE,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146236,SRC 3H,EOG RESOURCES INC,McKean,1,,,"Jan - Jun 2011 (Marcellus Only, 6 months)","Jan - Jun 2011 (Marcellus Only, 6 months)",True
+149152,RAU UNIT,ATLAS RESOURCES LLC,Indiana,1,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+149067,PLESNIAK WELL PAD,REX ENERGY OPERATING CORP,Butler,1,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2013 (Unconventional wells),True
+149110,PUNXSUTAWNEY HUNTING CLUB 26H,EOG RESOURCES INC,Clearfield,1,,,"Jan - Jun 2011 (Marcellus Only, 6 months)","Jan - Jun 2011 (Marcellus Only, 6 months)",True
+146406,CNX-4,CNX GAS CO LLC,GREENE,1,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146399,FAIRBANK ROD & GUN CLUB 3,ATLAS RESOURCES LLC,Fayette,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146505,SHOAF 7,ATLAS RESOURCES LLC,WESTMORELAND,1,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+146523,SKOVRAN 24,ATLAS RESOURCES LLC,FAYETTE,1,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+146397,HAMMEL 1,ATLAS RESOURCES LLC,Washington,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146734,GH19CV,CNX GAS CO LLC,GREENE,1,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+146831,ANGELCYK 7,ATLAS RESOURCES LLC,Westmoreland,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+148883,MEYER WELL PAD,REX ENERGY OPERATING CORP,Butler,1,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2013 (Unconventional wells),True
+146529,GROVES 7,ATLAS RESOURCES LLC,Greene,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146573,SRC 2H,EOG RESOURCES INC,McKean,1,,,"Jan - Jun 2011 (Marcellus Only, 6 months)","Jan - Jun 2011 (Marcellus Only, 6 months)",True
+146615,CARR 19A,ATLAS RESOURCES LLC,WESTMORELAND,1,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2013 (Unconventional wells),True
+146294,ADDLEMAN 1H-A,ATLAS RESOURCES LLC,Washington,1,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+149199,ROBERTS,EQT PROD CO,Greene,1,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+149298,SHYCHUK UNIT,ATLAS RESOURCES LLC,WESTMORELAND,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146391,ELLINGSON 2,ATLAS RESOURCES LLC,Westmoreland,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+146302,BIDDLE 27,ATLAS RESOURCES LLC,Greene,1,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2013 (Unconventional wells),True
+146298,NATIONAL MINES CORP 26H,ATLAS RESOURCES LLC,Fayette,1,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+146173,SKOKUT 2A,ATLAS RESOURCES LLC,Westmoreland,1,,,Jul - Dec 2014 (Unconventional wells),Jul - Dec 2014 (Unconventional wells),True
+146177,CLARKE 14,ATLAS RESOURCES LLC,Fayette,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+145213,R SMITH,CHESAPEAKE APPALACHIA LLC,Washington,1,,,"Jan - Jun 2011 (Marcellus Only, 6 months)","Jan - Jun 2011 (Marcellus Only, 6 months)",True
+145949,PRITTS UNIT 1,ATLAS RESOURCES LLC,Fayette,1,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+145941,HUNTER 13,ATLAS RESOURCES LLC,Westmoreland,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+145606,KEVECH,EQT PROD CO,Washington,1,,,Jan - Jun 2012 (Unconventional wells),Jan - Jun 2012 (Unconventional wells),True
+145524,PORTER STREET,VANTAGE ENERGY APPALACHIA LLC,Greene,1,,,Jul - Dec 2013 (Unconventional wells),Jul - Dec 2013 (Unconventional wells),True
+149364,STEN UNIT,RANGE RESOURCES APPALACHIA LLC,Washington,1,,,Jul - Dec 2012 (Unconventional wells),Jul - Dec 2012 (Unconventional wells),True
+145961,BURCHIANTI 24,ATLAS RESOURCES LLC,Greene,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+145958,SWARTZ 4,ATLAS RESOURCES LLC,Greene,1,,,Jan - Jun 2014 (Unconventional wells),Jan - Jun 2014 (Unconventional wells),True
+149514,WACK WELL PAD,REX ENERGY OPERATING CORP,Butler,1,,,Jan - Jun 2013 (Unconventional wells),Jan - Jun 2013 (Unconventional wells),True
