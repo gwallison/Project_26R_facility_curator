@@ -371,6 +371,8 @@ def create_session(
     facility_query: str,
     pad_sum: pd.DataFrame,
     matched: pd.DataFrame,
+    extra_meta: dict | None = None,
+    included_default: bool = False,
 ) -> Path:
     slug = slugify(facility_name)
     sp = SESSIONS_DIR / slug
@@ -383,26 +385,100 @@ def create_session(
     sp.mkdir(parents=True)
     (sp / "output").mkdir()
 
+    meta = {
+        "facility_name":  facility_name,
+        "facility_query": facility_query,
+        "created":        str(date.today()),
+        "last_modified":  str(date.today()),
+    }
+    if extra_meta:
+        meta.update(extra_meta)
     with open(sp / "session.json", "w") as f:
-        json.dump(
-            {
-                "facility_name":  facility_name,
-                "facility_query": facility_query,
-                "created":        str(date.today()),
-                "last_modified":  str(date.today()),
-            },
-            f,
-            indent=2,
-        )
+        json.dump(meta, f, indent=2)
 
     cp = pad_sum[[
         "pad_WELL_PAD_ID", "pad_WELL_PAD", "CLIENT", "COUNTY",
         "n_waste_records", "total_tons", "total_bbls", "first_period", "last_period",
     ]].copy()
-    cp["included"] = False
+    cp["included"] = included_default
     save_cpads(sp, cp)
 
     return sp
+
+
+def _waste_stats_by_pad(waste_subset: pd.DataFrame) -> pd.DataFrame:
+    """Aggregate a waste-records subset into per-pad record count/tons/bbls/period range."""
+    if waste_subset.empty:
+        # An all-empty frame trips a pyarrow ChunkedArray type-inference error inside
+        # the groupby/join chain below (no chunks on either side to infer a dtype from).
+        return pd.DataFrame(columns=[
+            "pad_WELL_PAD_ID", "n_waste_records", "first_period", "last_period",
+            "total_tons", "total_bbls",
+        ])
+    tons_by_pad = (
+        waste_subset[waste_subset["UNITS"] == "Tons"]
+        .groupby("pad_WELL_PAD_ID")["QUANTITY"]
+        .sum()
+        .rename("total_tons")
+    )
+    bbls_by_pad = (
+        waste_subset[waste_subset["UNITS"] == "Bbls"]
+        .groupby("pad_WELL_PAD_ID")["QUANTITY"]
+        .sum()
+        .rename("total_bbls")
+    )
+    return (
+        waste_subset.dropna(subset=["pad_WELL_PAD_ID"])
+        .groupby("pad_WELL_PAD_ID")
+        .agg(
+            n_waste_records=("QUANTITY", "count"),
+            first_period=("_period_label", "min"),
+            last_period=("_period_label", "max"),
+        )
+        .reset_index()
+        .join(tons_by_pad, on="pad_WELL_PAD_ID", how="left")
+        .join(bbls_by_pad, on="pad_WELL_PAD_ID", how="left")
+    )
+
+
+def _pick_pad_id_column(df: pd.DataFrame) -> str:
+    """Pick the column holding pad_id values, tolerating a stray pandas index column.
+
+    `to_csv()` without `index=False` leaves an unnamed column (read back as "" or
+    "Unnamed: 0") ahead of the real data — naively taking columns[0] silently reads
+    row numbers instead of pad ids.
+    """
+    named_candidates = [
+        c for c in df.columns
+        if str(c).strip().lower() in {"pad_id", "pad_well_pad_id"}
+    ]
+    if named_candidates:
+        return named_candidates[0]
+    non_index_cols = [
+        c for c in df.columns
+        if str(c).strip() and not str(c).startswith("Unnamed:")
+    ]
+    if non_index_cols:
+        return non_index_cols[0]
+    return df.columns[0]
+
+
+def _pad_sum_from_ids(
+    pad_ids: list[str], all_pads: pd.DataFrame, waste: pd.DataFrame
+) -> pd.DataFrame:
+    """Build a pad_sum frame (same shape create_session expects) from an explicit pad_id list.
+
+    Unlike the facility-name search path, waste stats are aggregated across ALL waste
+    records for these pads (not restricted to any single WASTE_FACILITY_NAME), since the
+    caller already knows these pads belong together.
+    """
+    base = pd.DataFrame({"pad_WELL_PAD_ID": sorted(set(pad_ids))})
+    stats = _waste_stats_by_pad(waste[waste["pad_WELL_PAD_ID"].isin(base["pad_WELL_PAD_ID"])])
+    pad_sum = base.merge(stats, on="pad_WELL_PAD_ID", how="left")
+    pad_sum["n_waste_records"] = pad_sum["n_waste_records"].fillna(0).astype(int)
+    pad_meta = all_pads[["pad_WELL_PAD_ID", "pad_WELL_PAD", "CLIENT", "COUNTY"]].copy()
+    pad_sum = pad_sum.merge(pad_meta, on="pad_WELL_PAD_ID", how="left")
+    return pad_sum
 
 
 def sync_auto_links(sp: Path, matched: pd.DataFrame, pad_ids: set | None = None) -> int:
@@ -587,30 +663,7 @@ with tab_session:
                 for v in variants:
                     st.write(v)
 
-            tons_by_pad = (
-                hit[hit["UNITS"] == "Tons"]
-                .groupby("pad_WELL_PAD_ID")["QUANTITY"]
-                .sum()
-                .rename("total_tons")
-            )
-            bbls_by_pad = (
-                hit[hit["UNITS"] == "Bbls"]
-                .groupby("pad_WELL_PAD_ID")["QUANTITY"]
-                .sum()
-                .rename("total_bbls")
-            )
-            pad_sum = (
-                hit.dropna(subset=["pad_WELL_PAD_ID"])
-                .groupby("pad_WELL_PAD_ID")
-                .agg(
-                    n_waste_records=("QUANTITY", "count"),
-                    first_period=("_period_label", "min"),
-                    last_period=("_period_label", "max"),
-                )
-                .reset_index()
-                .join(tons_by_pad, on="pad_WELL_PAD_ID", how="left")
-                .join(bbls_by_pad, on="pad_WELL_PAD_ID", how="left")
-            )
+            pad_sum = _waste_stats_by_pad(hit)
             pad_meta = all_pads[["pad_WELL_PAD_ID", "pad_WELL_PAD", "CLIENT", "COUNTY"]].copy()
             pad_sum = pad_sum.merge(pad_meta, on="pad_WELL_PAD_ID", how="left")
             pad_sum = pad_sum.sort_values("n_waste_records", ascending=False).reset_index(drop=True)
@@ -656,6 +709,107 @@ with tab_session:
                 st.session_state["session_path"] = new_sp
                 st.success(f"Session created: {new_sp.name}")
                 st.rerun()
+
+    st.divider()
+    st.subheader("Create session from pad ID list")
+    st.caption(
+        "Upload a CSV of pad_WELL_PAD_ID values (any single column — header can be "
+        "anything) to seed a session from a known set of anchor pads directly, "
+        "skipping the facility-name search above."
+    )
+    pad_csv = st.file_uploader("Pad ID CSV", type="csv", key="new_pad_csv")
+
+    if pad_csv is not None:
+        try:
+            raw_ids = pd.read_csv(pad_csv, dtype=str)
+        except Exception as e:
+            st.error(f"Could not read CSV: {e}")
+            raw_ids = None
+
+        if raw_ids is not None:
+            if raw_ids.empty:
+                st.warning("The uploaded CSV has no rows.")
+            else:
+                col0 = _pick_pad_id_column(raw_ids)
+                if len(raw_ids.columns) > 1:
+                    st.caption(
+                        f"CSV has {len(raw_ids.columns)} columns — using **'{col0}'** "
+                        f"as the pad ID column."
+                    )
+                pad_ids = raw_ids[col0].dropna().astype(str).str.strip()
+                pad_ids = sorted(set(pad_ids[pad_ids != ""]))
+                if not pad_ids:
+                    st.warning("No pad IDs found in the uploaded CSV.")
+                else:
+                    pad_sum2 = _pad_sum_from_ids(pad_ids, all_pads, waste)
+                    unknown = pad_sum2.loc[
+                        pad_sum2["pad_WELL_PAD"].isna(), "pad_WELL_PAD_ID"
+                    ].tolist()
+                    if unknown:
+                        st.warning(
+                            f"{len(unknown)} pad ID(s) not found in the pad vocabulary "
+                            f"(no name/operator/county available): {', '.join(unknown)}"
+                        )
+                    pad_sum2 = pad_sum2.sort_values(
+                        "n_waste_records", ascending=False
+                    ).reset_index(drop=True)
+
+                    n_auto2 = matched_links[
+                        matched_links["pad_WELL_PAD_ID"].isin(set(pad_sum2["pad_WELL_PAD_ID"]))
+                    ].shape[0]
+                    st.write(
+                        f"**{len(pad_sum2)} pad(s)** loaded  ·  "
+                        f"**{n_auto2}** auto-linked lab reports will be pre-loaded as candidates."
+                    )
+
+                    st.dataframe(
+                        pad_sum2[[
+                            "pad_WELL_PAD_ID", "pad_WELL_PAD", "CLIENT", "COUNTY",
+                            "n_waste_records", "total_tons", "total_bbls",
+                            "first_period", "last_period",
+                        ]],
+                        use_container_width=True,
+                        height=250,
+                        column_config={
+                            "pad_WELL_PAD_ID": st.column_config.TextColumn("Pad ID",       width="small"),
+                            "pad_WELL_PAD":    st.column_config.TextColumn("Pad Name",     width="medium"),
+                            "CLIENT":          st.column_config.TextColumn("Operator",     width="medium"),
+                            "COUNTY":          st.column_config.TextColumn("County",       width="small"),
+                            "n_waste_records": st.column_config.NumberColumn("Waste Recs", format="%d",   width="small"),
+                            "total_tons":      st.column_config.NumberColumn("Tons",       format="%.1f", width="small"),
+                            "total_bbls":      st.column_config.NumberColumn("Bbls",       format="%.1f", width="small"),
+                            "first_period":    st.column_config.TextColumn("First Period", width="small"),
+                            "last_period":     st.column_config.TextColumn("Last Period",  width="small"),
+                        },
+                    )
+
+                    manual_name = st.text_input(
+                        "Session name",
+                        placeholder="e.g. Manual Pad List - 2026-09-08",
+                        key="new_manual_name",
+                    )
+
+                    if st.button(
+                        "Create session",
+                        type="primary",
+                        key="btn_create_manual",
+                        disabled=not manual_name.strip(),
+                    ):
+                        with st.spinner("Creating session…"):
+                            new_sp = create_session(
+                                manual_name.strip(),
+                                "",
+                                pad_sum2,
+                                matched_links,
+                                extra_meta={
+                                    "source": "manual_pad_list",
+                                    "anchor_pad_ids": pad_ids,
+                                },
+                                included_default=True,
+                            )
+                        st.session_state["session_path"] = new_sp
+                        st.success(f"Session created: {new_sp.name}")
+                        st.rerun()
 
 
 # ══════════════════════════════════════════════════════════════════════════════
