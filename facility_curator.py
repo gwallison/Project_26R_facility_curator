@@ -44,7 +44,7 @@ PAD_PARQUET = Path(
     r"G:\My Drive\sandbox\26R\link_DEP_waste_to_labs\data\pad_vocab.parquet"
 )
 LAB_PARQUET = Path(
-    r"G:\My Drive\sandbox\26R\data_cleanup_26R\processed\lab_results_result_parsed.parquet"
+    r"G:\My Drive\sandbox\26R\data_cleanup_26R\processed\lab_results_units_harmonized.parquet"
 )
 WASTE_PARQUET = Path(
     r"G:\My Drive\Info_home\Projects\Project_Homes\Produced water"
